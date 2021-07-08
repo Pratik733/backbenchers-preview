@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+:root {
+    --yellow: #db9501;
+    --blue: #203fb6;
+    --green: #1e434c;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.particles {
+    background: var(--yellow);
+}
+
+.container-hero {
+    position: relative;
+}
+
+.careers,
+.aboutUs,
+.blogs,
+.bvc {
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    color: black;
+}
+
+.main div,
+.careers div,
+.blogs div,
+.bvc div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+}
+
+.main {
+    color: white;
+    font-weight: normal;
+}
+
+.images {
+    display: flex;
+    overflow-y: hidden;
+}
+
+.images img {
+    width: 100vw;
+    height: 100vh;
+}
+
+.slide {
+    width: 80vw;
+    height: 100vh;
+    margin: 0rem 10rem;
+}
+
+.outer-wrapper {
+    width: 100vh;
+    height: 100vw;
+    transform: rotate(-90deg) translateX(-100vh);
+    transform-origin: top left;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: absolute;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    border: 1px solid;
+}
+
+
+/* wrapper containing our slides */
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 400vw;
+    transform: rotate(90deg) translateY(-100vh);
+    transform-origin: top right;
+    overflow-y: hidden;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.line {
+    line-height: 8px;
+}
+
+.line-1 {
+    width: 15px;
+    height: 15px;
+    background: var(--green);
+    display: inline-block;
+}
+
+.line-2 {
+    width: 80px;
+    height: 1px;
+    background: var(--green);
+    display: inline-block;
+}
+
+.line-3 {
+    width: 60px;
+    height: 1px;
+    background: var(--green);
+    display: inline-block;
+}
+
+.btn {
+    outline: none;
+    border: none;
+    padding: 1rem;
+    margin: 1rem 0;
+    background: transparent;
+    font-weight: bold;
+    border: 2px dashed var(--blue);
+}
+
+.features,
+.careers,
+.aboutUs,
+.blogs,
+.bvc {
+    position: relative;
+    z-index: 0;
+}
+
+.careers,
+.bvc {
+    background: lightgoldenrodyellow;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+
+
+/* Uniqueness */
+
+.unique-card {
+    scale: 1;
+}
+
+.unique-card:hover {
+    scale: 1.2;
+}
+
+
+/* Features */
+
+.features {
+    padding: 0 2rem;
+}
+
+.cards-slider {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 750px;
+    height: 100%;
+    position: relative;
+    display: inline-block;
+    background: #e3e3e3;
+    margin: 5px 0;
+    border: 1px solid #D8D8D8;
+    box-shadow: 1px 1px 10px #D8D8D8;
+}
+
+.card {
+    text-align: left;
+    background: #fff;
+    width: 385px;
+    position: relative;
+    display: inline-block;
+    transition: transform .2s ease-in-out;
+    vertical-align: top;
+    padding: 20px 25px;
+    z-index: 0;
+}
+
+.card-item {
+    box-shadow: 0px 0px 5px rgba(219, 149, 1, .5);
+    transition: all .5s ease;
+    border: none;
+}
+
+.card-item:hover {
+    box-shadow: 1px 1px 5px rgba(219, 149, 1, 1);
+}
+
+.card .title {
+    font-weight: 600;
+    font-size: 18px;
+    border-bottom: 1px solid #D8D8D8;
+}
+
+.card .desc {
+    font-size: 14px;
+    word-wrap: break-word;
+    white-space: -moz-pre-wrap;
+    white-space: pre-wrap;
+}
+
+.card img {
+    display: block;
+    position: relative;
+    width: 30px;
+}
+
+.swiper-container {
+    height: 17rem;
+}
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background: #db9501!important;
+}
+
+.slider-btn {
+    padding: 0;
+    font-size: 20px;
+    text-align: center;
+    color: #b3b3b3;
+    width: 45px;
+    height: 100%;
+    border: 0;
+    cursor: pointer;
+    background: none;
+    outline: none;
+    position: absolute;
+    z-index: 999;
+    transition: all 0.6s ease 0s;
+}
+
+.slider-btn:hover {
+    color: #5f5f5f;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.btn-r {
+    right: 0;
+}
+
+.btn-l {
+    left: 0px;
+}
+
+.careers {
+    background: url(https://image.freepik.com/free-vector/white-abstract-background_23-2148810113.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bvc {
+    background: url(https://i.ytimg.com/vi/R9mXtzn8meE/maxresdefault.jpg);
+}
+
+.bg-custom {
+    background: #0c2315;
+}
+
+footer .img-header {
+    width: 150px;
+}
