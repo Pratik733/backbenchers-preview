@@ -317,3 +317,94 @@
 footer .img-header {
     width: 150px;
 }
+
+@media screen and (max-width: 960px) {
+    .particles {
+        display: none;
+    }
+    .main {
+        color: black;
+        background: var(--yellow)!important;
+        width: 100%;
+    }
+    .main div {
+        padding: 5px;
+        width: 90%;
+        left: 0%;
+        top: 15%;
+        margin: 1rem;
+        transform: translate(0, 0);
+    }
+    .uniqueness {
+        margin: 0 1rem;
+        margin-top: 20rem;
+        padding-bottom: 3rem;
+    }
+    .accord {
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+    }
+    .accordion {
+        padding: 5px;
+        width: 100%;
+        margin: 2.5px;
+    }
+    .accordion-item {
+        margin: 2.5px 0;
+        padding: 0 .5rem;
+    }
+    .features {
+        margin: 0;
+        padding: 0;
+    }
+    .feature-container {
+        padding: 0;
+    }
+    .feature-header,
+    .about-header {
+        margin-bottom: 15px;
+    }
+    .features .card {
+        padding: 1rem;
+        margin: auto;
+    }
+    .aboutUs {
+        margin: 3rem 0;
+        margin-bottom: 1rem;
+    }
+    .about-container {
+        padding: 2rem 1rem;
+    }
+    .bvc div {
+        top: 25%;
+        left: 0%;
+        padding: 1rem;
+        transform: translate(0, 0);
+    }
+    footer .container {
+        padding: 3rem 0;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .main div {
+        padding: 5px;
+        left: 50%;
+        top: 50%;
+        margin: 1rem;
+        transform: translate( -50%, -50%);
+    }
+    .uniqueness {
+        padding-bottom: 0rem;
+    }
+    .aboutUs {
+        height: auto;
+    }
+    .bvc {
+        height: 70vh;
+    }
+    footer {
+        display: block;
+    }
+}

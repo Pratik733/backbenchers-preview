@@ -8,7 +8,7 @@ import Uniqueness from './Uniqueness'
 export default class Home extends Component {
     render() {
         return (
-            <div>
+            <div className='home-container'>
                 <div className='particle-container'>
                     <Particles
                         className='particles'
@@ -36,9 +36,9 @@ export default class Home extends Component {
                             <p>
                                 BackBenchers Edtech is an alternative online education platform, that teaches you skill relevant to the present-day world, to help  you develop the tools, and mindset you need for building great careers.
                             </p>
-                            <p>
+                            {/* <p>
                                 Peer Experts acrosss various disciplines help  you learn, mentor you and transform your career prospects
-                            </p>
+                            </p> */}
                             <button>
                                 Whats more?
                             </button>
@@ -57,7 +57,7 @@ export default class Home extends Component {
                 </div>
                 <div className="uniqueness py-24">
                     <div class="flex flex-wrap w-full mb-16 flex-col items-center text-center">
-                        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Our Features</h1>
+                        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Uniqueness</h1>
                         <div class="h-1 w-20 bg-yellow-500 rounded"></div>
                     </div>
                     <Uniqueness />
@@ -65,8 +65,8 @@ export default class Home extends Component {
 
                 <div className="features">
                     <section class="text-gray-600 body-font">
-                        <div class="container px-5 py-24 mx-auto">
-                            <div class="flex flex-wrap w-full mb-16 flex-col items-center text-center">
+                        <div class="feature-container px-5 py-24 mx-auto">
+                            <div class="feature-header flex flex-wrap w-full mb-16 flex-col items-center text-center">
                                 <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Our Features</h1>
                                 <div class="h-1 w-20 bg-yellow-500 rounded"></div>
                             </div>
@@ -81,8 +81,12 @@ export default class Home extends Component {
                     </div>
                 </div> */}
                 <div className="aboutUs">
-                    <section class="text-gray-600 body-font">
-                        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+                    <section class="text-gray-600 body-font mx-auto">
+                    <div class="about-header flex flex-wrap w-full mb-16 flex-col items-center text-center">
+                                <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">About Us</h1>
+                                <div class="h-1 w-20 bg-yellow-500 rounded"></div>
+                            </div>
+                        <div class="about-container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
                             <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
                                 <img class="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600" />
                             </div>

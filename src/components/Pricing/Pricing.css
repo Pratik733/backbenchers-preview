@@ -337,3 +337,21 @@ body {
     border: none;
     z-index: 100;
 }
+
+@media screen and (max-width: 960px) {
+    .pricing-container {
+        height: 400vh;
+    }
+    .lm-tabel {
+        flex-direction: column;
+        top: 10%;
+        left: 0%;
+        transform: translate(0, 0);
+    }
+    .lm-item {
+        width: 100%;
+    }
+    .lm-item-price {
+        padding: 5px;
+    }
+}
