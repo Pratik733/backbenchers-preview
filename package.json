@@ -13,6 +13,9 @@
         "autoprefixer": "^9.8.6",
         "bootstrap": "^4.6.0",
         "craco": "^0.0.3",
+        "express": "^4.17.1",
+        "express-favicon": "^2.0.1",
+        "path": "^0.12.7",
         "postcss": "^7.0.36",
         "react": "^17.0.2",
         "react-alice-carousel": "^2.5.1",
@@ -31,7 +34,7 @@
         "web-vitals": "^1.1.2"
     },
     "scripts": {
-        "start": "craco start",
+        "start": "node server.js",
         "build": "craco build",
         "test": "craco test",
         "eject": "react-scripts eject"
