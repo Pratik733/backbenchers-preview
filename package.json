@@ -10,8 +10,10 @@
         "@testing-library/react": "^11.2.7",
         "@testing-library/user-event": "^12.8.3",
         "animejs": "^3.2.1",
+        "autoprefixer": "^9.8.6",
         "bootstrap": "^4.6.0",
         "craco": "^0.0.3",
+        "postcss": "^7.0.36",
         "react": "^17.0.2",
         "react-alice-carousel": "^2.5.1",
         "react-anime": "^4.0.4",
@@ -25,6 +27,7 @@
         "react-tsparticles": "^1.31.2",
         "sass": "^1.35.2",
         "swiper": "^6.7.5",
+        "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.4",
         "web-vitals": "^1.1.2"
     },
     "scripts": {
@@ -50,10 +53,5 @@
             "last 1 firefox version",
             "last 1 safari version"
         ]
-    },
-    "devDependencies": {
-        "autoprefixer": "^9.8.6",
-        "postcss": "^7.0.36",
-        "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.2"
     }
 }
