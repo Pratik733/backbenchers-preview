@@ -149,8 +149,7 @@ body {
 }
 
 .lm-item-4 .lm-item-body {
-    padding: 8px;
-    padding-top: 0px;
+    padding: 10px;
 }
 
 .lm-item-desc {
@@ -287,7 +286,6 @@ body {
     font-family: "fontello";
     font-style: normal;
     font-weight: normal;
-    speak: none;
     display: inline-block;
     text-decoration: inherit;
     width: 1em;
@@ -306,6 +304,13 @@ body {
     font-size: 60%;
 }
 
+.check-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
 
 /* .icon-dollar:before {
     content: '\e806';
@@ -321,10 +326,6 @@ body {
 
 .icon-select::before {
     content: '\e807';
-}
-
-.check-box {
-    float: right;
 }
 
 #total {

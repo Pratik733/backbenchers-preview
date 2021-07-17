@@ -57,7 +57,9 @@ function CardData() {
 export default () => {
     const cardData = CardData();
     return (
-        <Swiper autoplay={
+        <Swiper
+            infinite
+            autoplay={
             {
                 "delay": 5000,
                 "disableOnInteraction": true
@@ -76,7 +78,7 @@ export default () => {
                   "spaceBetween": 40
                 },
                 "1024": {
-                  "slidesPerView": 2.5,
+                  "slidesPerView": 4,
                   "spaceBetween": 50
             }}}
             onSwiper={

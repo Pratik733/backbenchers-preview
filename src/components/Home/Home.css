@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kristi&display=swap');
 :root {
     --yellow: #db9501;
     --blue: #203fb6;
@@ -11,9 +12,10 @@
     box-sizing: border-box;
 }
 
-.particles {
+#particlejs {
     background: var(--yellow);
     width: 100%;
+    height: 90vh;
 }
 
 .particle-container {
@@ -34,7 +36,6 @@
     color: black;
 }
 
-.main div,
 .careers div,
 .blogs div,
 .bvc div {
@@ -42,12 +43,26 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    padding: 1rem;
     z-index: 0;
 }
 
-.main {
+.main .typing {
+    width: 90%;
+    margin: 1rem auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     color: white;
-    font-weight: normal;
+}
+
+.typingEffect {
+    font-size: 25px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    margin: 0rem;
 }
 
 .images {
@@ -118,6 +133,29 @@
     height: 1px;
     background: var(--green);
     display: inline-block;
+}
+
+.typing {
+    width: 100%;
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+}
+
+.typing h1 {
+    font-size: 80px;
+    font-weight: normal;
+    text-shadow: 2px 2px var(--green);
+    text-align: left;
+    font-family: 'Kristi', sans-serif;
+    line-height: 1;
+}
+
+.typingEffect {
+    font-size: 2rem;
+    width: 100%;
+    margin: auto;
+    text-shadow: 2px 2px 0px var(--green);
 }
 
 .btn {
@@ -320,7 +358,9 @@ footer .img-header {
 
 @media screen and (max-width: 960px) {
     .particles {
-        display: none;
+        display: block;
+        width: 100%;
+        height: 90vh;
     }
     .main {
         color: black;
@@ -388,18 +428,14 @@ footer .img-header {
 }
 
 @media screen and (min-width: 1000px) {
-    .main div {
-        padding: 5px;
-        left: 50%;
-        top: 50%;
-        margin: 1rem;
-        transform: translate( -50%, -50%);
-    }
     .uniqueness {
         padding-bottom: 0rem;
     }
     .aboutUs {
         height: auto;
+    }
+    .about-container {
+        margin: 1rem 2.75rem;
     }
     .bvc {
         height: 70vh;

@@ -4,56 +4,118 @@ import './Home.css'
 import Particles from 'react-particles-js';
 import Display from './Display';
 import Uniqueness from './Uniqueness'
+import ReactTypingEffect from 'react-typing-effect';
 
 export default class Home extends Component {
     render() {
         return (
             <div className='home-container'>
                 <div className='particle-container'>
-                    <Particles
-                        className='particles'
+                    <Particles id="particlejs"
                         params={{
-                            "particles": {
-                                "number": {
-                                    "value": 90,
+                            particles: {
+                                number: {
+                                    value: 200,
+                                    density: {
+                                        enable: true,
+                                        value_area: 800
+                                    }
                                 },
-                                "size": {
-                                    "value": 3
-                                }
-                            },
-                            "interactivity": {
-                                "events": {
-                                    "onhover": {
-                                        "enable": true,
-                                        "mode": "repulse"
+                                color: {
+                                    value: '#1e434c'
+                                },
+                                shape: {
+                                    type: 'circle',
+                                    stroke: {
+                                        width: 0,
+                                        color: '#fff'
+                                    },
+                                    polygon: {
+                                        nb_sides: 6
+                                    },
+                                    image: {
+                                        src: 'https://cdn.freebiesupply.com/logos/large/2x/slack-logo-icon.png',
+                                        width: 10,
+                                        height: 10
+                                    }
+                                },
+
+                                opacity: {
+                                    value: 1,
+                                    random: false,
+                                    anim: {
+                                        enable: false,
+                                        speed: 100,
+                                        opacity_min: 0.1,
+                                        sync: false
+                                    }
+                                },
+                                size: {
+                                    value: 3,
+                                    random: true,
+                                    anim: {
+                                        enable: false,
+                                        speed: 1000,
+                                        size_min: 10,
+                                        sync: false
+                                    }
+                                },
+                                line_linked: {
+                                    enable: true,
+                                    distance: 100,
+                                    color: '#1e434c',
+                                    opacity: 0.4,
+                                    width: 1
+                                },
+                                move: {
+                                    enable: true,
+                                    speed: 4,
+                                    direction: 'none',
+                                    random: false,
+                                    straight: false,
+                                    out_mode: 'out',
+                                    bounce: false,
+                                    attract: {
+                                        enable: false,
+                                        rotateX: 600,
+                                        rotateY: 1200
                                     }
                                 }
-                            }
-                        }} />
+                            },
+                            interactivity: {
+                                detect_on: 'window',
+                                events: {
+                                    onhover: {
+                                        enable: true,
+                                        mode: 'repulse'
+                                    },
+                                },
+                                modes: {
+                                    'repulse': {
+                                        distance: 70,
+                                        duration: 0.4
+                                    },
+                                    'push': {
+                                        particles_nb: 4
+                                    }
+                                }
+                            },
+                            retina_detect: true
+                        }}
+                    />
                     <div className='main'>
-                        <div>
-                            <h1>Introduction</h1>
-                            <p>
-                                BackBenchers Edtech is an alternative online education platform, that teaches you skill relevant to the present-day world, to help  you develop the tools, and mindset you need for building great careers.
-                            </p>
-                            {/* <p>
-                                Peer Experts acrosss various disciplines help  you learn, mentor you and transform your career prospects
-                            </p> */}
-                            <button>
-                                Whats more?
-                            </button>
-                            <p>BackBenchers Edtech is not all - work - and - no - play. It is desgin to make sure you enjoy the process, by giving you a gamified learning experience.</p>
+                        <div className='typing'>
+                            <h1>BackBenchers Edtech ...</h1>
+                            <ReactTypingEffect
+                                className='typingEffect'
+                                text={[" is an alternative online education platform . . . ", " teaches you skills relevant to the present-day world . . . ", " helps you develop the tools and mindset for building great careers . . . ", " is by the students, for the students . . . ", " gives you a gamified learning experience . . . "]}
+                                speed={40}
+                                eraseSpeed={40}
+                                typingDelay={40}
+                                eraseDelay={40}
+                            />
                         </div>
                     </div>
-                    {/*
-                    <div class="outer-wrapper">
-                        <div class="wrapper">
-                            <img src={Bb1} class="slide one" />
-                            <img src={Bb2} class="slide two" />
-                            <img src={Bb3} class="slide three" />
-                            <img src={Bb4} class="slide four" />
-                        </div>
-                    </div> */}
                 </div>
                 <div className="uniqueness py-24">
                     <div class="flex flex-wrap w-full mb-16 flex-col items-center text-center">
@@ -82,26 +144,20 @@ export default class Home extends Component {
                 </div> */}
                 <div className="aboutUs">
                     <section class="text-gray-600 body-font mx-auto">
-                    <div class="about-header flex flex-wrap w-full mb-16 flex-col items-center text-center">
-                                <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">About Us</h1>
-                                <div class="h-1 w-20 bg-yellow-500 rounded"></div>
-                            </div>
                         <div class="about-container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
                             <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
                                 <img class="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600" />
                             </div>
                             <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-                                <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Before they sold out
-                                    <br class="hidden lg:inline-block" />readymade gluten
-                                </h1>
-                                <p class="mb-8 leading-relaxed">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.</p>
+                                <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">About Us</h1>
+                                <div class="h-1 w-20 bg-yellow-500 rounded mb-5"></div>
+                                <p class="mb-8 leading-relaxed">We are a group of peers sharing a common revolutionary mindset having a centric understanding that choosing career options that others choose/seems to be the most demanding options not always proves to be beneficial, we are a one-stop solution that helps peers/enthusiasts of class 8-12 to find their niche and also help to build their career in one of the best disciplines matching your respective niche area. Catering to more than 20 + problems faced by students for choosing and developing their beneficial career, We have come up with a centralized revolutionary gamified learning environment where Experts/peers across various disciplines help you learn, mentor you, and transform your career prospects. </p>
                                 <div class="flex justify-center">
-                                    {/* <button class="inline-flex text-white bg-yellow-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
-        <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button> */}
                                 </div>
                             </div>
                         </div>
-                    </section>                </div>
+                    </section>
+                </div>
                 {/* <div className="blogs">
                     <div>
                         <h3>Blogs</h3>

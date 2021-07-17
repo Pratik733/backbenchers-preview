@@ -1,7 +1,45 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Pricing.css'
+import { pricing } from './customPrice'
+
+const getFormattedPrice = (price) => `${price.toFixed(0)}`
 
 const Pricing = () => {
+  const [checkedState, setCheckedState] = useState(
+    new Array(pricing.length).fill(false)
+  )
+
+  const [total, setTotal] = useState(0)
+
+  const handleOnChange = (position) => {
+    const updatedCheckedState = checkedState.map((item, index) => index === position ? !item : item)
+    setCheckedState(updatedCheckedState);
+    const totalPrice = updatedCheckedState.reduce(
+      (sum, currentState, index) => {
+        if (currentState === true) {
+          return sum + pricing[index].price;
+        }
+        return sum;
+      },
+      0
+    );
+
+    setTotal(totalPrice);
+  };
+
+
+  /*
+    const [value, setValue] = useState(0);
+
+    const updateValue = (price) => {
+      setValue(price + value)
+      if (price > 1000) {
+        setValue(price - 500)
+      }
+    }
+  */
+
+
   return (
     <div>
       <div className="pricing-container">
@@ -113,28 +151,49 @@ const Pricing = () => {
 
           <div className="lm-item lm-item-4">
             <div className="lm-item-top"><span className="lm-item-title lm-underline">CUSTOM</span>
-              <div className="lm-item-price"><span className="lm-real-price">&#8377;</span><output className="lm-real-price" id="custom-real-price"></output><br /><span>&#8377; </span><output type="text" id="custom-price" value="" ></output></div>
+              <div className="lm-item-price">
+                <span className="lm-real-price">&#8377; {getFormattedPrice(total) < 0 ? getFormattedPrice(total) : getFormattedPrice(total)} </span>
+                <output className="lm-real-price" id="custom-real-price"></output><br />
+                <span>&#8377; {getFormattedPrice(total) > 1000 ? getFormattedPrice(total - 500) : getFormattedPrice(total)}</span>
+                <output type="text" id="custom-price"></output></div>
             </div>
             <div className="lm-item-body">
               <div className="lm-item-desc">
               </div>
               <div className="lm-item-list" id="catlist">
-                <ul className="lm-item-list">
-                  <li>Study Room<input type="checkbox" id="cat_1" className="check-box" price="449" /></li>
-                  <li>Live Lectures <input type="checkbox" id="cat_2" className="check-box" price="449" /></li>
-                  <li>Recorded Lectures<input type="checkbox" id="cat_2" className="check-box" price="449" /> </li>
-                  <li>Conceptual Test<input type="checkbox" id="cat_3" className="check-box" price="449" /></li>
-                  <li>Meme Cheatsheets,<br />Notes & Code Files<input type="checkbox" id="cat_4" className="check-box" price="349" /></li>
-                  <li>Library<input type="checkbox" id="cat_5" className="check-box" price="449" /></li>
-                  <li>Community Forum<input type="checkbox" id="cat_6" className="check-box" price="449" /></li>
-                  <li>Doubt & Difficulty<input type="checkbox" id="cat_7" className="check-box" price="449" /></li>
-                  <li>Mentors Connect<input type="checkbox" id="cat_8" className="check-box" price="449" /></li>
-                  <li>Projects & certifications<input type="checkbox" id="cat_9" className="check-box" price="449" /></li>
-                  <li>Euphoria 90 Days Subscription<input type="checkbox" id="cat_10" className="check-box" price="750" /></li>
-                </ul>
+                {pricing.map(({ name, price }, index) => {
+                  return (
+                    <li key={index}>
+                      <div  className="check-box">
+                        <label htmlFor={`custom-checkbox-${index}`}> {name} </label>
+                        <input
+                          type="checkbox"
+                          id={`custom-checkbox - ${index}`}
+                          name={name}
+                          value={name}
+                          checked={checkedState[index]}
+                          onChange={() => handleOnChange(index)}
+                        />
+                      </div>
+                    </li>
+                  )
+                })}
+                {/* <ul className="lm-item-list">
+                  <li>Study Room<input type="checkbox" id="cat_1" className="check-box" onChange={() => updateValue(449)} /></li>
+                  <li>Live Lectures <input type="checkbox" id="cat_2" className="check-box" onChange={() => updateValue(449)} /></li>
+                  <li>Recorded Lectures<input type="checkbox" id="cat_2" className="check-box" onChange={() => updateValue(449)} /> </li>
+                  <li>Conceptual Test<input type="checkbox" id="cat_3" className="check-box" onChange={() => updateValue(449)} /></li>
+                  <li>Meme Cheatsheets,<br />Notes & Code Files<input type="checkbox" id="cat_4" className="check-box" onChange={() => updateValue(349)} /></li>
+                  <li>Library<input type="checkbox" id="cat_5" className="check-box" onChange={() => updateValue(449)} /></li>
+                  <li>Community Forum<input type="checkbox" id="cat_6" className="check-box" onChange={() => updateValue(449)} /></li>
+                  <li>Doubt & Difficulty<input type="checkbox" id="cat_7" className="check-box" onChange={() => updateValue(449)} /></li>
+                  <li>Mentors Connect<input type="checkbox" id="cat_8" className="check-box" onChange={() => updateValue(449)} /></li>
+                  <li>Projects & certifications<input type="checkbox" id="cat_9" className="check-box" onChange={() => updateValue(449)} /></li>
+                  <li>Euphoria 90 Days Subscription<input type="checkbox" id="cat_10" className="check-box" onChange={() => updateValue(750)} /></li>
+                </ul> */}
               </div>
               <div className="lm-item-link">
-                <a href="#" id="button_click">
+                <a href="#" id="button_click" >
                   <svg width="152" height="52" xmlns="http://www.w3.org/2000/svg">
                     <defs>
                       <linearGradient id="lm-gr-1" x1="0" y1="0" x2="100%" y2="100%">
@@ -152,8 +211,10 @@ const Pricing = () => {
           </div>
         </div>
       </div>
-    </div >
+
+    </div>
   );
 }
 
 export default Pricing;
+
