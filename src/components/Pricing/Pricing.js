@@ -8,9 +8,7 @@ const Pricing = () => {
   const [checkedState, setCheckedState] = useState(
     new Array(pricing.length).fill(false)
   )
-
   const [total, setTotal] = useState(0)
-
   const handleOnChange = (position) => {
     const updatedCheckedState = checkedState.map((item, index) => index === position ? !item : item)
     setCheckedState(updatedCheckedState);
@@ -23,22 +21,8 @@ const Pricing = () => {
       },
       0
     );
-
     setTotal(totalPrice);
   };
-
-
-  /*
-    const [value, setValue] = useState(0);
-
-    const updateValue = (price) => {
-      setValue(price + value)
-      if (price > 1000) {
-        setValue(price - 500)
-      }
-    }
-  */
-
 
   return (
     <div>
@@ -178,19 +162,6 @@ const Pricing = () => {
                     </li>
                   )
                 })}
-                {/* <ul className="lm-item-list">
-                  <li>Study Room<input type="checkbox" id="cat_1" className="check-box" onChange={() => updateValue(449)} /></li>
-                  <li>Live Lectures <input type="checkbox" id="cat_2" className="check-box" onChange={() => updateValue(449)} /></li>
-                  <li>Recorded Lectures<input type="checkbox" id="cat_2" className="check-box" onChange={() => updateValue(449)} /> </li>
-                  <li>Conceptual Test<input type="checkbox" id="cat_3" className="check-box" onChange={() => updateValue(449)} /></li>
-                  <li>Meme Cheatsheets,<br />Notes & Code Files<input type="checkbox" id="cat_4" className="check-box" onChange={() => updateValue(349)} /></li>
-                  <li>Library<input type="checkbox" id="cat_5" className="check-box" onChange={() => updateValue(449)} /></li>
-                  <li>Community Forum<input type="checkbox" id="cat_6" className="check-box" onChange={() => updateValue(449)} /></li>
-                  <li>Doubt & Difficulty<input type="checkbox" id="cat_7" className="check-box" onChange={() => updateValue(449)} /></li>
-                  <li>Mentors Connect<input type="checkbox" id="cat_8" className="check-box" onChange={() => updateValue(449)} /></li>
-                  <li>Projects & certifications<input type="checkbox" id="cat_9" className="check-box" onChange={() => updateValue(449)} /></li>
-                  <li>Euphoria 90 Days Subscription<input type="checkbox" id="cat_10" className="check-box" onChange={() => updateValue(750)} /></li>
-                </ul> */}
               </div>
               <div className="lm-item-link">
                 <a href="#" id="button_click" >

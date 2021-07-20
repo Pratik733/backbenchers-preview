@@ -5,6 +5,7 @@ import Particles from 'react-particles-js';
 import Display from './Display';
 import Uniqueness from './Uniqueness'
 import ReactTypingEffect from 'react-typing-effect';
+import aboutUs from '../assets/images/aboutUs.jpg'
 
 export default class Home extends Component {
     render() {
@@ -15,14 +16,14 @@ export default class Home extends Component {
                         params={{
                             particles: {
                                 number: {
-                                    value: 200,
+                                    value: 180,
                                     density: {
                                         enable: true,
                                         value_area: 800
                                     }
                                 },
                                 color: {
-                                    value: '#1e434c'
+                                    value: ['#1e434c', '#fff', '#db9501', '#203fb6'],
                                 },
                                 shape: {
                                     type: 'circle',
@@ -63,8 +64,10 @@ export default class Home extends Component {
                                 line_linked: {
                                     enable: true,
                                     distance: 100,
-                                    color: '#1e434c',
-                                    opacity: 0.4,
+                                    color: {
+                                        value: ['#1e434c', '#db9501', '#203fb6'],
+                                    },
+                                    opacity: 0.5,
                                     width: 1
                                 },
                                 move: {
@@ -108,7 +111,7 @@ export default class Home extends Component {
                             <h1>BackBenchers Edtech ...</h1>
                             <ReactTypingEffect
                                 className='typingEffect'
-                                text={[" is an alternative online education platform . . . ", " teaches you skills relevant to the present-day world . . . ", " helps you develop the tools and mindset for building great careers . . . ", " is by the students, for the students . . . ", " gives you a gamified learning experience . . . "]}
+                                text={[" Is an alternative online education platform . . . ", " Teaches you skills relevant to the present-day world . . . ", " Helps you develop the tools and mindset for building great careers . . . ", " For the students, by the students . . . ", " One stop solution for gamified learning experience . . . "]}
                                 speed={40}
                                 eraseSpeed={40}
                                 typingDelay={40}
@@ -136,34 +139,22 @@ export default class Home extends Component {
                         </div>
                     </section>
                 </div>
-                {/* <div className="careers">
-                    <div>
-                        <h3>Careers</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid assumenda ducimus nisi nemo quos consequuntur iste velit qui beatae error non soluta cum quidem magnam odit laudantium fuga, veritatis dignissimos.</p>
-                    </div>
-                </div> */}
                 <div className="aboutUs">
                     <section class="text-gray-600 body-font mx-auto">
                         <div class="about-container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
                             <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-                                <img class="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600" />
+                                <img class="object-cover object-center rounded" alt="hero" src= {aboutUs} />
                             </div>
+
                             <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
                                 <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">About Us</h1>
                                 <div class="h-1 w-20 bg-yellow-500 rounded mb-5"></div>
-                                <p class="mb-8 leading-relaxed">We are a group of peers sharing a common revolutionary mindset having a centric understanding that choosing career options that others choose/seems to be the most demanding options not always proves to be beneficial, we are a one-stop solution that helps peers/enthusiasts of class 8-12 to find their niche and also help to build their career in one of the best disciplines matching your respective niche area. Catering to more than 20 + problems faced by students for choosing and developing their beneficial career, We have come up with a centralized revolutionary gamified learning environment where Experts/peers across various disciplines help you learn, mentor you, and transform your career prospects. </p>
-                                <div class="flex justify-center">
+                                <p class="mb-8 leading-relaxed">We are a group of peers sharing a common revolutionary mindset having a centric understanding that choosing career options that others choose/seems to be the most demanding options not always proves to be beneficial, we are a one-stop solution that helps peers/enthusiasts of class 8-12 to find their niche and also help to build their career in one of the best disciplines matching your respective niche area. Catering to more than 20 + problems faced by students for choosing and developing their beneficial career, We have come up with a centralized revolutionary gamified learning environment where Experts/peers across various disciplines help you learn, mentor you, and transform your career prospects. </p>                                <div class="flex justify-center">
                                 </div>
                             </div>
                         </div>
                     </section>
                 </div>
-                {/* <div className="blogs">
-                    <div>
-                        <h3>Blogs</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, inventore ratione! Sunt illo adipisci dolore mollitia est ut aliquid, sequi delectus velit ex obcaecati, molestiae quis eius? Ullam, quos assumenda.</p>
-                    </div>
-                </div> */}
                 <div className="bvc">
                     <div>
                         <h3>Euphoria</h3>
