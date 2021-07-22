@@ -6,6 +6,7 @@ import Display from './Display';
 import Uniqueness from './Uniqueness'
 import ReactTypingEffect from 'react-typing-effect';
 import aboutUs from '../assets/images/aboutUs.jpg'
+import euphoria from '../assets/images/euphoria.png'
 
 export default class Home extends Component {
     render() {
@@ -157,8 +158,9 @@ export default class Home extends Component {
                 </div>
                 <div className="bvc">
                     <div>
-                        <h3>Euphoria</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim consequuntur quasi consequatur, rem est possimus voluptatum velit voluptas, soluta officiis saepe, laudantium eveniet odio consectetur fugit natus alias deserunt obcaecati!</p>
+                        <h3>India's first gamified virtual campus,</h3>
+                        <img src={euphoria} alt="" />
+                        <button className='btn'>Coming Soon ...</button>
                     </div>
                 </div>
             </div>

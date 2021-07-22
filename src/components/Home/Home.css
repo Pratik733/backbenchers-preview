@@ -343,11 +343,36 @@
 }
 
 .bvc {
-    background: url(../assets/images/euphoria.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background: black;
+    border-top: 2px dotted var(--green);
+    padding: 1rem 0;
     color: white;
+}
+
+.bvc h3 {
+    font-size: 24px;
+}
+
+.bvc div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bvc .btn {
+    background: linear-gradient(150deg, var(--blue) 95%, var(--yellow) 50%);
+    color: white;
+    border: none;
+    transition: all .2s linear;
+}
+
+.bvc .btn:hover {
+    background: linear-gradient(150deg, var(--yellow) 95%, var(--blue) 50%);
+    color: black;
 }
 
 .bg-custom {
@@ -469,7 +494,7 @@ footer .img-header {
         margin: 1rem 2.75rem;
     }
     .bvc {
-        height: 70vh;
+        height: 90vh;
     }
     footer {
         display: block;

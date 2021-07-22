@@ -1,6 +1,7 @@
 import React from 'react';
 import Logo from '../assets/images/Logo.png'
-
+import Privacy from './Privacy'
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
@@ -17,16 +18,19 @@ const Footer = () => {
                             <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">COMPANY</h2>
                             <nav class="list-none mb-10">
                                 <li>
-                                    <a class="text-gray-400 hover:text-white">Blog</a>
-                                </li>
-                                <li>
                                     <a class="text-gray-400 hover:text-white">Discord Server</a>
                                 </li>
                                 <li>
-                                    <a class="text-gray-400 hover:text-white">Telegram</a>
+                                    <a class="text-gray-400 hover:text-white">Euphoria</a>
                                 </li>
                                 <li>
-                                    <a class="text-gray-400 hover:text-white">Newsletters</a>
+                                    <a class="text-gray-400 hover:text-white">Work with us</a>
+                                </li>
+                                <li>
+                                    <a class="text-gray-400 hover:text-white">Gamified Learning</a>
+                                </li>
+                                <li>
+                                    <a class="text-gray-400 hover:text-white">Apply for Students Developer Program</a>
                                 </li>
                             </nav>
                         </div>
@@ -39,19 +43,19 @@ const Footer = () => {
                                 <li>
                                     <a class="text-gray-400 hover:text-white">Interactive Classes</a>
                                 </li>
-                                <li>
-                                    <a class="text-gray-400 hover:text-white">Third Link</a>
-                                </li>
-                                <li>
-                                    <a class="text-gray-400 hover:text-white">Fourth Link</a>
-                                </li>
                             </nav>
                         </div>
                         <div class="lg:w-1/3 md:w-1/2 w-full px-5">
                             <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">About</h2>
                             <nav class="list-none mb-10">
                                 <li>
-                                    <a class="text-gray-400 hover:text-white">Privacy Policy</a>
+                                <Link
+                                    exact
+                                    to='/privacy'
+                                    className="text-gray-400 hover:text-white"
+                                 >
+                                    Privacy Policy
+                                </Link>
                                 </li>
                                 <li>
                                     <a class="text-gray-400 hover:text-white">Terms of Services</a>

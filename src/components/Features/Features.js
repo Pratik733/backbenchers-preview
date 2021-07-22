@@ -15,7 +15,7 @@ const Features = () => {
 
   const showDisplay = document.getElementById('showMore')
   const myFunc = () => {
-      showDisplay.classList.toggle('hidden')
+      showDisplay.classList.toggle('show')
       setShow(!show)
   }
 
@@ -142,7 +142,7 @@ const Features = () => {
 
           {/* ------ View More  ----- */}
 
-          <div id="showMore" >
+          <div id="showMore" className='hidden' >
             <div class="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
               <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
                 <h2 class="text-gray-900 text-lg title-font font-medium mb-2">The Euphoria Army</h2>
@@ -271,7 +271,7 @@ const Features = () => {
             </div>
           </div>
           <button class="flex mx-auto my-10 text-white bg-yellow-500 border-0 py-2 px-8 focus:outline-none hover:bg-yellow-600 rounded text-lg" onClick={myFunc}>
-              {show ? 'View More' : 'View Less'}
+              {show ? 'View Less' : 'View More'}
           </button>
         </div>
       </section>
