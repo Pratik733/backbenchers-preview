@@ -1,6 +1,6 @@
 import React from 'react';
 import Logo from '../assets/images/Logo.png'
-import Privacy from './Privacy'
+import './Footer.css'
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
@@ -49,25 +49,50 @@ const Footer = () => {
                             <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">About</h2>
                             <nav class="list-none mb-10">
                                 <li>
-                                <Link
-                                    exact
-                                    to='/privacy'
-                                    className="text-gray-400 hover:text-white"
-                                 >
-                                    Privacy Policy
-                                </Link>
+                                    <Link
+                                        exact
+                                        to='/privacy'
+                                        className="text-gray-400 hover:text-white"
+                                    >
+                                        Privacy Policy
+                                    </Link>
                                 </li>
                                 <li>
-                                    <a class="text-gray-400 hover:text-white">Terms of Services</a>
+                                    <Link
+                                        exact
+                                        to='/services'
+                                        className="text-gray-400 hover:text-white"
+                                    >
+                                        Terms of Services
+                                    </Link>
                                 </li>
                                 <li>
-                                    <a class="text-gray-400 hover:text-white">Guidelines</a>
+                                    <Link
+                                        exact
+                                        to='/guidelines'
+                                        className="text-gray-400 hover:text-white"
+                                    >
+                                        Guidelines
+                                    </Link>
                                 </li>
                                 <li>
-                                    <a class="text-gray-400 hover:text-white">Refund Policy</a>
+                                    <Link
+                                        exact
+                                        to='/refund'
+                                        className="text-gray-400 hover:text-white"
+                                    >
+                                        Refund Policy
+                                    </Link>
+
                                 </li>
                                 <li>
-                                    <a class="text-gray-400 hover:text-white">Code of Conduct</a>
+                                    <Link
+                                        exact
+                                        to='/code'
+                                        className="text-gray-400 hover:text-white"
+                                    >
+                                        Code of Conduct
+                                    </Link>
                                 </li>
                             </nav>
                         </div>

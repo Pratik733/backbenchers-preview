@@ -7,6 +7,11 @@ import Pricing from './components/Pricing/Pricing'
 import Demo from './components/Demo/Demo'
 import Courses from './components/Courses/Courses'
 import Footer from './components/Footer/Footer.js'
+import Privacy from './components/Footer/Privacy'
+import Services from './components/Footer/Services'
+import Refund from './components/Footer/Refund'
+import Guidelines from './components/Footer/Guidelines'
+import Code from './components/Footer/Code'
 
 
 function App() {
@@ -19,6 +24,11 @@ function App() {
         <Route path="/pricing" component={Pricing}/>
         <Route path="/demo" component={Demo}/>
         <Route path='/courses' component={Courses}/>
+        <Route path='/privacy' component={Privacy}/>
+        <Route path='/services' component={Services}/>
+        <Route path='/code' component={Code}/>
+        <Route path='/refund' component={Refund}/>
+        <Route path='/guidelines' component={Guidelines}/>
       </Switch>
       <Footer/>
     </div>
