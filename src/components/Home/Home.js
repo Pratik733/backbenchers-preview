@@ -65,7 +65,7 @@ export default class Home extends Component {
                                     enable: true,
                                     distance: 100,
                                     color: {
-                                        value: ['#1e434c', '#db9501', '#203fb6'],
+                                        value: '#fff',
                                     },
                                     opacity: 0.5,
                                     width: 1

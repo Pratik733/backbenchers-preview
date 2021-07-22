@@ -1,8 +1,26 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Features.css'
-
+import alumini from '../assets/images/alumini.gif'
+import mentorship from '../assets/images/mentorship.gif'
+import eucoins from '../assets/images/eucoins.gif'
+import fest from '../assets/images/fest.gif'
+import simulators from '../assets/images/simulators.gif'
+import army from '../assets/images/army.gif'
+import pass from '../assets/images/pass.gif'
+import offlineEvents from '../assets/images/offlineEvents.gif'
 
 const Features = () => {
+
+  const [show, setShow] = useState(false);
+
+  const showDisplay = document.getElementById('showMore')
+  const myFunc = () => {
+      showDisplay.classList.toggle('hidden')
+      setShow(!show)
+  }
+
+
+
   return (
     <div className='features-container'>
       <section class="text-gray-600 body-font">
@@ -92,11 +110,10 @@ const Features = () => {
                 MAJOR [group] or both projects, where students need to showcase what they have
                 learned via submitting a solution to the problem assigned to them within the deadline.
                 On successful completion of projects, students will be issued certificates
-
               </p>
             </div>
           </div>
-          {/* <div class="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
+          <div class="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
             <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
               <h2 class="text-gray-900 text-lg title-font font-medium mb-2">Highly interactive Community</h2>
               <p class="leading-relaxed text-base">
@@ -108,12 +125,12 @@ const Features = () => {
                 rewards such as coupons/discount vouchers etc.</p>
             </div>
             <div class="sm:w-32 sm:order-none order-first sm:h-32 h-20 w-20 sm:ml-10 inline-flex items-center justify-center rounded-full bg-yellow-100 text-yellow-500 flex-shrink-0">
-              <img src="https://res.cloudinary.com/dbozxizmw/image/upload/v1625578979/icons8-document_elakr5.gif" alt="" />
+              <img src="https://res.cloudinary.com/dbozxizmw/image/upload/v1626851185/community_ra8gk1.gif" alt="" />
             </div>
           </div>
           <div class="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
             <div class="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-yellow-100 text-yellow-500 flex-shrink-0">
-              <img src="https://res.cloudinary.com/dbozxizmw/image/upload/v1625578979/icons8-document_elakr5.gif" alt="" />
+              <img src={alumini} alt="" />
             </div>
             <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
               <h2 class="text-gray-900 text-lg title-font font-medium mb-2">Alumni Network – The Euphoria Army</h2>
@@ -122,33 +139,140 @@ const Features = () => {
                 experienced Alumni and students helping each other out.</p>
             </div>
           </div>
-          <div class="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
-            <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
-              <h2 class="text-gray-900 text-lg title-font font-medium mb-2">The Euphoria Army</h2>
-              <p class="leading-relaxed text-base">
-                A non-geographically bound community is a game-changer in this regard. Access it to
-                tap into various opportunities such as jobs, networking privileges, funding, and more.
-              </p>
+
+          {/* ------ View More  ----- */}
+
+          <div id="showMore" >
+            <div class="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
+              <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
+                <h2 class="text-gray-900 text-lg title-font font-medium mb-2">The Euphoria Army</h2>
+                <p class="leading-relaxed text-base">
+                  A non-geographically bound community is a game-changer in this regard. Access it to
+                  tap into various opportunities such as jobs, networking privileges, funding, and more.
+                </p>
+              </div>
+              <div class="sm:w-32 sm:order-none order-first sm:h-32 h-20 w-20 sm:ml-10 inline-flex items-center justify-center rounded-full bg-yellow-100 text-yellow-500 flex-shrink-0">
+                <img src="https://res.cloudinary.com/dbozxizmw/image/upload/v1626850266/army_cpilwb.gif" alt="" />
+              </div>
             </div>
-            <div class="sm:w-32 sm:order-none order-first sm:h-32 h-20 w-20 sm:ml-10 inline-flex items-center justify-center rounded-full bg-yellow-100 text-yellow-500 flex-shrink-0">
-              <img src="https://res.cloudinary.com/dbozxizmw/image/upload/v1625578979/icons8-document_elakr5.gif" alt="" />
+            <div class="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
+              <div class="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-yellow-100 text-yellow-500 flex-shrink-0">
+                <img src={mentorship} alt="" />
+              </div>
+              <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
+                <h2 class="text-gray-900 text-lg title-font font-medium mb-2">Euphoria Mentorships</h2>
+                <p class="leading-relaxed text-base">
+                  BACKBENCHERS EDTECH allows every single learner to be matched with a personal
+                  mentor. Mentors guide you along the way and help you overcome hurdles. With
+                  enough progress, a learner can become a mentor too, restarting the virtuous cycle.
+                </p>
+              </div>
+            </div>
+            <div class="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
+              <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
+                <h2 class="text-gray-900 text-lg title-font font-medium mb-2">EU Coins</h2>
+                <p class="leading-relaxed text-base">
+                  An all-new activity-based GPA system that grades you depending on your activity on
+                  the platform. Learn, share and discuss your knowledge on the platform and get
+                  rewarded with EU points that increase your likelihood of getting placed.
+                  Technology has evolved. Resumes? Not so much. Show the world what you’ve got!
+                </p>
+              </div>
+              <div class="sm:w-32 sm:order-none order-first sm:h-32 h-20 w-20 sm:ml-10 inline-flex items-center justify-center rounded-full bg-yellow-100 text-yellow-500 flex-shrink-0">
+                <img src={eucoins} alt="" />
+              </div>
+            </div>
+            <div class="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
+              <div class="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-yellow-100 text-yellow-500 flex-shrink-0">
+                <img src={fest} alt="" />
+              </div>
+              <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
+                <h2 class="text-gray-900 text-lg title-font font-medium mb-2">Eureka - Euphorian Fests, Competitions, and Battlecups (Coming Soon)</h2>
+                <p class="leading-relaxed text-base">
+                  EUPHORIA has incorporated the concept of fests and Battlecups, where the best
+                  students can compete online on a variety of educational tasks.
+                </p>
+              </div>
+            </div>
+            <div class="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
+              <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
+                <h2 class="text-gray-900 text-lg title-font font-medium mb-2">Euphoria Offline Events (Coming Soon)[Post-COVID 19]</h2>
+                <p class="leading-relaxed text-base">
+                  All our Battlecups end in a year-end, India-wide conference where the leaderboard
+                  competes in a variety of competitions live for a grand prize. With top CEOs, industry
+                  leaders, VCs, and press under one roof, the only goal is to have fun and get ahead!
+                </p>
+              </div>
+              <div class="sm:w-32 sm:order-none order-first sm:h-32 h-20 w-20 sm:ml-10 inline-flex items-center justify-center rounded-full bg-yellow-100 text-yellow-500 flex-shrink-0">
+                <img src={offlineEvents} alt="" />
+              </div>
+            </div>
+            <div class="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
+              <div class="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-yellow-100 text-yellow-500 flex-shrink-0">
+                <img src='https://res.cloudinary.com/dbozxizmw/image/upload/v1626850796/airdrop_inventory_tnmfdn.gif' alt="" />
+              </div>
+              <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
+                <h2 class="text-gray-900 text-lg title-font font-medium mb-2">Euphoria Inventory and Drops (Coming Soon)</h2>
+                <p class="leading-relaxed text-base">
+                  Earn digital drops, with tiers ranging from common to ultra-rare at the end of
+                  fest/events, valuable comment, thread, or Battlecup victory. Trade with others or sell
+                  your items on the trading market for real money!
+                </p>
+              </div>
+            </div>
+
+            <div class="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
+              <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
+                <h2 class="text-gray-900 text-lg title-font font-medium mb-2">Euphoria Pass (Coming Soon)</h2>
+                <p class="leading-relaxed text-base">
+                  Euphoria Pass is a premium offering that lets anyone be a part of Euphoria with
+                  higher stakes. From better item drops, custom skins, unlimited mentorships, and
+                  access to the trading store where you can use your hard-earned inventory to make
+                  real money in a Blockchain-based auction market.
+                  Access content that rivals the syllabi of the best peer experts in the world
+                  Learn from real-world peer experts of the day, become highly primed for great career
+                  opportunities
+                  Build your own team and get matched with a personal mentor for unlimited assistance
+                  Stay active on the Euphoria LAB, compete with other Euphoria Teams, score
+                  Euphoria Points, and increase your chances of developing your career in one of its
+                  best kind that you would have never thought of.
+                </p>
+              </div>
+              <div class="sm:w-32 sm:order-none order-first sm:h-32 h-20 w-20 sm:ml-10 inline-flex items-center justify-center rounded-full bg-yellow-100 text-yellow-500 flex-shrink-0">
+                <img src={pass} alt="" />
+              </div>
+            </div>
+            <div class="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
+              <div class="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-yellow-100 text-yellow-500 flex-shrink-0">
+                <img src={army} alt="" />
+              </div>
+              <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
+                <h2 class="text-gray-900 text-lg title-font font-medium mb-2">EUPHORIAN Army</h2>
+                <p class="leading-relaxed text-base">
+                  Be a part of the EUPHORIAN Army - your direct ticket to experienced mentors, peers,
+                  and loads of career growth opportunities.
+                  Connect with fellow learners and stay up-to-date on discussions, via bulletin boards &
+                  discussion threads Earn digital/Offline drops, win brainteasers, hackathons, and even
+                  become a premium Metanite with a EUPHORIA Pass
+                </p>
+              </div>
+            </div>
+            <div class="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
+              <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
+                <h2 class="text-gray-900 text-lg title-font font-medium mb-2">Euphoria Simulators (Coming Soon)</h2>
+                <p class="leading-relaxed text-base">
+                  An array of multiplayer custom games and market simulators that help refine your
+                  skills while keeping it fun!
+                </p>
+              </div>
+              <div class="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-yellow-100 text-yellow-500 flex-shrink-0">
+                <img src={simulators} alt="" />
+              </div>
             </div>
           </div>
-          <div class="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
-            <div class="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-yellow-100 text-yellow-500 flex-shrink-0">
-              <img src="https://res.cloudinary.com/dbozxizmw/image/upload/v1625578979/icons8-document_elakr5.gif" alt="" />
-            </div>
-
-            <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
-              <h2 class="text-gray-900 text-lg title-font font-medium mb-2">Euphoria Mentorships</h2>
-              <p class="leading-relaxed text-base">
-                BACKBENCHERS EDTECH allows every single learner to be matched with a personal
-                mentor. Mentors guide you along the way and help you overcome hurdles. With
-                enough progress, a learner can become a mentor too, restarting the virtuous cycle.
-              </p>
-            </div>
-
-          </div> */}
+          <button class="flex mx-auto my-10 text-white bg-yellow-500 border-0 py-2 px-8 focus:outline-none hover:bg-yellow-600 rounded text-lg" onClick={myFunc}>
+              {show ? 'View More' : 'View Less'}
+          </button>
         </div>
       </section>
     </div>
