@@ -63,7 +63,7 @@ const Footer = () => {
                                         to='/services'
                                         className="text-gray-400 hover:text-white"
                                     >
-                                        Terms of Services
+                                        Live Mentorship T&C
                                     </Link>
                                 </li>
                                 <li>
