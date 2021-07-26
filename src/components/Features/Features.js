@@ -13,13 +13,11 @@ const Features = () => {
 
   const [show, setShow] = useState(false);
 
-  const showDisplay = document.getElementById('showMore')
+  const showDisplay = document.querySelector('#showMore');
   const myFunc = () => {
-      showDisplay.classList.toggle('show')
-      setShow(!show)
+      showDisplay.classList.toggle('showIt');
+      setShow(!show);
   }
-
-
 
   return (
     <div className='features-container'>
