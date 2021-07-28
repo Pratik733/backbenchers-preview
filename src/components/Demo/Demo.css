@@ -1,9 +1,49 @@
 .demo {
-    height: 90vh;
     background: linear-gradient(-70deg, #db9501 30%, #1f444d 30%);
 }
+
+@media only screen and (max-width: 760px) {
+    .demo {
+        background: linear-gradient(-70deg, #db9501 10%, #1f444d 10%);
+    }
+  }
+
 
 .demo-container {
     width: 75%!important;
     margin: auto;
+}
+
+.subscription-fee{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: black;
+    text-align: left;
+}
+
+.price-list li:nth-child(2n+1) {
+    background: transparent;
+}
+
+.subs-price{
+    float: right;
+    color: rgb(255, 255, 255);
+            
+            text-shadow: -1px 1px 0 #000,
+                          1px 1px 0 #000,
+                         1px -1px 0 #000,
+                        -1px -1px 0 #000;
+}
+
+.price-list li {
+    color: #bbb7b7;
+    border-bottom: 1px dotted rgba(134, 134, 134, 0.2);
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
 }
