@@ -13,7 +13,7 @@
     position: sticky;
     top: 0;
     z-index: 20;
-    box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
 }
 
 .nav-container {
@@ -88,8 +88,8 @@
 
 @media screen and (max-width: 960px) {
     .navbar {
-        padding: 0;
-        margin: 0 1rem;
+        padding: 0 1rem;
+        margin: 0;
     }
     .img-header {
         width: 50%;

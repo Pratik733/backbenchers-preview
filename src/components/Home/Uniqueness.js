@@ -59,7 +59,7 @@ const Uniqueness = () => {
         content2: `100% completion rate and a high number of successful outcomes from the programs. `
       } , {
         title2: 'Interlinked Services',
-        content2: `Softskills + Development+Training+Analysis+Technical Skills Ie Logical Reasoning. `
+        content2: `Softskills + Development + Training + Analysis + Technical Skills and Logical Reasoning. `
       }
     ]
 
