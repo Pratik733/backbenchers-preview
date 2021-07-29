@@ -43,7 +43,7 @@ const Demo = () => {
                                     <h1 className="py-5 pt-16 font-medium text-lg text-white">Special Discount For Group Registration[Only valid for Combo Course Registration]</h1>
                                     <li>Registration of 3 Students<span className="subs-price text-red-400">₹125/student</span></li>
                                     <li>Registration of 4 Students <span className="subs-price text-red-400">₹99/student</span></li>
-                                    <li>Registration of 5+ students<span className="subs-price text-red-400">₹79/student</span></li>
+                                    <li>Registration of 5+ students<span className="subs-price text-red-400">₹75/student</span></li>
                                 </ul>
 
                             </div>
