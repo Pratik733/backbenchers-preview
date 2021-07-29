@@ -6,15 +6,14 @@
     .demo {
         background: linear-gradient(-70deg, #db9501 10%, #1f444d 10%);
     }
-  }
-
+}
 
 .demo-container {
     width: 75%!important;
     margin: auto;
 }
 
-.subscription-fee{
+.subscription-fee {
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -28,14 +27,10 @@
     background: transparent;
 }
 
-.subs-price{
+.subs-price {
     float: right;
     color: rgb(255, 255, 255);
-            
-            text-shadow: -1px 1px 0 #000,
-                          1px 1px 0 #000,
-                         1px -1px 0 #000,
-                        -1px -1px 0 #000;
+    text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
 }
 
 .price-list li {
