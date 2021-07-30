@@ -50,11 +50,8 @@ const Demo = () => {
 
                         </div>
                         <div class="flex justify-center w-4/5">
-                            <a target='_blank' href="https://backbenchers-edtech.typeform.com/single-course">
-                                <button class="inline-flex text-white bg-yellow-500 border-0 py-2 px-6 focus:outline-none hover:bg-yellow-400 rounded text-lg">Single Course</button>
-                            </a>
-                            <a target='_blank' href="https://backbenchers-edtech.typeform.com/combo-course">
-                                <button class="ml-4 inline-flex text-white bg-yellow-500 border-0 py-2 px-6 focus:outline-none hover:bg-yellow-400 rounded text-lg">Combo Courses</button>
+                            <a target='_blank' href="https://www.townscript.com/e/backbenchers-edtech-beta-testing-phase-2-242430">
+                                <button class="inline-flex text-white  bg-yellow-500  border-0 py-4 px-10 focus:outline-none hover:bg-yellow-400 rounded text-lg">Register Now</button>
                             </a>
                         </div>
                         <div className="w-3/4 py-5">
