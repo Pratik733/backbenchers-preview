@@ -1,7 +1,7 @@
 import React from 'react';
 import Logo from '../assets/images/Logo.png'
 import './Footer.css'
-import { Link } from 'react-router-dom';
+import { a } from 'react-router-dom';
 import ScrollToTop from "react-scroll-to-top";
 import { FaChevronUp } from "react-icons/fa";
 
@@ -57,50 +57,48 @@ const Footer = () => {
                             <h2 class="title-font font-medium text-white tracking-widest text-md mb-3">About</h2>
                             <nav class="list-none mb-10">
                                 <li>
-                                    <Link
-                                        exact
-                                        to='/privacy'
+                                    <a
+                                        href='/Privacy'
                                         className="text-gray-400 hover:text-white cursor-pointer"
                                     >
                                         Privacy Policy
-                                    </Link>
+                                    </a>
                                 </li>
                                 <li>
-                                    <Link
-                                        exact
-                                        to='/services'
+                                    <a
+                                        href='/Services'
                                         className="text-gray-400 hover:text-white cursor-pointer"
                                     >
                                         Live Mentorship T&C
-                                    </Link>
+                                    </a>
                                 </li>
                                 <li>
-                                    <Link
+                                    <a
                                         exact
-                                        to='/guidelines'
+                                        href='/Guidelines'
                                         className="text-gray-400 hover:text-white cursor-pointer"
                                     >
                                         Guidelines
-                                    </Link>
+                                    </a>
                                 </li>
                                 <li>
-                                    <Link
+                                    <a
                                         exact
-                                        to='/refund'
+                                        href='/Refund'
                                         className="text-gray-400 hover:text-white cursor-pointer"
                                     >
                                         Refund Policy
-                                    </Link>
+                                    </a>
 
                                 </li>
                                 <li>
-                                    <Link
+                                    <a
                                         exact
-                                        to='/code'
+                                        href='/Code'
                                         className="text-gray-400 hover:text-white cursor-pointer"
                                     >
                                         Code of Conduct
-                                    </Link>
+                                    </a>
                                 </li>
                             </nav>
                         </div>
@@ -121,8 +119,8 @@ const Footer = () => {
                             <a class="ml-3 text-gray-400 hover:text-white" href="https://www.instagram.com/backbenchersed.tech/">
                                 <i class="fab fa-instagram"></i>
                             </a>
-                            <a class="ml-3 text-gray-400 hover:text-white" href="https://www.linkedin.com/company/backbenchers-edtech">
-                                <i class="fab fa-linkedin-in"></i>
+                            <a class="ml-3 text-gray-400 hover:text-white" href="https://www.aedin.com/company/backbenchers-edtech">
+                                <i class="fab fa-aedin-in"></i>
                             </a>
                         </span>
                     </div>

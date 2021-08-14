@@ -1,7 +1,7 @@
 import React from 'react';
 import Accord from './Accord'
 
-const Uniqueness = () => {
+const Uniqueness = () => { 
 
     const accordionData1 = [{
       title1: 'Real World Relevance',
