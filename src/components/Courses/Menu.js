@@ -1,4 +1,5 @@
 import React from 'react'
+import ReadMoreReact from 'read-more-react';
 
 function Menu({ menuItem }) {
     return (
@@ -11,10 +12,14 @@ function Menu({ menuItem }) {
                                 <div class="block relative h-48 rounded overflow-hidden">
                                     <img alt="ecommerce" class="object-cover object-center w-full h-full block" src={item.image} />
                                 </div>
-                                <div class="mt-4">
+                                <div class="mt-4 h-auto">
                                     <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">{item.category}</h3>
                                     <h2 class="text-gray-900 title-font text-lg font-medium">{item.title}</h2>
-                                    <p class="mt-1">{item.description}</p>
+                                    <ReadMoreReact text={item.description}
+                                        min={100}
+                                        ideal={150}
+                                        max={200}
+                                        readMoreText="Read more.." />
                                 </div>
                             </div>
                             {/* <div className="item-con" key={item.id}>
