@@ -55,8 +55,8 @@ const Pricing = () => {
                         <stop offset="100%" stop-color="#4D93D5"></stop>
                       </linearGradient>
                     </defs>
-                    <rect x="1" y="1" width="105" height="50" rx="25" fill="#fff" stroke="url(#lm-gr)" stroke-width="1"></rect>
-                    <text x="23%" y="65%" fill="url(&quot;#lm-gr&quot;)">ADD</text>
+                    <rect x="1" y="1" width="105" height="50" rx="25" fill="#fff" stroke="#00f5ff" stroke-width="1"></rect>
+                    <text x="23%" y="65%" fill="#00f5ff">ADD</text>
                   </svg>
                 </a>
               </div>
@@ -89,8 +89,8 @@ const Pricing = () => {
                         <stop offset="100%" stop-color="#4D93D5"></stop>
                       </linearGradient>
                     </defs>
-                    <rect x="1" y="1" width="105" height="50" rx="25" fill="#fff" stroke="url(#lm-gr)" stroke-width="1"></rect>
-                    <text x="23%" y="65%" fill="url(&quot;#lm-gr&quot;)">ADD</text>
+                    <rect x="1" y="1" width="105" height="50" rx="25" fill="#fff" stroke="#00f5ff" stroke-width="1"></rect>
+                    <text x="23%" y="65%" fill="#00f5ff">ADD</text>
                   </svg>
                 </a>
               </div>
@@ -123,8 +123,8 @@ const Pricing = () => {
                         <stop offset="100%" stop-color="#4D93D5"></stop>
                       </linearGradient>
                     </defs>
-                    <rect x="1" y="1" width="105" height="50" rx="25" fill="#fff" stroke="url(#lm-gr)" stroke-width="1"></rect>
-                    <text x="23%" y="65%" fill="url(&quot;#lm-gr&quot;)">ADD</text>
+                    <rect x="1" y="1" width="105" height="50" rx="25" fill="#fff" stroke="#00f5ff" stroke-width="1"></rect>
+                    <text x="23%" y="65%" fill="#00f5ff">ADD</text>
                   </svg>
                 </a>
               </div>
@@ -171,8 +171,8 @@ const Pricing = () => {
                         <stop offset="100%" stop-color="#4D93D5"></stop>
                       </linearGradient>
                     </defs>
-                    <rect x="1" y="1" width="105" height="50" rx="25" fill="#fff" stroke="url(#lm-gr)" stroke-width="1"></rect>
-                    <text x="23%" y="65%" fill="url(&quot;#lm-gr&quot;)">ADD</text>
+                    <rect x="1" y="1" width="105" height="50" rx="25" fill="#fff" stroke="#00f5ff" stroke-width="1"></rect>
+                    <text x="23%" y="65%" fill="#00f5ff">ADD</text>
                   </svg>
                 </a>
               </div>
