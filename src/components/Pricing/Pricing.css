@@ -54,30 +54,28 @@ body {
 
 .lm-item-1 .lm-item-bottom,
 .lm-item-1 .lm-item-top {
-    background-color: #341b37;
-    background-image: -webkit-linear-gradient(135deg, #85468c, #241326);
-    background-image: linear-gradient(-45deg, #85468c, #241326);
+    /* background-color: #341b37; */
+    /* background-image: -webkit-linear-gradient(135deg, #85468c, #241326);
+    background-image: linear-gradient(-45deg, #85468c, #241326); */
+    background-image: linear-gradient(-45deg, #000000, #3e3e3e);
 }
 
 .lm-item-2 .lm-item-bottom,
 .lm-item-2 .lm-item-top {
-    background-color: #e30a51;
-    background-image: -webkit-linear-gradient(135deg, #f6266b, #7e052d);
-    background-image: linear-gradient(-45deg, #f6266b, #7e052d);
+    background-image: linear-gradient(-45deg, #000000, #3e3e3e);
+
 }
 
 .lm-item-3 .lm-item-bottom,
 .lm-item-3 .lm-item-top {
-    background-color: #286caa;
-    background-image: -webkit-linear-gradient(135deg, #4d93d5, #1a466f);
-    background-image: linear-gradient(-45deg, #4d93d5, #1a466f);
+    background-image: linear-gradient(-45deg, #000000, #3e3e3e);
+
 }
 
 .lm-item-4 .lm-item-bottom,
 .lm-item-4 .lm-item-top {
-    background-color: #16222e;
-    background-image: -webkit-linear-gradient(135deg, #0a355e, #041627);
-    background-image: linear-gradient(-45deg, #062947, #0a0e31d0);
+    background-image: linear-gradient(-45deg, #000000, #3e3e3e);
+
 }
 
 .icon-select:hover {
@@ -208,11 +206,11 @@ body {
 }
 
 .lm-item-list .icon-ok {
-    color: #75bc9a;
+    color: #00f5ff;
 }
 
 .lm-item-list .icon-cancel {
-    color: #bf7375;
+    color: #00f5ff;
 }
 
 .lm-item-link {

@@ -50,15 +50,14 @@ const Pricing = () => {
                 <a href="#">
                   <svg width="152" height="52" xmlns="http://www.w3.org/2000/svg">
                     <defs>
-                      <linearGradient id="lm-gr-2" x1="0" y1="0" x2="100%" y2="100%">
-                        <stop offset="0%" stop-color="#7E052D"></stop>
-                        <stop offset="100%" stop-color="#F6266B"></stop>
+                      <linearGradient id="lm-gr" x1="0" y1="0" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#1A466F"></stop>
+                        <stop offset="100%" stop-color="#4D93D5"></stop>
                       </linearGradient>
                     </defs>
-                    <rect x="1" y="1" width="105" height="50" rx="25" fill="#fff" stroke="url(#lm-gr-2)" stroke-width="1"></rect>
-                    <text x="23%" y="65%" fill="url(&quot;#lm-gr-2&quot;)">ADD</text>
+                    <rect x="1" y="1" width="105" height="50" rx="25" fill="#fff" stroke="url(#lm-gr)" stroke-width="1"></rect>
+                    <text x="23%" y="65%" fill="url(&quot;#lm-gr&quot;)">ADD</text>
                   </svg>
-
                 </a>
               </div>
             </div>
@@ -85,13 +84,13 @@ const Pricing = () => {
                 <a href="#">
                   <svg width="152" height="52" xmlns="http://www.w3.org/2000/svg">
                     <defs>
-                      <linearGradient id="lm-gr-1" x1="0" y1="0" x2="100%" y2="100%">
-                        <stop offset="0%" stop-color="#241326"></stop>
-                        <stop offset="100%" stop-color="#85468C"></stop>
+                      <linearGradient id="lm-gr" x1="0" y1="0" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#1A466F"></stop>
+                        <stop offset="100%" stop-color="#4D93D5"></stop>
                       </linearGradient>
                     </defs>
-                    <rect x="1" y="1" width="105" height="50" rx="25" fill="#fff" stroke="url(#lm-gr-1)" stroke-width="1"></rect>
-                    <text x="23%" y="65%" fill="url(&quot;#lm-gr-1&quot;)">ADD</text>
+                    <rect x="1" y="1" width="105" height="50" rx="25" fill="#fff" stroke="url(#lm-gr)" stroke-width="1"></rect>
+                    <text x="23%" y="65%" fill="url(&quot;#lm-gr&quot;)">ADD</text>
                   </svg>
                 </a>
               </div>
@@ -148,7 +147,7 @@ const Pricing = () => {
                 {pricing.map(({ name, price }, index) => {
                   return (
                     <li key={index}>
-                      <div  className="check-box">
+                      <div className="check-box">
                         <label htmlFor={`custom-checkbox-${index}`}> {name} </label>
                         <input
                           type="checkbox"
@@ -164,16 +163,16 @@ const Pricing = () => {
                 })}
               </div>
               <div className="lm-item-link">
-                <a href="#" id="button_click" >
+                <a href="#">
                   <svg width="152" height="52" xmlns="http://www.w3.org/2000/svg">
                     <defs>
-                      <linearGradient id="lm-gr-1" x1="0" y1="0" x2="100%" y2="100%">
-                        <stop offset="0%" stop-color="#241326"></stop>
-                        <stop offset="100%" stop-color="#85468C"></stop>
+                      <linearGradient id="lm-gr" x1="0" y1="0" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#1A466F"></stop>
+                        <stop offset="100%" stop-color="#4D93D5"></stop>
                       </linearGradient>
                     </defs>
-                    <rect x="1" y="1" width="105" height="50" rx="25" fill="#fff" stroke="url(#lm-gr-1)" stroke-width="1"></rect>
-                    <text id="Click" x="23%" y="65%" fill="url(&quot;#lm-gr-1&quot;)">ADD</text>
+                    <rect x="1" y="1" width="105" height="50" rx="25" fill="#fff" stroke="url(#lm-gr)" stroke-width="1"></rect>
+                    <text x="23%" y="65%" fill="url(&quot;#lm-gr&quot;)">ADD</text>
                   </svg>
                 </a>
               </div>

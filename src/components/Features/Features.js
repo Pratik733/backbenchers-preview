@@ -33,7 +33,7 @@ const Features = () => {
               </div>
           ))}
           </div>
-          <button class="flex mx-auto my-10 text-white bg-yellow-500 border-0 py-2 px-8 focus:outline-none hover:bg-yellow-600 rounded text-lg" onClick={showMoreItems}>
+          <button class="flex mx-auto my-10 text-white bg-cyan border-0 py-2 px-8 focus:outline-none hover:bg-yellow-600 rounded text-lg" onClick={showMoreItems}>
             Load More
           </button>
         </div>
