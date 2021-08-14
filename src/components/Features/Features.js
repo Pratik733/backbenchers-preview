@@ -7,7 +7,7 @@ const Features = () => {
   const [visible, setVisible] = useState(6)
 
   const showMoreItems = () => {
-    setVisible(prevValue => prevValue + 3);
+    setVisible(prevValue => prevValue + 6);
   }
 
   useEffect(() => {
@@ -33,7 +33,7 @@ const Features = () => {
               </div>
           ))}
           </div>
-          <button class="flex mx-auto my-10 text-white bg-yellow-500 border-0 py-2 px-8 focus:outline-none hover:bg-yellow-600 rounded text-lg" onClick={showMoreItems}>
+          <button class="flex mx-auto my-10 text-gray-800 bg-cyan border-0 py-2 px-8 focus:outline-none rounded text-lg" onClick={showMoreItems}>
             Load More
           </button>
         </div>
