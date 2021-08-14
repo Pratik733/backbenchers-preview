@@ -124,7 +124,7 @@ const Footer = () => {
                             </a>
                         </span>
                     </div>
-                    <ScrollToTop smooth component={<FaChevronUp/>} style={{color:'#db9501', background:'#1e434c', padding: '12px', boxShadow: '0px 0px 5px rgba(0,0,0,.5)'}} />
+                    <ScrollToTop smooth component={<FaChevronUp/>} style={{color:'black', background:'cyan', padding: '12px', boxShadow: '0px 0px 5px rgba(0,0,0,.5)'}} />
                 </div>
             </footer>
         </div>
