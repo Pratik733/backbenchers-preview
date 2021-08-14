@@ -18,8 +18,8 @@ const Demo = () => {
                             </ul>
                             <div className="py-5">
                                 <h1 className="text-2xl font-bold text-yellow-500">Course Contents</h1>
-                                <ul className="list-disc px-10 text-gray-300">
-                                    <li>1:1 Live classes</li>
+                                <ul className=" text-gray-300">
+                                    <li><i class="fas fa-check-circle mr-1 text-yellow-500"></i> 1:1 Live classes</li>
                                     <li>Recorded Sessions</li>
                                     <li>Conceptual Test</li>
                                     <li>Doubt & difficulty</li>
@@ -49,7 +49,7 @@ const Demo = () => {
                         </div>
                         <div class="flex justify-center w-4/5">
                             <a target='_blank' href="https://www.townscript.com/e/backbenchers-edtech-beta-testing-phase-2-242430">
-                                <button class="inline-flex text-white  bg-yellow-500  border-0 py-4 px-10 focus:outline-none hover:bg-yellow-400 rounded text-lg">Register Now</button>
+                                <button class="inline-flex text-white  btn  border-0 py-4 px-10 focus:outline-none rounded text-lg">Register Now</button>
                             </a>
                         </div>
                         <div className="w-3/4 py-5 pt-10">

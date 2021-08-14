@@ -123,7 +123,7 @@ export default class Home extends Component {
                 </div>
                 <div className="uniqueness py-24">
                     <div class="flex flex-wrap w-full mb-16 flex-col items-center text-center">
-                        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-white">Uniqueness</h1>
+                        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 ">Uniqueness</h1>
                         <div class="h-1 w-20 bg-cyan rounded"></div>
                     </div>
                     <Uniqueness />
@@ -134,7 +134,7 @@ export default class Home extends Component {
                         <div class="feature-container px-5 py-24 mx-auto">
                             <div class="feature-header flex flex-wrap w-full mb-16 flex-col items-center text-center">
                                 <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Our Features</h1>
-                                <div class="h-1 w-20 bg-yellow-500 rounded"></div>
+                                <div class="h-1 w-20 bg-cyan rounded"></div>
                             </div>
                             <Display />
                         </div>
@@ -149,7 +149,7 @@ export default class Home extends Component {
 
                             <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
                                 <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">About Us</h1>
-                                <div class="h-1 w-20 bg-yellow-500 rounded mb-5"></div>
+                                <div class="h-1 w-20 bg-cyan rounded mb-5"></div>
                                 <p class="mb-8 leading-relaxed">We are a group of peers sharing a common revolutionary mindset having a centric understanding that choosing career options that others choose/seems to be the most demanding options not always proves to be beneficial, we are a one-stop solution that helps peers/enthusiasts of class 8-12 to find their niche and also help to build their career in one of the best disciplines matching your respective niche area. Catering to more than 20 + problems faced by students for choosing and developing their beneficial career, We have come up with a centralized revolutionary gamified learning environment where Experts/peers across various disciplines help you learn, mentor you, and transform your career prospects. </p>                                <div class="flex justify-center">
                                 </div>
                             </div>

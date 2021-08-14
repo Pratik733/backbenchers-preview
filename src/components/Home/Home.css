@@ -3,6 +3,7 @@
                       --black: #171717;
                       --cyan: #00f5ff;
                       --lightblack: #202020;
+                      --lightgrey:#F2F2F2;
                   }
                   
                   * {
@@ -161,13 +162,19 @@
                       margin: 1rem 0;
                       background: transparent;
                       font-weight: bold;
-                      border: 2px dashed var(--black);
+                      border: 2px solid var(--cyan) !important;
+                      color: var(--cyan) !important;
+                  }
+
+                  .btn:hover{
+                      background-color:var(--cyan) !important;
+                      color: var(--black) !important;
                   }
                   
                   .uniqueness {
                       padding-bottom: 3rem;
-                      background: var(--lightblack)!important;
-                      color: var(--white)!important;
+                      background: var(--white)!important;
+                      color: var(--black)!important;
                   }
                   
                   .bg-cyan {
@@ -249,6 +256,7 @@
                   
                   .features {
                       padding: 0 2rem;
+                      background-color:var(--lightgrey);
                   }
                   
                   .cards-slider {
@@ -258,7 +266,7 @@
                       height: 100%;
                       position: relative;
                       display: inline-block;
-                      background: #e3e3e3;
+                      /* background: #e3e3e3 */
                       margin: 5px 0;
                       border: 1px solid #D8D8D8;
                       box-shadow: 1px 1px 10px #D8D8D8;
@@ -266,7 +274,7 @@
                   
                   .card {
                       text-align: left;
-                      background: #fff;
+                      /* background: #fff; */
                       width: 385px;
                       position: relative;
                       display: inline-block;
@@ -277,13 +285,14 @@
                   }
                   
                   .card-item {
-                      box-shadow: 0px 0px 5px rgba(219, 149, 1, .5);
+                      box-shadow: 2px 2px 5px rgba(65, 216, 216, 0.404);
                       transition: all .5s ease;
+                      background-color: var(--white);
                       border: none;
                   }
                   
                   .card-item:hover {
-                      box-shadow: 1px 1px 5px rgba(219, 149, 1, 1);
+                      box-shadow: 2px 2px 5px rgba(65, 216, 216, 1);
                   }
                   
                   .card .title {
@@ -310,7 +319,7 @@
                   }
                   
                   .swiper-pagination-bullet.swiper-pagination-bullet-active {
-                      background: #db9501!important;
+                      background: rgb(65, 216, 216)!important;
                   }
                   
                   .slider-btn {
@@ -372,16 +381,16 @@
                   }
                   
                   .bvc .btn {
-                      background: linear-gradient(150deg, var(--black) 95%, var(--white) 50%);
-                      color: white;
+                      /* background: linear-gradient(150deg, var(--black) 95%, var(--white) 50%); */
+                      /* color: white; */
                       border: none;
                       transition: all .2s linear;
                   }
                   
-                  .bvc .btn:hover {
+                  /* .bvc .btn:hover {
                       background: linear-gradient(150deg, var(--white) 95%, var(--black) 50%);
                       color: black;
-                  }
+                  } */
                   
                   .bg-custom {
                       background: #0c2315;
