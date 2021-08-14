@@ -1,10 +1,10 @@
 .demo {
-    background: linear-gradient(-70deg, #db9501 30%, #1f444d 30%);
+    background: linear-gradient(-70deg, cyan 30%, #202020 30%);
 }
 
 @media only screen and (max-width: 760px) {
     .demo {
-        background: linear-gradient(-70deg, #db9501 10%, #1f444d 10%);
+        background: linear-gradient(-70deg, cyan 10%, #202020 10%);
     }
 }
 
@@ -41,4 +41,8 @@
     align-items: center;
     justify-content: space-between;
     width: 100%;
+}
+
+.cyan{
+    color: cyan;
 }
