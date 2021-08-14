@@ -58,7 +58,7 @@ const Header = () => {
                 className="nav-links"
                 onClick={handleClick}
               >
-                Demo
+                Beta
               </Link>
             </li>
             <li className="nav-item">

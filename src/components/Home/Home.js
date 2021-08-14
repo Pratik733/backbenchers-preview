@@ -24,7 +24,7 @@ export default class Home extends Component {
                                     }
                                 },
                                 color: {
-                                    value: ['#1e434c', '#fff', '#db9501', '#203fb6'],
+                                    value: ['#00f5ff', '#ff1616', '#fffc00'],
                                 },
                                 shape: {
                                     type: 'circle',
@@ -57,7 +57,7 @@ export default class Home extends Component {
                                     random: true,
                                     anim: {
                                         enable: false,
-                                        speed: 1000,
+                                        speed: 1500,
                                         size_min: 10,
                                         sync: false
                                     }
@@ -69,11 +69,11 @@ export default class Home extends Component {
                                         value: '#fff',
                                     },
                                     opacity: 0.5,
-                                    width: 1
+                                    width: .8
                                 },
                                 move: {
                                     enable: true,
-                                    speed: 4,
+                                    speed: 3,
                                     direction: 'none',
                                     random: false,
                                     straight: false,
@@ -109,7 +109,7 @@ export default class Home extends Component {
                     />
                     <div className='main'>
                         <div className='typing'>
-                            <h1>BackBenchers Edtech ...</h1>
+                            <h1>BackBenchers Edtech ...</h1> 
                             <ReactTypingEffect
                                 className='typingEffect'
                                 text={[" Is an alternative online education platform . . . ", " Teaches you skills relevant to the present-day world . . . ", " Helps you develop the tools and mindset for building great careers . . . ", " For the students, by the students . . . ", " One stop solution for gamified learning experience . . . "]}
@@ -123,8 +123,8 @@ export default class Home extends Component {
                 </div>
                 <div className="uniqueness py-24">
                     <div class="flex flex-wrap w-full mb-16 flex-col items-center text-center">
-                        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Uniqueness</h1>
-                        <div class="h-1 w-20 bg-yellow-500 rounded"></div>
+                        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-white">Uniqueness</h1>
+                        <div class="h-1 w-20 bg-cyan rounded"></div>
                     </div>
                     <Uniqueness />
                 </div>
