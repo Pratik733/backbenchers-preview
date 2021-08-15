@@ -1,1 +1,11 @@
-ol{ padding-left: 10px; }
+ol {
+    padding-left: 10px;
+}
+
+.footer-container .img-header {
+    width: 250px;
+}
+
+.footer-container .text-gray-400:hover {
+    color: cyan!important;
+}

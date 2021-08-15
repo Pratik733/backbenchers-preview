@@ -16,10 +16,9 @@
 }
 
 #particlejs {
-    background: var(--lightblack);
+    background: var(--black);
     width: 100%;
     height: 90vh;
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 87%, 0 100%);
 }
 
 .container-hero {
@@ -169,8 +168,8 @@
 
 .uniqueness {
     padding-bottom: 3rem;
-    background: var(--lightblack)!important;
-    color: var(--white)!important;
+    background: var(--white)!important;
+    color: var(--black)!important;
 }
 
 .bg-cyan {
@@ -213,6 +212,7 @@
     display: flex;
     align-items: baseline;
     justify-content: space-around;
+    padding-bottom: 5rem;
 }
 
 .accordion {
@@ -255,17 +255,23 @@
 /* Features */
 
 .features {
-    padding: 0 2rem;
+    padding: 0rem;
+    background: var(--black);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 87%, 0 100%);
+}
+
+.features h1 {
+    color: var(--white);
 }
 
 .cards-slider {
     overflow: hidden;
     white-space: nowrap;
-    width: 750px;
+    width: 100%;
     height: 100%;
     position: relative;
     display: inline-block;
-    background: #e3e3e3;
+    background: transparent!important;
     margin: 5px 0;
     border: 1px solid #D8D8D8;
     box-shadow: 1px 1px 10px #D8D8D8;
@@ -273,30 +279,39 @@
 
 .card {
     text-align: left;
-    background: #fff;
-    width: 385px;
+    background: transparent;
+    width: 100%;
     position: relative;
     display: inline-block;
     transition: transform .2s ease-in-out;
     vertical-align: top;
-    padding: 20px 25px;
+    padding: 25px;
+    margin: 1.5rem 2rem;
     z-index: 0;
 }
 
 .card-item {
-    box-shadow: 0px 0px 5px rgba(219, 149, 1, .5);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 1px 35px cyan;
     transition: all .5s ease;
     border: none;
+    background: var(--white);
+    padding: 1rem;
 }
 
 .card-item:hover {
-    box-shadow: 1px 1px 5px rgba(219, 149, 1, 1);
+    box-shadow: 0px 2px 50px cyan;
 }
 
 .card .title {
     font-weight: 600;
-    font-size: 18px;
-    border-bottom: 1px solid #D8D8D8;
+    font-size: 13px;
+}
+
+.card-item h2 {
+    font-size: 1rem;
 }
 
 .card .desc {
@@ -316,15 +331,19 @@
     height: 17rem;
 }
 
+.swiper-pagination-bullet {
+    background: var(--white)!important;
+}
+
 .swiper-pagination-bullet.swiper-pagination-bullet-active {
-    background: #db9501!important;
+    background: var(--cyan)!important;
 }
 
 .slider-btn {
     padding: 0;
     font-size: 20px;
     text-align: center;
-    color: #b3b3b3;
+    color: var(--white)!important;
     width: 45px;
     height: 100%;
     border: 0;
@@ -337,8 +356,8 @@
 }
 
 .slider-btn:hover {
-    color: #5f5f5f;
-    background: rgba(0, 0, 0, 0.2);
+    color: var(--white)!important;
+    background: var(--cyan)!important;
 }
 
 .btn-r {
@@ -368,6 +387,10 @@
     font-size: 24px;
 }
 
+.bvc h3 span {
+    color: var(--cyan);
+}
+
 .bvc div {
     position: absolute;
     top: 50%;
@@ -378,16 +401,22 @@
     flex-direction: column;
 }
 
+.text-cyan {
+    color: var(--cyan);
+}
+
 .bvc .btn {
-    background: linear-gradient(150deg, var(--black) 95%, var(--white) 50%);
-    color: white;
-    border: none;
+    background: transparent;
+    color: var(--cyan);
+    border: 2px solid var(--cyan);
     transition: all .2s linear;
 }
 
 .bvc .btn:hover {
-    background: linear-gradient(150deg, var(--white) 95%, var(--black) 50%);
-    color: black;
+    background: var(--cyan);
+    color: var(--black);
+    border: 2px solid var(--black);
+    transition: all .2s linear;
 }
 
 .bg-custom {

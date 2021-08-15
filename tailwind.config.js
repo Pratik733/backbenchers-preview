@@ -5,13 +5,14 @@ module.exports = {
         extend: {},
         listStyleType: {
             none: 'none',
-           disc: 'disc',
-           decimal: 'decimal',
-           square: 'square',
-           roman: 'lower-roman',
-           alpha: 'upper-alpha'
-          }
+            disc: 'disc',
+            decimal: 'decimal',
+            square: 'square',
+            roman: 'lower-roman',
+            alpha: 'upper-alpha'
+        }
     },
+
     variants: {
         extend: {},
     },

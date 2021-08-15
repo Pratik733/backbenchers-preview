@@ -1,11 +1,25 @@
 .features-container {
     width: 100%;
+    background: var(--black);
 }
 
 h2 {
     text-transform: capitalize;
 }
 
+p {
+    color: white;
+}
+
 .show {
     display: block;
+}
+
+.feature-card {
+    background: #000;
+    border: none;
+}
+
+.feature-card:hover {
+    box-shadow: 0px 3px 45px rgba(0, 255, 255, .75);
 }

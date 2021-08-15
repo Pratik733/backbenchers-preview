@@ -3,15 +3,15 @@ import './Footer.css'
 
 const Guidelines = () => {
     return (
-        <div className="lg:px-20 lg:py-16 md:px-10 pb-8 px-8">
+        <div className="lg:px-20 lg:py-16 md:px-10 pb-8 px-8 bg-black">
             <div className="footer-container py-4 mx-auto">
                 <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
-                    <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Guidelines</h1>
+                    <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-cyan">Guidelines</h1>
                     <div className="h-1 w-20 bg-cyan rounded"></div>
                 </div>
             </div>
-            <div className="leading-8">
-                    <p>We at BACKBENCHERS EDTECH strive to ensure that our Users have a conducive learning and teaching environment,
+            <div className="leading-8 text-gray-100">
+                    <p>We at Brainzeo strive to ensure that our Users have a conducive learning and teaching environment,
                         which includes interactions between the Users to allow the flow of knowledge and exchange of ideas.</p>
                     <p>Keeping the interactive nature of the Platform in mind it is essential to ensure that the Platform is not
                         misused in any way that would warrant any User having a less than amazing experience and following the
@@ -19,13 +19,13 @@ const Guidelines = () => {
                         feel is inappropriate, and we have provided means by which you can report or flag such content, but do keep in
                         mind that the reporting option should be used judiciously and if you have any doubts, i.e. if the content is
                         inappropriate please go through the guidelines to make an informed decision.</p>
-                    <p>Additionally, these guidelines are to be read along with all the other policies on the BACKBENCHERS EDTECH
+                    <p>Additionally, these guidelines are to be read along with all the other policies on the Brainzeo
                         platform including but not limited to our Terms and Conditions and Privacy Policy</p>
                     <ol className="list-decimal">
                         <li>
                             <h4 className="lg:text-2xl md:text-2xl text-xl font-medium py-4">Guidelines for acts and content that are prohibited</h4>
                             <p>
-                                <strong>Harmful or dangerous content</strong>: We at BACKBENCHERS EDTECH believe the Platform is a safe
+                                <strong>Harmful or dangerous content</strong>: We at Brainzeo believe the Platform is a safe
                                 space for learners and
                                 educators alike and would like your help in ensuring that it remains so. Keeping this in mind any content
                                 that
@@ -44,7 +44,7 @@ const Guidelines = () => {
                                 inciting hatred against specific individuals or groups with respect to but not limited to race or ethnic
                                 origin, country caste, religion, disability, gender, age, sexual orientation/gender identity, etc.
                             </p>
-                            <p> <strong>Harassment and bullying</strong>: BACKBENCHERS EDTECH Platform is used by many users on a daily
+                            <p> <strong>Harassment and bullying</strong>: Brainzeo Platform is used by many users on a daily
                                 basis and it is important to be respectful and kind to your fellow users, we do not tolerate any form of
                                 harassment or bullying on the Platform and strive to keep the Platform a safe space to foster learning.
                                 Harassment, in this case, would include but not be limited to abusive videos, comments, messages,
@@ -58,7 +58,7 @@ const Guidelines = () => {
                                 third-party
                                 sites are in direct violation of our Terms and Conditions. Posting links to external websites with malware
                                 and other prohibited sites is not allowed. The use or launch of any automated system in any manner that
-                                sends more request messages to BACKBENCHERS EDTECH’S servers in a given period of time that is more than a
+                                sends more request messages to Brainzeo’S servers in a given period of time that is more than a
                                 human can reasonably produce using a conventional online web browser is prohibited and you can take a look
                                 at our Terms and Conditions for more details on the same including exceptions to this prohibition to
                                 public
@@ -70,10 +70,10 @@ const Guidelines = () => {
                             <p><strong>Scams</strong>: Any content uploaded/posted in order to trick others for their own financial gain
                                 is
                                 not allowed and
-                                we at BACKBENCHERS EDTECH do not tolerate any practices of extortion or blackmail either.</p>
+                                we at Brainzeo do not tolerate any practices of extortion or blackmail either.</p>
                             <p><strong>Copyright</strong>: Please refer to our copyright
                                 policy provided in our Terms and Conditions to
-                                know more about proprietary information relating to User Content and BACKBENCHERS EDTECH Content.
+                                know more about proprietary information relating to User Content and Brainzeo Content.
                                 Privacy violation: Kindly refer to our Privacy Policy given here to know how to protect your privacy and
                                 respect the privacy of other users. If you believe that your privacy has been violated in any manner where
                                 a
@@ -91,13 +91,13 @@ const Guidelines = () => {
                                 institute,
                                 group, etc. by using their logo, brand name or any distinguishing mark would also amount to impersonation
                                 and could also be a potential trademark infringement.</p>
-                            <p> <strong>Interaction with BACKBENCHERS EDTECH</strong>: At BACKBENCHERS EDTECH offices we treat each
+                            <p> <strong>Interaction with Brainzeo</strong>: At Brainzeo offices we treat each
                                 other
                                 with respect and have a healthy and supportive work environment. We believe in hands-on interaction with
                                 our
                                 users to help them navigate and gain the maximum benefit from the platform. Should you find yourselves
-                                interacting with any person from BACKBENCHERS EDTECH please ensure that you maintain the same decorum you
-                                would while using this Platform. We do not encourage any communication with BACKBENCHERS EDTECH employees
+                                interacting with any person from Brainzeo please ensure that you maintain the same decorum you
+                                would while using this Platform. We do not encourage any communication with Brainzeo employees
                                 or
                                 staff that is hateful, abusive, or sexually suggestive in any manner.</p>
                         </li>
@@ -150,7 +150,7 @@ const Guidelines = () => {
                                 trademark of such person might have been infringed. If we receive any complaints or reports regarding the
                                 same, we may remove the content, if supported with relevant evidence.
                                 If you are a trademark or copyright owner and believe that your intellectual property right is being
-                                infringed, please note that you have the option of reporting the same. However, BACKBENCHERS EDTECH is not
+                                infringed, please note that you have the option of reporting the same. However, Brainzeo is not
                                 in a position where they can mediate such disputes and we disclaim any liability for the same. If we
                                 receive
                                 an infringement complaint that is genuine, we may remove the content in question and serve a warning to
@@ -168,7 +168,7 @@ const Guidelines = () => {
                                 date is clearly identifiable.</p>
                             <p>In the event, a fellow user harasses you or you believe that someone is being harassed on the platform
                                 you
-                                can report the user or content. You may even write to us at help@BACKBENCHERS EDTECH.com for any further
+                                can report the user or content. You may even write to us at help@Brainzeo.com for any further
                                 help or assistance.</p>
 
                         </li>

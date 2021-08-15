@@ -49,7 +49,7 @@ const Demo = () => {
                         </div>
                         <div class="flex justify-center w-4/5">
                             <a target='_blank' href="https://www.townscript.com/e/backbenchers-edtech-beta-testing-phase-2-242430">
-                                <button class="inline-flex text-white  btn  border-0 py-4 px-10 focus:outline-none rounded text-lg">Register Now</button>
+                                <button class="inline-flex text-white btn border-0 py-4 px-10 focus:outline-none rounded text-lg">Register Now</button>
                             </a>
                         </div>
                         <div className="w-3/4 py-5 pt-10">

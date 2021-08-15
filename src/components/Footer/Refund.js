@@ -2,14 +2,14 @@ import React from 'react';
 
 const REfund = () => {
     return (
-        <div className="lg:px-20 lg:py-16 md:px-10 px-8 pb-8">
+        <div className="lg:px-20 lg:py-16 md:px-10 px-8 pb-8 bg-black">
             <div className="footer-container py-4 mx-auto">
                 <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
-                    <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Refund Policy</h1>
+                    <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-cyan">Refund Policy</h1>
                     <div className="h-1 w-20 bg-cyan rounded"></div>
                 </div>
             </div>
-            <div className="leading-8">
+            <div className="leading-8 text-gray-100">
                 <p>Please read the subscription terms and conditions carefully before subscribing to any of the subscription
                     plans, as once you have subscribed you cannot change, cancel your subscription plan after 7 working days post
                     payment. Once you subscribe and make the required payment, it shall be final and there cannot be any changes

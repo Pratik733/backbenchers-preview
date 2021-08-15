@@ -43,6 +43,18 @@
     width: 100%;
 }
 
-.cyan{
+.cyan {
     color: cyan;
+}
+
+.btn {
+    border: 2px solid var(--cyan);
+    color: var(--cyan);
+    font-weight: normal;
+}
+
+.btn:hover {
+    background: var(--cyan);
+    color: var(--black);
+    border: 2px solid var(--black);
 }

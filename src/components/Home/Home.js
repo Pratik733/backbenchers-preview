@@ -109,7 +109,7 @@ export default class Home extends Component {
                     />
                     <div className='main'>
                         <div className='typing'>
-                            <h1>BackBenchers Edtech ...</h1> 
+                            <h1>Brainzeo</h1> 
                             <ReactTypingEffect
                                 className='typingEffect'
                                 text={[" Is an alternative online education platform . . . ", " Teaches you skills relevant to the present-day world . . . ", " Helps you develop the tools and mindset for building great careers . . . ", " For the students, by the students . . . ", " One stop solution for gamified learning experience . . . "]}
@@ -131,9 +131,9 @@ export default class Home extends Component {
 
                 <div className="features">
                     <section class="text-gray-600 body-font">
-                        <div class="feature-container px-5 py-24 mx-auto">
+                        <div class="feature-container py-24 mx-auto">
                             <div class="feature-header flex flex-wrap w-full mb-16 flex-col items-center text-center">
-                                <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Our Features</h1>
+                                <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2">Our Features</h1>
                                 <div class="h-1 w-20 bg-cyan rounded"></div>
                             </div>
                             <Display />
@@ -158,7 +158,7 @@ export default class Home extends Component {
                 </div>
                 <div className="bvc">
                     <div>
-                        <h3>India's first gamified virtual campus,</h3>
+                        <h3> <span>India's</span> first Gamified Virtual Campus,</h3>
                         <img src={euphoria} alt="" />
                         <button className='btn'>Coming Soon ...</button>
                     </div>
