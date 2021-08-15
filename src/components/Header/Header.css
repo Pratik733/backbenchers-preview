@@ -59,6 +59,10 @@
     border-bottom: 3px solid transparent;
 }
 
+.nav-links:hover {
+    color: cyan;
+}
+
 .fa-code {
     margin-left: 1rem;
 }
@@ -80,6 +84,11 @@
 .nav-item:hover:after {
     width: 100%;
     background: var(--cyan);
+    color: var(--cyan);
+}
+
+.nav-item:hover {
+    color: var(--cyan);
 }
 
 .nav-item .active {
@@ -112,11 +121,13 @@
         transition: all 0.5s ease;
     }
     .nav-menu.active {
-        background: #f9f9f9;
+        background: var(--black);
         left: 0px;
         opacity: 1;
         transition: all 0.5s ease;
         z-index: 1;
+        border-top: 3px solid var(--cyan);
+        border-bottom: 3px solid var(--cyan);
     }
     .nav-item .active {
         color: var(--cyan);

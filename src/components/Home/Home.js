@@ -7,6 +7,7 @@ import Uniqueness from './Uniqueness'
 import ReactTypingEffect from 'react-typing-effect';
 import aboutUs from '../assets/images/aboutUs.jpg'
 import euphoria from '../assets/images/euphoria.png'
+import logoFinal from '../assets/images/logoFinal.jpg'
 
 export default class Home extends Component {
     render() {
@@ -109,8 +110,8 @@ export default class Home extends Component {
                     />
                     <div className='main'>
                         <div className='typing'>
-                            <h1>Brainzeo</h1> 
-                            <ReactTypingEffect
+                            <img src={logoFinal} alt="" /> 
+                            <ReactTypingEffect 
                                 className='typingEffect'
                                 text={[" Is an alternative online education platform . . . ", " Teaches you skills relevant to the present-day world . . . ", " Helps you develop the tools and mindset for building great careers . . . ", " For the students, by the students . . . ", " One stop solution for gamified learning experience . . . "]}
                                 speed={40}
@@ -150,7 +151,7 @@ export default class Home extends Component {
                             <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
                                 <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">About Us</h1>
                                 <div class="h-1 w-20 bg-cyan rounded mb-5"></div>
-                                <p class="mb-8 leading-relaxed">We are a group of peers sharing a common revolutionary mindset having a centric understanding that choosing career options that others choose/seems to be the most demanding options not always proves to be beneficial, we are a one-stop solution that helps peers/enthusiasts of class 8-12 to find their niche and also help to build their career in one of the best disciplines matching your respective niche area. Catering to more than 20 + problems faced by students for choosing and developing their beneficial career, We have come up with a centralized revolutionary gamified learning environment where Experts/peers across various disciplines help you learn, mentor you, and transform your career prospects. </p>                                <div class="flex justify-center">
+                                <p class="mb-8 leading-relaxed text-black">We are a group of peers sharing a common revolutionary mindset having a centric understanding that choosing career options that others choose/seems to be the most demanding options not always proves to be beneficial, we are a one-stop solution that helps peers/enthusiasts of class 8-12 to find their niche and also help to build their career in one of the best disciplines matching your respective niche area. Catering to more than 20 + problems faced by students for choosing and developing their beneficial career, We have come up with a centralized revolutionary gamified learning environment where Experts/peers across various disciplines help you learn, mentor you, and transform your career prospects. </p>                                <div class="flex justify-center">
                                 </div>
                             </div>
                         </div>

@@ -52,8 +52,8 @@ const Demo = () => {
                                 <button class="inline-flex text-white btn border-0 py-4 px-10 focus:outline-none rounded text-lg">Register Now</button>
                             </a>
                         </div>
-                        <div className="w-3/4 py-5 pt-10">
-                            <h1 className="text-2xl cyan">What’s more?</h1>
+                        <div className="lg:w-3/4 md:w-4/4 pt-10">
+                            <h1 className="text-2xl pb-1 cyan">What’s more?</h1>
                             <p className="text-gray-400">All the proceedings[Subscription Fees] will be donated for a social cause which will either be for flood relief  or Orphanage or both</p>
                         </div>
                     </div>

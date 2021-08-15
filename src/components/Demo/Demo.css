@@ -43,6 +43,10 @@
     width: 100%;
 }
 
+.fa-check-circle {
+    font-size: 14px;
+}
+
 .cyan {
     color: cyan;
 }
@@ -57,4 +61,20 @@
     background: var(--cyan);
     color: var(--black);
     border: 2px solid var(--black);
+}
+
+@media screen and (max-width: 1000px) {
+    .demo-container {
+        width: 100%!important;
+        margin: .25rem!important;
+    }
+    .demo-container p,
+    .demo-container h1 {
+        width: 100%!important;
+    }
+    .demo-contents p,
+    .demo-contents h1 {
+        width: 100%!important;
+        margin: .5rem 0;
+    }
 }

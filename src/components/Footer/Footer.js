@@ -107,20 +107,23 @@ const Footer = () => {
                     <div class="footer-container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
                         <p class="text-gray-200 text-md text-center sm:text-left">
                             © Copyrights 2021 —
-                            <a href="https://www.instagram.com/backbenchersed.tech/" rel="noopener noreferrer" class="text-gray-400 ml-1" target="_blank">@Brainzeo</a>
+                            <a href="#" rel="noopener noreferrer" class="text-gray-400 ml-1" target="_blank">@Brainzeo</a>
                         </p>
                         <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
-                            <a class="text-gray-400" href="https://www.facebook.com/BackBenchers-Edtech-105416761838435/?view_public_for=105416761838435">
+                            <a class="text-gray-400" href="#">
                                 <i class="fab fa-facebook-f"></i>
                             </a>
-                            <a class="ml-3 text-gray-400" href="https://twitter.com/BackBenchersEd">
+                            <a class="ml-3 text-gray-400" href="#">
                                 <i class="fab fa-twitter"></i>
                             </a>
-                            <a class="ml-3 text-gray-400" href="https://www.instagram.com/backbenchersed.tech/">
+                            <a class="ml-3 text-gray-400" href="#">
                                 <i class="fab fa-instagram"></i>
                             </a>
-                            <a class="ml-3 text-gray-400" href="https://www.aedin.com/company/backbenchers-edtech">
-                                <i class="fab fa-aedin-in"></i>
+                            <a class="ml-3 text-gray-400" href="#">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a class="ml-3 text-gray-400" href="#">
+                                <i class="fab fa-tumblr-square"></i>
                             </a>
                         </span>
                     </div>

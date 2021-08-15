@@ -145,7 +145,7 @@
     font-size: 80px;
     font-weight: normal;
     text-align: left;
-    font-family: 'Kristi', sans-serif;
+    font-family: 'Righteous', cursive;
     line-height: 1;
 }
 
@@ -286,7 +286,7 @@
     transition: transform .2s ease-in-out;
     vertical-align: top;
     padding: 25px;
-    margin: 1.5rem 2rem;
+    margin: 1.5rem 0;
     z-index: 0;
 }
 
@@ -307,7 +307,8 @@
 
 .card .title {
     font-weight: 600;
-    font-size: 13px;
+    font-size: 1rem;
+    text-align: left;
 }
 
 .card-item h2 {
@@ -473,10 +474,14 @@ footer .img-header {
         display: none!important;
     }
     .uniqueness {
-        margin: 0 1rem;
+        margin: 0rem;
+        padding: 2rem 1rem;
         padding-bottom: 3rem;
         background: var(--lightblack)!important;
         color: var(--white)!important;
+    }
+    .uniqueness h1 {
+        margin-bottom: 1rem;
     }
     .accord {
         flex-direction: column;
@@ -487,21 +492,37 @@ footer .img-header {
         padding: 5px;
         width: 100%;
         margin: 2.5px;
+        margin-top: -1rem;
     }
     .accordion-item {
-        margin: 2.5px 0;
+        margin: .5rem 0;
         padding: 0 .5rem;
+        box-shadow: 0px 0px 2px rgba(0, 255, 255, .5);
+    }
+    .accordion-item:hover {
+        box-shadow: 0px 0px 5px rgba(0, 255, 255, .75);
     }
     .features {
         margin: 0;
-        padding: 0;
+        padding: 1rem 0;
+        height: 70vh;
     }
     .feature-container {
         padding: 0;
     }
+    .features-header {
+        margin: 1rem;
+    }
     .feature-header,
     .about-header {
         margin-bottom: 15px;
+    }
+    .swiper-pagination-fraction,
+    .swiper-pagination-custom,
+    .swiper-container-horizontal>.swiper-pagination-bullets {
+        bottom: 50px;
+        left: 0;
+        width: 100%;
     }
     .features .card {
         padding: .5rem;
@@ -513,6 +534,9 @@ footer .img-header {
         margin-bottom: 1rem;
         height: auto;
         text-align: left;
+    }
+    .about-container {
+        padding: 0rem;
     }
     .about-container .leading-relaxed {
         padding: 1rem;

@@ -81,7 +81,7 @@ export default [{
         content: 'Euphoria Pass is a premium offering that lets anyone be a part of Euphoria with higher stakes. From better item drops, custom skins, unlimited mentorships, and access to the trading store where you can use your hard-earned inventory to make real money in a Blockchain-based auction market. Access content that rivals the syllabi of the best peer experts in the world Learn from real-world peer experts of the day, become highly primed for great career opportunities Build your own team and get matched with a personal mentor for unlimited assistance Stay active on the Euphoria LAB, compete with other Euphoria Teams, score Euphoria Points, and increase your chances of developing your career in one of its best kind that you would have never thought of.'
     }, {
         id: 17,
-        src: 'https://res.cloudinary.com/dbozxizmw/image/upload/v1627408357/army_jwqbzg.gif',
+        src: 'https://ik.imagekit.io/lmsl6c7voys/army1_sNO51gg1I.gif?updatedAt=1629030451923',
         title: 'EUPHORIAN Army',
         content: 'Be a part of the EUPHORIAN Army - your direct ticket to experienced mentors, peers, and loads of career growth opportunities. Connect with fellow learners and stay up-to-date on discussions, via bulletin boards & discussion threads Earn digital/Offline drops, win brainteasers, hackathons, and even become a premium Metanite with a EUPHORIA Pass'
     }, {

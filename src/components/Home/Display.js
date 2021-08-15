@@ -13,8 +13,6 @@ import SwiperCore, {
 
 SwiperCore.use([Autoplay, Navigation, Pagination]);
 
-// install Swiper modules
-
 function CardData() {
     const rtn = [{
         url: 'https://res.cloudinary.com/dbozxizmw/image/upload/v1625581957/icons8-developer_gfnfqx.gif',
@@ -53,13 +51,13 @@ export default () => {
             infinite
             autoplay={
                 {
-                    "delay": 5000,
+                    "delay": 3000,
                     "disableOnInteraction": true
                 }
             }
             loop={true}
             pagination={{ clickable: true }}
-            spaceBetween={10}
+            spaceBetween={5}
             breakpoints={{
                 "640": {
                     "slidesPerView": 2,
@@ -71,7 +69,7 @@ export default () => {
                 },
                 "1024": {
                     "slidesPerView": 4,
-                    "spaceBetween": 50
+                    "spaceBetween": 5
                 }
             }}
             onSwiper={
@@ -82,7 +80,7 @@ export default () => {
                 cardData.map((card, i) => {
                     return (<SwiperSlide >
                         <div className="xl:w-1/3 md:w-1/2 card " id="card" key={i} >
-                            <div class=" w-auto rounded-lg card-item flex items-center justify-between" >
+                            <div class=" w-auto rounded-lg card-item flex items-center justify-evenly" >
                                 <div class=" w-20 h-20 flex items-center justify-center rounded-full" >
                                     <img src={card.url}/> 
                                 </div>
