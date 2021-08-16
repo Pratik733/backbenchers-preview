@@ -62,12 +62,26 @@
     .buttons {
         overflow: scroll;
         align-items: center;
-        justify-content: flex-start;
-        padding: 0 .75rem;
+        justify-content: space-around;
+        padding: .75rem;
+        flex-wrap: wrap;
     }
     .buttons .btn {
         font-size: 10px;
-        margin: 0 .25rem;
+        margin: .25rem;
+    }
+    .item-con {
+        width: 325px;
+        box-shadow: 0px 0px 5px rgba(0, 255, 255, .75);
+    }
+    .item-con:hover {
+        box-shadow: 0px 0px 7px rgba(0, 255, 255, 1);
+    }
+    .display-text-group {
+        font-size: 1rem;
+    }
+    .text-gray-700 {
+        color: lightcyan;
     }
 }
 

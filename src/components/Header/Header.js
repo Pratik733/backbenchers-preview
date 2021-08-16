@@ -72,6 +72,17 @@ const Header = () => {
                 Courses
               </Link>
             </li>
+            <li className="nav-item">
+              <Link
+                exact
+                to="/quadrangle"
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                Quadrangle
+              </Link>
+            </li>
           </ul>
           <div className="nav-icon" onClick={handleClick}>
             <i className={click ? "fa fa-times" : "fa fa-bars"}></i>

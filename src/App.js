@@ -12,6 +12,7 @@ import Services from './components/Footer/Services'
 import Refund from './components/Footer/Refund'
 import Guidelines from './components/Footer/Guidelines'
 import Code from './components/Footer/Code'
+import Quadrangle from './components/Quadrangle/Quadrangle.js';
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
         <Route path='/code' component={Code}/>
         <Route path='/refund' component={Refund}/>
         <Route path='/guidelines' component={Guidelines}/>
+        <Route path='/quadrangle' component={Quadrangle}/>
       </Switch>
       <Footer/>
     </div>
