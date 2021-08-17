@@ -176,6 +176,10 @@
     background: var(--cyan);
 }
 
+.aboutUs {
+    background: #fff!important;
+}
+
 .features,
 .careers,
 .aboutUs,
@@ -536,6 +540,7 @@ footer .img-header {
         margin-bottom: 1rem;
         height: auto;
         text-align: left;
+        background: #fff!important;
     }
     .about-container {
         padding: 0rem;

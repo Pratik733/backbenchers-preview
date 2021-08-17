@@ -5,9 +5,10 @@ import Particles from 'react-particles-js';
 import Display from './Display';
 import Uniqueness from './Uniqueness'
 import ReactTypingEffect from 'react-typing-effect';
-import aboutUs from '../assets/images/aboutUs.jpg'
+import aboutUs from '../assets/images/aboutUs.gif'
 import euphoria from '../assets/images/euphoria.png'
-import logoFinal from '../assets/images/logoFinal.jpg'
+import nobrain from '../assets/images/nobrain.png'
+import withBrain from '../assets/images/withBrain.png'
 
 export default class Home extends Component {
     render() {
@@ -110,7 +111,7 @@ export default class Home extends Component {
                     />
                     <div className='main'>
                         <div className='typing'>
-                            <img src={logoFinal} alt="" /> 
+                            <img src={nobrain} alt="" /> 
                             <ReactTypingEffect 
                                 className='typingEffect'
                                 text={[" Is an alternative online education platform . . . ", " Teaches you skills relevant to the present-day world . . . ", " Helps you develop the tools and mindset for building great careers . . . ", " For the students, by the students . . . ", " One stop solution for gamified learning experience . . . "]}

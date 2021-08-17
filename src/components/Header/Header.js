@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import { Link } from 'react-router-dom';
 import './Header.css'
-import Logo from '../assets/images/Logo.png'
+import withBrain from '../assets/images/withBrain.png'
 
 const Header = () => {
   const [click, setClick] = useState(false);
@@ -13,7 +13,7 @@ const Header = () => {
       <nav className="navbar">
         <div className="nav-container">
           <Link exact to="/" className="nav-logo">
-          <img src={Logo} alt="" className='img-header' />
+          <img src={withBrain} alt="" className='img-header' />
           </Link>
 
           <ul className={click ? "nav-menu active" : "nav-menu"}>

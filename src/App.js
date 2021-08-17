@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
 import Header from './components/Header/Header.js';
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
 import Home from './components/Home/Home';
@@ -13,7 +14,6 @@ import Refund from './components/Footer/Refund'
 import Guidelines from './components/Footer/Guidelines'
 import Code from './components/Footer/Code'
 import Quadrangle from './components/Quadrangle/Quadrangle.js';
-
 
 function App() {
   return (
@@ -36,4 +36,10 @@ function App() {
     </div>
   );
 }
+
+debugger; // TO INSPECT THE PAGE BEFORE 1ST RENDER
+
+const rootElement = document.getElementById("root");
+ReactDOM.render(App, rootElement);
+
 export default App;
