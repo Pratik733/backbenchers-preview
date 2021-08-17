@@ -50,6 +50,9 @@ const Footer = () => {
                                 <li>
                                     <a class="text-gray-400" href='#'>Book A Walk Through</a>
                                 </li>
+                                <li>
+                                    <a class="text-gray-400" href='#'>Newsletters</a>
+                                </li>
                             </nav>
                         </div>
                         <div class="lg:w-1/3 md:w-1/2 w-full px-5">
