@@ -1,9 +1,13 @@
 .quad {
-    height: 100vh;
+    background: url(../assets/images//comingSoon.gif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90vh;
 }
 
 @media screen and (max-width: 1000px) {
     .quad {
-        height: auto;
+        height: 45vh;
     }
 }
