@@ -73,13 +73,13 @@ export default [{
         image: 'https://ik.imagekit.io/lmsl6c7voys/INTRODUCTION_TO_CODING_USING_PYTHON_kZb9opXR3.gif?updatedAt=1629185898327',
         title: 'Introduction to coding using Python',
         category: 'Grade 11 /Age 16-17',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque ea, ab aperiam necessitatibus adipisci sunt facilis itaque non enim est!'
+        description: "Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. Python's simple, easy to learn syntax emphasizes readability and therefore reduces the cost of program maintenance. Python supports modules and packages, which encourages program modularity and code reuse. Python is also used for programming 3d games which have evolved in due time"
     },
     {
         id: 13,
         image: 'https://ik.imagekit.io/lmsl6c7voys/django_k1lSWEFZtH.gif?updatedAt=1629185908351',
-        title: 'Django',
+        title: 'Web Development using Django',
         category: 'Grade 9/Age 14-15',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque ea, ab aperiam necessitatibus adipisci sunt facilis itaque non enim est!'
+        description: "Web development is the building and maintenance of websites; it's the work that happens behind the scenes to make a website look great, work fast and perform well with a seamless user experience. Web developers, or 'devs', do this by using a variety of coding languages. React.js is an open-source JavaScript library that is used for building user interfaces specifically for single-page applications. It’s used for handling the view layer for web and mobile apps. Django also allows us to make servers and stuffs."
     }
 ];

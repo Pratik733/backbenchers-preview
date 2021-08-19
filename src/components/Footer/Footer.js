@@ -112,22 +112,22 @@ const Footer = () => {
                             © Copyrights 2021 —
                             <a href="#" rel="noopener noreferrer" class="text-gray-400 ml-1" target="_blank">@Brainzeo</a>
                         </p>
-                        <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
-                            <a class="text-gray-400" href="#">
+                        <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start footer-medias ">
+                            <a class="ml-3 mb-3 text-gray-400 footer-media" href="https://www.facebook.com/profile.php?id=100071618354062">
                                 <i class="fab fa-facebook-f"></i>
                             </a>
-                            <a class="ml-3 text-gray-400" href="#">
+                            <a class="ml-3 mb-3 text-gray-400 footer-media" href="https://twitter.com/Brain_zeo">
                                 <i class="fab fa-twitter"></i>
                             </a>
-                            <a class="ml-3 text-gray-400" href="#">
+                            <a class="ml-3 mb-3 text-gray-400 footer-media" href="https://www.instagram.com/brainzeo/">
                                 <i class="fab fa-instagram"></i>
                             </a>
-                            <a class="ml-3 text-gray-400" href="#">
+                            <a class="ml-3 mb-3 text-gray-400 footer-media" href="https://www.linkedin.com/in/brainzeo-edtech-a1805121a/">
                                 <i class="fab fa-linkedin-in"></i>
                             </a>
-                            <a class="ml-3 text-gray-400" href="#">
+                            {/* <a class="ml-3 mb-3 text-gray-400 footer-media" href="#">
                                 <i class="fab fa-tumblr-square"></i>
-                            </a>
+                            </a> */}
                         </span>
                     </div>
                     <ScrollToTop smooth component={<FaChevronUp/>} style={{color:'black', background:'cyan', padding: '12px', boxShadow: '0px 0px 5px rgba(0,0,0,.5)'}} />

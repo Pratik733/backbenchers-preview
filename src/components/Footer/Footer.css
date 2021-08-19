@@ -25,3 +25,41 @@ ol {
     border: none;
     outline: none;
 }
+
+.footer-medias {
+    position: fixed;
+    z-index: 1000;
+    top: 50%;
+    right: 2%;
+    transform: translate(0%, -50%);
+    color: aqua;
+    flex-direction: column;
+}
+
+.footer-media {
+    border: 2px solid rgba(0, 255, 255, .5);
+    padding: 1rem;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    position: relative;
+    color: aquamarine;
+}
+
+.footer-media:hover {
+    border: 2px solid rgba(0, 255, 255, 1);
+}
+
+.footer-media i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: cyan;
+}
+
+@media screen and (max-width: 1000px) {
+    .footer-medias {
+        right: 4%;
+    }
+}
