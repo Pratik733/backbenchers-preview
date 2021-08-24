@@ -386,15 +386,6 @@ body {
       font-family: 'Montserrat', sans-serif;
   }
 
-  /* .ribbon{
-      width: 150px;
-      height: 150px;
-      background: #eac;
-      position: absolute;
-      top: 10px;
-      left: 10px;
-      overflow: hidden;
-  } */
   .featured-ribbon {
     width: 200px;
     background: #00f5ff;
