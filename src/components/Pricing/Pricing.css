@@ -1,10 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+
 body {
     background-size: cover;
 }
 
-.pricing-container {
-    height: 100vh;
-}
+
 
 .lm-underline {
     position: relative;
@@ -27,13 +27,14 @@ body {
     justify-content: space-evenly;
     align-items: center;
     font-family: 'Open Sans';
-    position: absolute;
-    top: 55%;
+    position: relative;
+    /* top: 55%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
 }
 
 .lm-item {
+    overflow: hidden;
     -webkit-transform: scale(0.85);
     transform: scale(0.85);
     vertical-align: center;
@@ -338,9 +339,7 @@ body {
 }
 
 @media screen and (max-width: 960px) {
-    .pricing-container {
-        height: 400vh;
-    }
+    
     .lm-tabel {
         flex-direction: column;
         top: 10%;
@@ -354,3 +353,65 @@ body {
         padding: 5px;
     }
 }
+
+
+.bn3637 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.7rem 2rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    color: #00f5ff;
+    backface-visibility: hidden;
+    border: 0.1rem solid transparent;
+    border-radius: 3rem;
+    background-color: white;
+  }
+  
+  .bn36 {
+    border-color: #00f5ff;
+    transition: transform 0.2s cubic-bezier(0.235, 0, 0.05, 0.95);
+  }
+  
+  .bn36:hover {
+    transform: perspective(1px) scale3d(1.044, 1.044, 1) translateZ(0) !important;
+  }
+
+  .perLecCost{
+      color: white;
+      font-family: 'Montserrat', sans-serif;
+  }
+
+  /* .ribbon{
+      width: 150px;
+      height: 150px;
+      background: #eac;
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      overflow: hidden;
+  } */
+  .featured-ribbon {
+    width: 200px;
+    background: #00f5ff;
+    position: absolute;
+    top: 15px;
+    left: -60px;
+    transform: rotate(-45deg);
+    text-align: center;
+    line-height: 35px;
+    letter-spacing: 0.01em;
+    font-size: 1.1em;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    -webkit-transform: rotate(-45deg);
+  }
+
+  
+
+  

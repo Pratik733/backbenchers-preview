@@ -2,35 +2,24 @@ import React, { useState } from 'react';
 import './Pricing.css'
 import { pricing } from './customPrice'
 
-const getFormattedPrice = (price) => `${price.toFixed(0)}`
 
 const Pricing = () => {
-  const [checkedState, setCheckedState] = useState(
-    new Array(pricing.length).fill(false)
-  )
-  const [total, setTotal] = useState(0)
-  const handleOnChange = (position) => {
-    const updatedCheckedState = checkedState.map((item, index) => index === position ? !item : item)
-    setCheckedState(updatedCheckedState);
-    const totalPrice = updatedCheckedState.reduce(
-      (sum, currentState, index) => {
-        if (currentState === true) {
-          return sum + pricing[index].price;
-        }
-        return sum;
-      },
-      0
-    );
-    setTotal(totalPrice);
-  };
+
 
   return (
     <div>
+
+      <div class="flex flex-wrap w-full mt-8 flex-col items-center text-center">
+        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 ">1:1 Niche Development</h1>
+        <div class="h-1 w-72 bg-cyan rounded"></div>
+      </div>
       <div className="pricing-container">
         <div className="lm-tabel">
           <div className="lm-item lm-item-1">
-            <div className="lm-item-top"><span className="lm-item-title lm-underline">CROWN</span>
-              <div className="lm-item-price"><div className="lm-real-price">₹3500</div>₹3000</div>
+            <div className="lm-item-top">
+              <div class="featured-ribbon">11% Off</div>
+              <span className="lm-item-title lm-underline">CROWN</span>
+              <div className="lm-item-price"><div className="lm-real-price">₹8500</div>₹7565</div><div className="perLecCost">₹467 per lecture</div>
             </div>
             <div className="lm-item-body">
               <ul className="lm-item-list">
@@ -38,68 +27,25 @@ const Pricing = () => {
                 <li>Live & Recorded Lectures<i className="icon-ok"></i></li>
                 <li>Conceptual Test<i className="icon-ok"></i></li>
                 <li>Notes & Code Files<i className="icon-ok"></i></li>
-                <li>Library<i className="icon-cancel"></i></li>
-                <li>Community Forum<i className="icon-cancel"></i></li>
+                <li>Library<i className="icon-ok"></i></li>
+                <li>Community Forum<i className="icon-ok"></i></li>
                 <li>Doubt & Difficulty<i className="icon-ok"></i></li>
-                <li>Mentors Connect<i className="icon-cancel"></i></li>
+                <li>Mentors Connect<i className="icon-ok"></i></li>
                 <li>Projects & certifications<i className="icon-ok"></i></li>
-                <li>Euphoria 90 Days Subscription<i className="icon-ok"></i></li>
+                <li>Euphoria 45 Days Subscription<i className="icon-ok"></i></li>
 
               </ul>
               <div className="lm-item-link">
-                <a href="#">
-                  <svg width="152" height="52" xmlns="http://www.w3.org/2000/svg">
-                    <defs>
-                      <linearGradient id="lm-gr" x1="0" y1="0" x2="100%" y2="100%">
-                        <stop offset="0%" stop-color="#1A466F"></stop>
-                        <stop offset="100%" stop-color="#4D93D5"></stop>
-                      </linearGradient>
-                    </defs>
-                    <rect x="1" y="1" width="105" height="50" rx="25" fill="#fff" stroke="#00f5ff" stroke-width="1"></rect>
-                    <text x="23%" y="65%" fill="#00f5ff">ADD</text>
-                  </svg>
-                </a>
+                <a href="/" className="bn3637 bn36">Subscribe for 45 days</a>
               </div>
             </div>
             <div className="lm-item-bottom"></div>
           </div>
           <div className="lm-item lm-item-2">
-            <div className="lm-item-top"><span className="lm-item-title lm-underline">ACE</span>
-              <div className="lm-item-price"><div className="lm-real-price">₹4500</div>₹4000</div>
-            </div>
-            <div className="lm-item-body">
-              <ul className="lm-item-list">
-                <li>Study Room<i className="icon-ok"></i></li>
-                <li>Live & Recorded Lectures<i className="icon-ok"></i></li>
-                <li>Conceptual Test<i className="icon-ok"></i></li>
-                <li>Meme Cheatsheets,<br />Notes & Code Files<i className="icon-ok"></i></li>
-                <li>Library<i className="icon-cancel"></i></li>
-                <li>Community Forum<i className="icon-ok"></i></li>
-                <li>Doubt & Difficulty<i className="icon-ok"></i></li>
-                <li>Mentors Connect<i className="icon-cancel"></i></li>
-                <li>Projects & certifications<i className="icon-ok"></i></li>
-                <li>Euphoria 90 Days Subscription<i className="icon-ok"></i></li>
-              </ul>
-              <div className="lm-item-link">
-                <a href="#">
-                  <svg width="152" height="52" xmlns="http://www.w3.org/2000/svg">
-                    <defs>
-                      <linearGradient id="lm-gr" x1="0" y1="0" x2="100%" y2="100%">
-                        <stop offset="0%" stop-color="#1A466F"></stop>
-                        <stop offset="100%" stop-color="#4D93D5"></stop>
-                      </linearGradient>
-                    </defs>
-                    <rect x="1" y="1" width="105" height="50" rx="25" fill="#fff" stroke="#00f5ff" stroke-width="1"></rect>
-                    <text x="23%" y="65%" fill="#00f5ff">ADD</text>
-                  </svg>
-                </a>
-              </div>
-            </div>
-            <div className="lm-item-bottom"></div>
-          </div>
-          <div className="lm-item lm-item-3">
-            <div className="lm-item-top"><span className="lm-item-title lm-underline">CONQUEROR</span>
-              <div className="lm-item-price"><div className="lm-real-price">₹5500</div>₹4500</div>
+            <div className="lm-item-top">
+              <div class="featured-ribbon">20% Off</div>
+              <span className="lm-item-title lm-underline">ACE</span>
+              <div className="lm-item-price"><div className="lm-real-price">₹45000</div>₹40000</div><div className="perLecCost">₹667 per lecture</div>
             </div>
             <div className="lm-item-body">
               <ul className="lm-item-list">
@@ -115,69 +61,121 @@ const Pricing = () => {
                 <li>Euphoria 90 Days Subscription<i className="icon-ok"></i></li>
               </ul>
               <div className="lm-item-link">
-                <a href="#">
-                  <svg width="152" height="52" xmlns="http://www.w3.org/2000/svg">
-                    <defs>
-                      <linearGradient id="lm-gr" x1="0" y1="0" x2="100%" y2="100%">
-                        <stop offset="0%" stop-color="#1A466F"></stop>
-                        <stop offset="100%" stop-color="#4D93D5"></stop>
-                      </linearGradient>
-                    </defs>
-                    <rect x="1" y="1" width="105" height="50" rx="25" fill="#fff" stroke="#00f5ff" stroke-width="1"></rect>
-                    <text x="23%" y="65%" fill="#00f5ff">ADD</text>
-                  </svg>
-                </a>
+                <a href="/" className="bn3637 bn36">Subscribe for 90 days</a>
               </div>
             </div>
             <div className="lm-item-bottom"></div>
           </div>
-
-          <div className="lm-item lm-item-4">
-            <div className="lm-item-top"><span className="lm-item-title lm-underline">CUSTOM</span>
-              <div className="lm-item-price">
-                <span className="lm-real-price">&#8377; {getFormattedPrice(total) < 0 ? getFormattedPrice(total) : getFormattedPrice(total)} </span>
-                <output className="lm-real-price" id="custom-real-price"></output><br />
-                <span>&#8377; {getFormattedPrice(total) > 1000 ? getFormattedPrice(total - 500) : getFormattedPrice(total)}</span>
-                <output type="text" id="custom-price"></output></div>
+          <div className="lm-item lm-item-3">
+            <div className="lm-item-top">
+              <div class="featured-ribbon">10% Off</div>
+              <span className="lm-item-title lm-underline">CONQUEROR</span>
+              <div className="lm-item-price"><div className="lm-real-price">₹100000</div>₹90000</div><div className="perLecCost">₹567 per lecture</div>
             </div>
             <div className="lm-item-body">
-              <div className="lm-item-desc">
-              </div>
-              <div className="lm-item-list" id="catlist">
-                {pricing.map(({ name, price }, index) => {
-                  return (
-                    <li key={index}>
-                      <div className="check-box">
-                        <label htmlFor={`custom-checkbox-${index}`}> {name} </label>
-                        <input
-                          type="checkbox"
-                          id={`custom-checkbox - ${index}`}
-                          name={name}
-                          value={name}
-                          checked={checkedState[index]}
-                          onChange={() => handleOnChange(index)}
-                        />
-                      </div>
-                    </li>
-                  )
-                })}
-              </div>
+              <ul className="lm-item-list">
+                <li>Study Room<i className="icon-ok"></i></li>
+                <li>Live & Recorded Lectures<i className="icon-ok"></i></li>
+                <li>Conceptual Test<i className="icon-ok"></i></li>
+                <li>Meme Cheatsheets,<br />Notes & Code Files<i className="icon-ok"></i></li>
+                <li>Library<i className="icon-ok"></i></li>
+                <li>Community Forum<i className="icon-ok"></i></li>
+                <li>Doubt & Difficulty<i className="icon-ok"></i></li>
+                <li>Mentors Connect<i className="icon-ok"></i></li>
+                <li>Projects & certifications<i className="icon-ok"></i></li>
+                <li>Euphoria 180 Days Subscription<i className="icon-ok"></i></li>
+              </ul>
               <div className="lm-item-link">
-                <a href="#">
-                  <svg width="152" height="52" xmlns="http://www.w3.org/2000/svg">
-                    <defs>
-                      <linearGradient id="lm-gr" x1="0" y1="0" x2="100%" y2="100%">
-                        <stop offset="0%" stop-color="#1A466F"></stop>
-                        <stop offset="100%" stop-color="#4D93D5"></stop>
-                      </linearGradient>
-                    </defs>
-                    <rect x="1" y="1" width="105" height="50" rx="25" fill="#fff" stroke="#00f5ff" stroke-width="1"></rect>
-                    <text x="23%" y="65%" fill="#00f5ff">ADD</text>
-                  </svg>
-                </a>
+                <a href="/" className="bn3637 bn36">Subscribe for 180 days</a>
               </div>
             </div>
-            <div className="lm-item-bottom"><span className="lm-underline"> </span></div>
+            <div className="lm-item-bottom"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex flex-wrap w-full flex-col items-center text-center">
+        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 ">GROUP</h1>
+        <div class="h-1 w-20 bg-cyan rounded"></div>
+      </div>
+
+      <div className="pricing-container">
+        <div className="lm-tabel">
+          <div className="lm-item lm-item-1">
+            <div className="lm-item-top">
+              <div class="featured-ribbon">11% Off</div>
+              <span className="lm-item-title lm-underline">CROWN</span>
+              <div className="lm-item-price"><div className="lm-real-price">₹5000</div>₹4000</div><div className="perLecCost">₹467 per lecture</div>
+            </div>
+            <div className="lm-item-body">
+              <ul className="lm-item-list">
+                <li>Study Room<i className="icon-ok"></i></li>
+                <li>Live & Recorded Lectures<i className="icon-ok"></i></li>
+                <li>Conceptual Test<i className="icon-ok"></i></li>
+                <li>Notes & Code Files<i className="icon-ok"></i></li>
+                <li>Library<i className="icon-ok"></i></li>
+                <li>Community Forum<i className="icon-ok"></i></li>
+                <li>Doubt & Difficulty<i className="icon-ok"></i></li>
+                <li>Mentors Connect<i className="icon-ok"></i></li>
+                <li>Projects & certifications<i className="icon-ok"></i></li>
+                <li>Euphoria 45 Days Subscription<i className="icon-ok"></i></li>
+
+              </ul>
+              <div className="lm-item-link">
+                <a href="/" className="bn3637 bn36">Subscribe for 45 days</a>
+              </div>
+            </div>
+            <div className="lm-item-bottom"></div>
+          </div>
+          <div className="lm-item lm-item-2">
+            <div className="lm-item-top">
+              <div class="featured-ribbon">20% Off</div>
+              <span className="lm-item-title lm-underline">ACE</span>
+              <div className="lm-item-price"><div className="lm-real-price">₹15000</div>₹12000</div><div className="perLecCost">₹667 per lecture</div>
+            </div>
+            <div className="lm-item-body">
+              <ul className="lm-item-list">
+                <li>Study Room<i className="icon-ok"></i></li>
+                <li>Live & Recorded Lectures<i className="icon-ok"></i></li>
+                <li>Conceptual Test<i className="icon-ok"></i></li>
+                <li>Meme Cheatsheets,<br />Notes & Code Files<i className="icon-ok"></i></li>
+                <li>Library<i className="icon-ok"></i></li>
+                <li>Community Forum<i className="icon-ok"></i></li>
+                <li>Doubt & Difficulty<i className="icon-ok"></i></li>
+                <li>Mentors Connect<i className="icon-ok"></i></li>
+                <li>Projects & certifications<i className="icon-ok"></i></li>
+                <li>Euphoria 90 Days Subscription<i className="icon-ok"></i></li>
+              </ul>
+              <div className="lm-item-link">
+                <a href="/" className="bn3637 bn36">Subscribe for 90 days</a>
+              </div>
+            </div>
+            <div className="lm-item-bottom"></div>
+          </div>
+          <div className="lm-item lm-item-3">
+            <div className="lm-item-top">
+              <div class="featured-ribbon">10% Off</div>
+              <span className="lm-item-title lm-underline">CONQUEROR</span>
+              <div className="lm-item-price"><div className="lm-real-price">₹25000</div>₹20000</div><div className="perLecCost">₹567 per lecture</div>
+            </div>
+            <div className="lm-item-body">
+              <ul className="lm-item-list">
+                <li>Study Room<i className="icon-ok"></i></li>
+                <li>Live & Recorded Lectures<i className="icon-ok"></i></li>
+                <li>Conceptual Test<i className="icon-ok"></i></li>
+                <li>Meme Cheatsheets,<br />Notes & Code Files<i className="icon-ok"></i></li>
+                <li>Library<i className="icon-ok"></i></li>
+                <li>Community Forum<i className="icon-ok"></i></li>
+                <li>Doubt & Difficulty<i className="icon-ok"></i></li>
+                <li>Mentors Connect<i className="icon-ok"></i></li>
+                <li>Projects & certifications<i className="icon-ok"></i></li>
+                <li>Euphoria 180 Days Subscription<i className="icon-ok"></i></li>
+              </ul>
+              <div className="lm-item-link">
+                <a href="/" className="bn3637 bn36">Subscribe for 180 days</a>
+              </div>
+            </div>
+            <div className="lm-item-bottom"></div>
           </div>
         </div>
       </div>
