@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './Pricing.css'
-import { pricing } from './customPrice'
+
 
 
 const Pricing = () => {
@@ -8,7 +8,6 @@ const Pricing = () => {
 
   return (
     <div>
-
       <div class="flex flex-wrap w-full mt-8 flex-col items-center text-center">
         <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 ">1:1 Niche Development</h1>
         <div class="h-1 w-72 bg-cyan rounded"></div>
