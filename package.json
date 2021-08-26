@@ -1,6 +1,5 @@
 {
     "name": "bb_frontend",
-    "homepage": "https://ashuydv.github.io/home",
     "version": "0.1.0",
     "private": true,
     "dependencies": {
@@ -17,7 +16,6 @@
         "craco": "^0.0.3",
         "express": "^4.17.1",
         "express-favicon": "^2.0.1",
-        "gh-pages": "^3.2.3",
         "jquery": "^3.6.0",
         "jquery-react": "^1.0.0",
         "npm": "^7.20.2",
