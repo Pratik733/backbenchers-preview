@@ -1,6 +1,5 @@
 {
     "name": "bb_frontend",
-    "homepage": "https://ashuydv.github.io/home",
     "version": "0.1.0",
     "private": true,
     "dependencies": {
