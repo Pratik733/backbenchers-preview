@@ -125,7 +125,7 @@ const Footer = () => {
                             <a class="ml-3 mb-3 text-gray-400 footer-media" href="https://www.linkedin.com/in/brainzeo-edtech-a1805121a/">
                                 <i class="fab fa-linkedin-in"></i>
                             </a>
-                            <a class="ml-3 mb-3 text-gray-400 footer-media" href="#">
+                            <a class="ml-3 mb-3 text-gray-400 footer-media" href="https://www.tumblr.com/blog/brainzeo">
                                 <i class="fab fa-tumblr-square"></i>
                             </a>
                         </span>
