@@ -18,7 +18,7 @@ import Quadrangle from './components/Quadrangle/Quadrangle.js';
 function App() {
   return (
     <div className="App">
-      <Header />
+      <Header /> 
       <Switch>
         <Route exact path="/" component={Home}/>
         <Route path="/feature" component={Feature}/>
