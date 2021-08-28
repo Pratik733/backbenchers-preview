@@ -259,8 +259,9 @@ body {
     border-bottom-left-radius: 7px;
     border-bottom-right-radius: 7px;
     padding: 1px;
-    color: rgba(255, 255, 255, 0.5);
-    font-weight: 100;
+    color: cyan;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
     min-height: 20px;
 }
 

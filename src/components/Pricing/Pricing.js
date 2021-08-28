@@ -18,7 +18,7 @@ const Pricing = () => {
             <div className="lm-item-top">
               <div class="featured-ribbon">11% Off</div>
               <span className="lm-item-title lm-underline">CROWN</span>
-              <div className="lm-item-price"><div className="lm-real-price">₹8500</div>₹7565</div><div className="perLecCost">₹467 per lecture</div>
+              <div className="lm-item-price"><div className="lm-real-price">₹8500</div>₹7565</div><div className="perLecCost">₹169 per lecture</div>
             </div>
             <div className="lm-item-body">
               <ul className="lm-item-list">
@@ -42,9 +42,9 @@ const Pricing = () => {
           </div>
           <div className="lm-item lm-item-2">
             <div className="lm-item-top">
-              <div class="featured-ribbon">20% Off</div>
+              <div class="featured-ribbon"><ul><li>20% OFF</li></ul></div>
               <span className="lm-item-title lm-underline">ACE</span>
-              <div className="lm-item-price"><div className="lm-real-price">₹45000</div>₹40000</div><div className="perLecCost">₹667 per lecture</div>
+              <div className="lm-item-price"><div className="lm-real-price">₹45000</div>₹40000</div><div className="perLecCost">₹445 per lecture</div>
             </div>
             <div className="lm-item-body">
               <ul className="lm-item-list">
@@ -63,13 +63,13 @@ const Pricing = () => {
                 <a href="/" className="bn3637 bn36">Subscribe for 90 days</a>
               </div>
             </div>
-            <div className="lm-item-bottom"></div>
+            <div className="lm-item-bottom">Recommended</div>
           </div>
           <div className="lm-item lm-item-3">
             <div className="lm-item-top">
               <div class="featured-ribbon">10% Off</div>
               <span className="lm-item-title lm-underline">CONQUEROR</span>
-              <div className="lm-item-price"><div className="lm-real-price">₹100000</div>₹90000</div><div className="perLecCost">₹567 per lecture</div>
+              <div className="lm-item-price"><div className="lm-real-price">₹100000</div>₹90000</div><div className="perLecCost">₹500 per lecture</div>
             </div>
             <div className="lm-item-body">
               <ul className="lm-item-list">
@@ -104,7 +104,7 @@ const Pricing = () => {
             <div className="lm-item-top">
               <div class="featured-ribbon">11% Off</div>
               <span className="lm-item-title lm-underline">CROWN</span>
-              <div className="lm-item-price"><div className="lm-real-price">₹5000</div>₹4000</div><div className="perLecCost">₹467 per lecture</div>
+              <div className="lm-item-price"><div className="lm-real-price">₹5000</div>₹4000</div><div className="perLecCost">₹89 per lecture</div>
             </div>
             <div className="lm-item-body">
               <ul className="lm-item-list">
@@ -130,7 +130,7 @@ const Pricing = () => {
             <div className="lm-item-top">
               <div class="featured-ribbon">20% Off</div>
               <span className="lm-item-title lm-underline">ACE</span>
-              <div className="lm-item-price"><div className="lm-real-price">₹15000</div>₹12000</div><div className="perLecCost">₹667 per lecture</div>
+              <div className="lm-item-price"><div className="lm-real-price">₹15000</div>₹12000</div><div className="perLecCost">₹178 per lecture</div>
             </div>
             <div className="lm-item-body">
               <ul className="lm-item-list">
@@ -149,13 +149,13 @@ const Pricing = () => {
                 <a href="/" className="bn3637 bn36">Subscribe for 90 days</a>
               </div>
             </div>
-            <div className="lm-item-bottom"></div>
+            <div className="lm-item-bottom">Recommended</div>
           </div>
           <div className="lm-item lm-item-3">
             <div className="lm-item-top">
               <div class="featured-ribbon">10% Off</div>
               <span className="lm-item-title lm-underline">CONQUEROR</span>
-              <div className="lm-item-price"><div className="lm-real-price">₹25000</div>₹20000</div><div className="perLecCost">₹567 per lecture</div>
+              <div className="lm-item-price"><div className="lm-real-price">₹25000</div>₹20000</div><div className="perLecCost">₹156 per lecture</div>
             </div>
             <div className="lm-item-body">
               <ul className="lm-item-list">
