@@ -37,7 +37,8 @@ const Demo = () => {
                             <h1 className="text-2xl font-bold cyan">Subscription Fees</h1>
                             <div className="py-2">
                                 <ul className="price-list text-gray-300">
-                                    <li>For CODING<span className="subs-price text-red-400"> ₹99/Student</span></li>
+                                    <li>For CODING<span className="subs-price text-red-400"> ₹99/Student</span>
+                                    </li>
                                     <li>For MATHEMATICS TIPS & TRICKS<span className="subs-price text-red-400">₹99/Student</span></li>
                                     <li>For COMBO COURSE REGISTRATION<br/>[ CODING + MATHEMATICS TIPS & TRICKS ] <span className="subs-price text-red-400">₹149/Student</span></li>
                                     <h1 className="py-5 pt-16 font-medium text-lg cyan">Special Discount For Group Registration[Only valid for Combo Course Registration]</h1>
