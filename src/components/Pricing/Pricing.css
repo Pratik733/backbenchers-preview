@@ -404,6 +404,6 @@ body {
     -webkit-transform: rotate(-45deg);
   }
 
-  
-
-  
+.only{
+    font-size: 1.9rem;
+}

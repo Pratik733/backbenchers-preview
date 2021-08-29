@@ -203,9 +203,9 @@ const Footer = () => {
               >
                 <i class="fab fa-linkedin-in"></i>
               </a>
-              {/* <a class="ml-3 mb-3 text-gray-400 footer-media" href="#">
+              <a class="ml-3 mb-3 text-gray-400 footer-media" href="#">
                                 <i class="fab fa-tumblr-square"></i>
-                            </a> */}
+                            </a>
             </span>
           </div>
           <ScrollToTop
