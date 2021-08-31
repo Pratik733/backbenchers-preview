@@ -1,5 +1,6 @@
 import React from 'react';
 import './Pricing.css'
+import InfoIcon from '@material-ui/icons/Info';
 
 
 
@@ -16,6 +17,9 @@ const Pricing = () => {
         <div className="lm-tabel">
           <div className="lm-item lm-item-1">
             <div className="lm-item-top">
+              {/* <div class="tooltip"><InfoIcon/>
+              </div>
+                <div class="tooltiptext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel rerum numquam eveniet dolore dolorem nemo voluptatum officia consectetur provident ab. Aperiam deleniti id ut? Harum accusamus ipsam aliquid atque laudantium.</div> */}
               <div class="featured-ribbon">11% Off</div>
               <span className="lm-item-title lm-underline">CROWN</span>
               <div className="lm-item-price"><div className="lm-real-price">₹8500</div>₹7565<span className="only">/-</span></div><div className="perLecCost">₹169 per lecture</div>
@@ -153,7 +157,7 @@ const Pricing = () => {
           </div>
           <div className="lm-item lm-item-3">
             <div className="lm-item-top">
-              <div class="featured-ribbon">10% Off</div>
+              <div class="featured-ribbon">20% Off</div>
               <span className="lm-item-title lm-underline">CONQUEROR</span>
               <div className="lm-item-price"><div className="lm-real-price">₹35000</div>₹28000<span className="only">/-</span><div className="text-sm">per student</div></div><div className="perLecCost">₹156 per lecture</div>
             </div>
@@ -184,4 +188,3 @@ const Pricing = () => {
 }
 
 export default Pricing;
-

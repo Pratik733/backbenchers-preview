@@ -1,10 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
-
 body {
     background-size: cover;
 }
-
-
 
 .lm-underline {
     position: relative;
@@ -64,19 +61,16 @@ body {
 .lm-item-2 .lm-item-bottom,
 .lm-item-2 .lm-item-top {
     background-image: linear-gradient(-45deg, #000000, #3e3e3e);
-
 }
 
 .lm-item-3 .lm-item-bottom,
 .lm-item-3 .lm-item-top {
     background-image: linear-gradient(-45deg, #000000, #3e3e3e);
-
 }
 
 .lm-item-4 .lm-item-bottom,
 .lm-item-4 .lm-item-top {
     background-image: linear-gradient(-45deg, #000000, #3e3e3e);
-
 }
 
 .icon-select:hover {
@@ -192,6 +186,7 @@ body {
     justify-content: space-between;
     width: 100%;
 }
+
 
 /* .lm-item-list li:nth-child(2n+1) {
     background-color: #fbfbfb;
@@ -340,7 +335,6 @@ body {
 }
 
 @media screen and (max-width: 960px) {
-    
     .lm-tabel {
         flex-direction: column;
         top: 10%;
@@ -354,7 +348,6 @@ body {
         padding: 5px;
     }
 }
-
 
 .bn3637 {
     display: inline-flex;
@@ -371,23 +364,23 @@ body {
     border: 0.1rem solid transparent;
     border-radius: 3rem;
     background-color: white;
-  }
-  
-  .bn36 {
+}
+
+.bn36 {
     border-color: #00f5ff;
     transition: transform 0.2s cubic-bezier(0.235, 0, 0.05, 0.95);
-  }
-  
-  .bn36:hover {
+}
+
+.bn36:hover {
     transform: perspective(1px) scale3d(1.044, 1.044, 1) translateZ(0) !important;
-  }
+}
 
-  .perLecCost{
-      color: white;
-      font-family: 'Montserrat', sans-serif;
-  }
+.perLecCost {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
 
-  .featured-ribbon {
+.featured-ribbon {
     width: 200px;
     background: #00f5ff;
     position: absolute;
@@ -402,8 +395,44 @@ body {
     color: white;
     text-transform: uppercase;
     -webkit-transform: rotate(-45deg);
-  }
+}
 
-.only{
+.only {
     font-size: 1.9rem;
+}
+
+.tooltip {
+    position: absolute;
+    /* width: 100%; */
+    top: 3px;
+    right: 3px;
+    color: rgba(242, 242, 242, 0.5);
+    display: inline-block;
+}
+
+
+/* Tooltip text */
+
+.tooltiptext {
+    top: 30px;
+    width: 90%;
+    align-self: center;
+    margin-left: 15px;
+    visibility: hidden;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    opacity: 0;
+    transition: opacity 1s;
+    position: absolute;
+    z-index: 10;
+}
+
+
+/* Show the tooltip text when you mouse over the tooltip container */
+
+.tooltip:hover+.tooltiptext {
+    visibility: visible;
+    opacity: 1;
 }
