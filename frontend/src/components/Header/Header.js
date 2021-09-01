@@ -53,7 +53,7 @@ const Header = () => {
             <li className="nav-item">
               <Link
                 exact
-                to="/demo"
+                to="/beta"
                 activeClassName="active"
                 className="nav-links"
                 onClick={handleClick}

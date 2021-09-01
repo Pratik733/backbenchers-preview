@@ -14,16 +14,18 @@ import Refund from './components/Footer/Refund'
 import Guidelines from './components/Footer/Guidelines'
 import Code from './components/Footer/Code'
 import Quadrangle from './components/Quadrangle/Quadrangle.js';
+import PopupExample from './components/Popup/popup.js';
 
 function App() {
   return (
     <div className="App">
-      <Header /> 
+      <Header />
+      <PopupExample/> 
       <Switch>
         <Route exact path="/" component={Home}/>
         <Route path="/feature" component={Feature}/>
         <Route path="/pricing" component={Pricing}/>
-        <Route path="/demo" component={Demo}/>
+        <Route path="/beta" component={Demo}/>
         <Route path='/courses' component={Courses}/>
         <Route path='/privacy' component={Privacy}/>
         <Route path='/services' component={Services}/>
@@ -36,8 +38,6 @@ function App() {
     </div>
   );
 }
-
-debugger; // TO INSPECT THE PAGE BEFORE 1ST RENDER
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(App, rootElement);

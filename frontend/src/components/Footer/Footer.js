@@ -21,12 +21,13 @@ const Footer = () => {
               </h2>
               <nav class="list-none mb-10">
                 <li>
-                  <a class="text-gray-400" href="https://discord.gg/uubrUH8eRW">
+                  <a target="_blank" class="text-gray-400" href="https://discord.gg/Nc8S5PtygK">
                     Discord Server
                   </a>
                 </li>
                 <li>
-                  <a
+                  <a 
+                    target="_blank"
                     class="text-gray-400"
                     href="https://chat.whatsapp.com/Cf7QS5vT6lpB4eEaCzjLwF"
                   >
@@ -34,32 +35,38 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a class="text-gray-400" href="#">
+                  <a target="_blank" class="text-gray-400" href="#">
                     Euphoria (Coming Soon){" "}
                   </a>
                 </li>
                 <li>
                   <a
+                    target="_blank"
+                    target="_blank"
                     class="text-gray-400"
-                    href="https://backbenchers-edtech.typeform.com/work-with-us"
+                    href="https://braizeo.typeform.com/work-with-us"
                   >
                     Work with us
                   </a>
                 </li>
                 <li>
                   <a
+                    target="_blank"
+                    target="_blank"
                     class="text-gray-400"
-                    href="https://www.instagram.com/backbenchersed.tech/"
+                    href="https://www.instagram.com/brainzeo/"
                   >
                     Gamified Learning
                   </a>
                 </li>
                 <li>
                   <a
+                    target="_blank"
+                    target="_blank"
                     class="text-gray-400"
-                    href="https://backbenchers-edtech.typeform.com/student-dvlp-pg"
+                    href="https://braizeo.typeform.com/student-dvlp-pg"
                   >
-                    Apply for Students Developer Program
+                    Students Developer Program
                   </a>
                 </li>
               </nav>
@@ -71,27 +78,31 @@ const Footer = () => {
               <nav class="list-none mb-10">
                 <li>
                   <a
+                    target="_blank"
+                    target="_blank"
                     class="text-gray-400"
-                    href="https://drive.google.com/drive/folders/1eu7RkTDVTfNsWNs0ak3IDRP9-wnfewgf?usp=sharing"
+                    href="https://drive.google.com/drive/folders/17GnHECDg3C0MOTO95HUM9xnEKHp_6V6W?usp=sharing"
                   >
                     Meme Cheatsheets
                   </a>
                 </li>
                 <li>
                   <a
+                    target="_blank"
+                    target="_blank"
                     class="text-gray-400"
-                    href="https://drive.google.com/drive/folders/1NK86QICo0qYRvJ1TQe05p5r_8ESaWZHT?usp=sharing"
+                    href="https://drive.google.com/drive/folders/1bt_HGGKR5VClorXPmc7m6ZAbZSfKIIi9?usp=sharing"
                   >
                     Interactive Classes
                   </a>
                 </li>
                 <li>
-                  <a class="text-gray-400" href="#">
+                  <a target="_blank" class="text-gray-400" href="https://calendly.com/brainzeo-edtech/brainzeo-walkthrough-30-mins?month=2021-09">
                     Book A Walk Through
                   </a>
                 </li>
                 <li>
-                  <a class="text-gray-400" href="#">
+                  <a target="_blank" class="text-gray-400" href="https://braizeo.typeform.com/newsletters">
                     Newsletters
                   </a>
                 </li>
@@ -103,17 +114,18 @@ const Footer = () => {
               </h2>
               <nav class="list-none mb-10">
                 <li>
-                  <a href="/Privacy" className="text-gray-400 cursor-pointer">
+                  <a target="_blank" href="/Privacy" className="text-gray-400 cursor-pointer">
                     Privacy Policy
                   </a>
                 </li>
                 <li>
-                  <a href="/Services" className="text-gray-400 cursor-pointer">
+                  <a target="_blank" href="/Services" className="text-gray-400 cursor-pointer">
                     Live Mentorship T&C
                   </a>
                 </li>
                 <li>
                   <a
+                    target="_blank"
                     exact
                     href="/Guidelines"
                     className="text-gray-400 cursor-pointer"
@@ -123,6 +135,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
+                    target="_blank"
                     exact
                     href="/Refund"
                     className="text-gray-400 cursor-pointer"
@@ -132,6 +145,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
+                    target="_blank"
                     exact
                     href="/Code"
                     className="text-gray-400 cursor-pointer"
@@ -147,19 +161,19 @@ const Footer = () => {
               </h2>
               <nav class="list-none mb-10">
                 <li>
-                  <a href="#" className="text-gray-400 cursor-pointer">
-                    support@gmail.com
+                  <a target="_blank" href="#" className="text-gray-400 cursor-pointer">
+                    support@brainzeo.co
                   </a>
                 </li>
                 <li>
-                  <a href="#">
+                  <a target="_blank" href="#">
                     24, Shreemant Niwas, <br />
                     Jay Bhavani Nagar, Majiwada, <br />
                     Thane(W) - 400601
                   </a>
                 </li>
                 <li>
-                  <a href="#">8828246403</a>
+                  <a target="_blank" href="#">+91 9702841901</a>
                 </li>
               </nav>
             </div>
@@ -170,7 +184,7 @@ const Footer = () => {
             <p class="text-gray-200 text-md text-center sm:text-left">
               © Copyrights 2021 —
               <a
-                href="#"
+                href="https://www.instagram.com/brainzeo/"
                 rel="noopener noreferrer"
                 class="text-gray-400 ml-1"
                 target="_blank"
@@ -180,32 +194,33 @@ const Footer = () => {
             </p>
             <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start footer-medias ">
               <a
+                target="_blank"
                 class="ml-3 mb-3 text-gray-400 footer-media"
                 href="https://www.facebook.com/profile.php?id=100071618354062"
               >
                 <i class="fab fa-facebook-f"></i>
               </a>
               <a
+                target="_blank"
                 class="ml-3 mb-3 text-gray-400 footer-media"
                 href="https://twitter.com/Brain_zeo"
               >
                 <i class="fab fa-twitter"></i>
               </a>
               <a
+                target="_blank"
                 class="ml-3 mb-3 text-gray-400 footer-media"
                 href="https://www.instagram.com/brainzeo/"
               >
                 <i class="fab fa-instagram"></i>
               </a>
               <a
+                target="_blank"
                 class="ml-3 mb-3 text-gray-400 footer-media"
                 href="https://www.linkedin.com/in/brainzeo-edtech-a1805121a/"
               >
                 <i class="fab fa-linkedin-in"></i>
               </a>
-              <a class="ml-3 mb-3 text-gray-400 footer-media" href="#">
-                                <i class="fab fa-tumblr-square"></i>
-                            </a>
             </span>
           </div>
           <ScrollToTop

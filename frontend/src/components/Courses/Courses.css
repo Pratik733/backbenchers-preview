@@ -58,17 +58,17 @@
     color: var(--white);
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1000px) {
     .buttons {
         overflow: scroll;
         align-items: center;
-        justify-content: space-around;
+        justify-content: flex-start;
         padding: .75rem;
-        flex-wrap: wrap;
     }
     .buttons .btn {
         font-size: 10px;
         margin: .25rem;
+        min-width: 150px;
     }
     .item-con {
         width: 325px;
