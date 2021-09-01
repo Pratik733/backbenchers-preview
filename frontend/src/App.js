@@ -19,7 +19,6 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <PopupExample/> 
       <Switch>
         <Route exact path="/" component={Home}/>
         <Route path="/feature" component={Feature}/>
