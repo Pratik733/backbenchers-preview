@@ -14,7 +14,6 @@ import Refund from './components/Footer/Refund'
 import Guidelines from './components/Footer/Guidelines'
 import Code from './components/Footer/Code'
 import Quadrangle from './components/Quadrangle/Quadrangle.js';
-import PopupExample from './components/Popup/popup.js';
 
 function App() {
   return (
