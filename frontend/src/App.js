@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import ReactDOM from 'react-dom';
 import Header from './components/Header/Header.js';
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
@@ -14,11 +14,21 @@ import Refund from './components/Footer/Refund'
 import Guidelines from './components/Footer/Guidelines'
 import Code from './components/Footer/Code'
 import Quadrangle from './components/Quadrangle/Quadrangle.js';
+import Popup from './components/Popup/popup.js'
+import ReactGa from 'react-ga';
+
 
 function App() {
+  useEffect(() => {
+    ReactGa.initialize('G-WY0FQVLVCV')
+
+    ReactGa.pageview(window.location.pathname)
+  })
+
   return (
     <div className="App">
       <Header />
+      <Popup/>
       <Switch>
         <Route exact path="/" component={Home}/>
         <Route path="/feature" component={Feature}/>

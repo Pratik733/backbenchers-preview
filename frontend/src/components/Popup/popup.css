@@ -1,0 +1,103 @@
+.modal {
+    font-size: 12px;
+    background: var(--lightblack);
+    color: var(--white);
+    border-color: var(--cyan);
+    margin: 0px;
+    padding: 1rem;
+}
+
+.modal-container {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.modal-1,
+.modal-2 {
+    padding: 0 10px;
+    margin: 0 .5rem;
+    width: 100%;
+    text-align: left;
+}
+
+.modal-1 img,
+.modal-2 img {
+    width: 100%;
+}
+
+.modal-1 .btn,
+.modal-2 .btn {
+    margin: auto 5rem;
+    text-align: center;
+    width: 50%;
+}
+
+.modal-1 ul {
+    list-style: disc;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.modal .modal-1>.header,
+.modal .modal-2>.header {
+    width: 100%;
+    border-bottom: 1px solid cyan;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 5px;
+    color: var(--cyan);
+    margin-bottom: .5rem;
+}
+
+.modal .modal-1>.content,
+.modal .modal-2>.content {
+    width: 100%;
+    font-size: 12px;
+    padding: 1rem 0;
+}
+
+.modal>.actions {
+    width: 100%;
+    padding: 1rem;
+    margin: auto;
+    text-align: center;
+}
+
+.modal>.close {
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    padding: 2px 5px;
+    line-height: 20px;
+    right: -10px;
+    top: -10px;
+    font-size: 24px;
+    background: var(--lightblack);
+    border-radius: 2rem;
+    border: 1px solid var(--cyan);
+    box-shadow: 0px 3px 55px rgba(255, 255, 255, .5);
+    color: var(--cyan);
+}
+
+.popup-content {
+    background: var(--black);
+    padding: 2px;
+    box-shadow: 0px 3px 75px rgba(0, 255, 255, .15);
+}
+
+@media screen and (max-width: 1000px) {
+    .modal-container {
+        flex-direction: column;
+    }
+    .popup-content {
+        width: 320px;
+        top: 5%;
+    }
+    .modal-2 {
+        display: none;
+    }
+    .modal-1 .btn {
+        margin: auto 3.5rem;
+    }
+}

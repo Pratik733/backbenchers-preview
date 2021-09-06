@@ -287,9 +287,26 @@
             }
         }
     </style>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WY0FQVLVCV"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+            dataLayer.push({
+                event: "gtm.load",
+            })
+        }
+        gtag('js', new Date());
+        gtag('config', 'G-WY0FQVLVCV');
+    </script>
 </head>
 
 <body>
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NP2WZBM"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
     <div id="root">
         <div class="loader">
             <div class="divLoader">
@@ -315,6 +332,7 @@
             </div>
         </div>
     </div>
+
 </body>
 
 </html>

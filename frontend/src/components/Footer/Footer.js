@@ -64,7 +64,7 @@ const Footer = () => {
                     target="_blank"
                     target="_blank"
                     class="text-gray-400"
-                    href="https://braizeo.typeform.com/student-dvlp-pg"
+                    href="https://brainzeo.typeform.com/student-dvlp-pg"
                   >
                     Students Developer Program
                   </a>
