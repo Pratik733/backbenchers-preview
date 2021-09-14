@@ -7,6 +7,7 @@ import eureka from "../assets/images/eureka.gif";
 
 export default () => (
   <div className="container">
+
     <Popup
       modal
       nested

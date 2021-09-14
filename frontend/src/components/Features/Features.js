@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './Features.css'
 import data from './data'
+import { Helmet } from 'react-helmet';
 
 const Features = () => {
   const [items, setItems] = useState([]);
@@ -16,6 +17,11 @@ const Features = () => {
 
   return (
     <div className='features-container'>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Brainzeo | Features</title>
+        <link rel="canonical" href="https://www.brainzeo.co/features" />
+      </Helmet>
       <section class="text-gray-600 body-font">
         <div class="features-container px-5 py-24">
         <div class="flex flex-wrap -m-4">

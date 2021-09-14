@@ -1,9 +1,15 @@
 import React from "react";
 import "./Demo.css";
+import { Helmet } from "react-helmet";
 
 const Demo = () => {
   return (
     <div>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Brainzeo | Beta</title>
+        <link rel="canonical" href="https://www.brainzeo.co/beta" />
+      </Helmet>
       <div className="demo ">
         <div class="demo-container mx-auto flex px-5 py-10 md:flex-row flex-col items-center">
           <div class="demo-contents lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center">

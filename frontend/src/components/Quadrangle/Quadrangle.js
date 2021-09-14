@@ -1,9 +1,15 @@
 import React, { Component } from "react";
 import "./Quadrangle.css";
+import { Helmet } from "react-helmet";
 
 const Quadrangle = () => {
   return (
     <div>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Brainzeo | Quadrangle </title>
+        <link rel="canonical" href="https://www.brainzeo.co/quadrangle" />
+      </Helmet>
       <div className="quad">
         <div className="tip">
           <ul>

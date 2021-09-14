@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.2d0d6a04.chunk.css",
-    "main.js": "/static/js/main.ee89ac1f.chunk.js",
-    "runtime-main.js": "/static/js/runtime-main.3fd81ce6.js",
+    "main.css": "/static/css/main.72c1eea2.chunk.css",
+    "main.js": "/static/js/main.aaecb1ed.chunk.js",
+    "runtime-main.js": "/static/js/runtime-main.53640361.js",
     "static/css/2.37643870.chunk.css": "/static/css/2.37643870.chunk.css",
-    "static/js/2.4535f7a4.chunk.js": "/static/js/2.4535f7a4.chunk.js",
-    "static/js/3.86f7602a.chunk.js": "/static/js/3.86f7602a.chunk.js",
+    "static/js/2.97728298.chunk.js": "/static/js/2.97728298.chunk.js",
+    "static/js/3.bb4842c0.chunk.js": "/static/js/3.bb4842c0.chunk.js",
     "index.html": "/index.html",
-    "static/js/2.4535f7a4.chunk.js.LICENSE.txt": "/static/js/2.4535f7a4.chunk.js.LICENSE.txt",
+    "static/js/2.97728298.chunk.js.LICENSE.txt": "/static/js/2.97728298.chunk.js.LICENSE.txt",
     "static/media/aboutUs.96a75136.gif": "/static/media/aboutUs.96a75136.gif",
     "static/media/betaphase2.01204d46.gif": "/static/media/betaphase2.01204d46.gif",
     "static/media/euphoria.162920fb.png": "/static/media/euphoria.162920fb.png",
@@ -16,10 +16,10 @@
     "static/media/withBrain.d442d96e.png": "/static/media/withBrain.d442d96e.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.3fd81ce6.js",
+    "static/js/runtime-main.53640361.js",
     "static/css/2.37643870.chunk.css",
-    "static/js/2.4535f7a4.chunk.js",
-    "static/css/main.2d0d6a04.chunk.css",
-    "static/js/main.ee89ac1f.chunk.js"
+    "static/js/2.97728298.chunk.js",
+    "static/css/main.72c1eea2.chunk.css",
+    "static/js/main.aaecb1ed.chunk.js"
   ]
 }

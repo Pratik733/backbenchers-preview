@@ -3,6 +3,7 @@ import items from './allData';
 import Menu from './Menu';
 import Button from './Button';
 import './Courses.css'
+import { Helmet } from 'react-helmet';
 
 const allCategories = ['All', ...new Set(items.map(item => item.category))];
 
@@ -26,10 +27,16 @@ function Courses() {
 
   return (
     <div className="Courses">
+       <Helmet>
+        <meta charSet="utf-8" />
+        <title>Brainzeo | Courses </title>
+        <meta name="description" content="Brainzeo | Courses" />
+        <link rel="canonical" href="https://www.brainzeo.co/courses" />
+      </Helmet>
       <Button button={buttons} filter={filter} />
        <Menu menuItem={menuItem}/>
     </div>
   );
 }
-
+ 
 export default Courses
