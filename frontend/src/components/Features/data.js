@@ -56,7 +56,7 @@ export default [{
         content: 'Brainzeo allows every single learner to be matched with a personal mentor. Mentors guide you along the way and help you overcome hurdles. With enough progress, a learner can become a mentor too, restarting the virtuous cycle.'
     }, {
         id: 12,
-        src: 'https://ik.imagekit.io/lmsl6c7voys/coins_CCygNoi4Et4.gif?updatedAt=1629030467565',
+        src: 'https://firebasestorage.googleapis.com/v0/b/brainzeo-a7b71.appspot.com/o/eucoins.gif?alt=media&token=aceaf648-3342-4ed8-b705-508ae4439dfd',
         title: '🤑 | EU Coins',
         content: 'An all-new activity-based GPA system that grades you depending on your activity on the platform. Learn, share and discuss your knowledge on the platform and get rewarded with EU points that increase your likelihood of getting placed. Technology has evolved. Resumes? Not so much. Show the world what you’ve got!'
     }, {

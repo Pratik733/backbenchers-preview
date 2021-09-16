@@ -1,9 +1,15 @@
 import React from 'react';
 import './Footer.css'
+import { Helmet } from 'react-helmet';
 
 const Privacy = () => {
     return (
         <div className="lg:px-20 lg:py-16 md:px-10 md:py-8 py-4 pb-8 px-8 bg-black">
+                  <Helmet>
+        <meta charSet="utf-8" />
+        <title>Brainzeo | Privacy Policy</title>
+        <link rel="canonical" href="https://www.brainzeo.co/Privacy" />
+      </Helmet>
             <div className="footer-container py-4 mx-auto">
                 <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
                     <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-cyan">Privacy Policy</h1>

@@ -1,12 +1,18 @@
 import React from 'react';
 import './Footer.css'
+import { Helmet } from 'react-helmet';
 
 const Guidelines = () => {
     return (
         <div className="lg:px-20 lg:py-16 md:px-10 pb-8 px-8 bg-black">
+                  <Helmet>
+        <meta charSet="utf-8" />
+        <title>Brainzeo | Terms & Conditions</title>
+        <link rel="canonical" href="https://www.brainzeo.co/guidelines" />
+      </Helmet>
             <div className="footer-container py-4 mx-auto">
                 <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
-                    <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-cyan">Guidelines</h1>
+                    <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-cyan">Terms & Conditions</h1>
                     <div className="h-1 w-20 bg-cyan rounded"></div>
                 </div>
             </div>
