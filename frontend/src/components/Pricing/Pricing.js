@@ -9,7 +9,7 @@ const Pricing = () => {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Brainzeo | Pricing</title>
-        <link rel="canonical" href="https://www.brainzeo.co/pricing" />
+        <link rel="canonical" href="https://www.brainzeo.tech/pricing" />
       </Helmet>
       <div class="flex flex-wrap w-full mt-8 flex-col items-center text-center">
         <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 ">1:1 Niche Development</h1>

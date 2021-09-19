@@ -48,8 +48,8 @@ function App() {
           name="og:keywords"
           content="Brainzeo, brainzeo, brainzeo edtech, Anwesh Biswas, Ashutosh Yadav, Mainak Saha, Akanksha Wagh, Gamified Learning,  Gamified Learning Platform, Digital University, rote learning, meme cheatsheet, meme based learning, collaborative learning, euphoria, quadrangle, brainzquad,"
         />
-        <link rel="canonical" href="https://www.brainzeo.co/" />
-        <link rel="icon" href="" />
+        <link rel="canonical" href="https://www.brainzeo.tech/" />
+        <link rel="icon" href="./" />
       </Helmet>
       <Header />
       <Popup />

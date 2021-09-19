@@ -8,7 +8,7 @@ const Quadrangle = () => {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Brainzeo | Quadrangle </title>
-        <link rel="canonical" href="https://www.brainzeo.co/quadrangle" />
+        <link rel="canonical" href="https://www.brainzeo.tech/quadrangle" />
       </Helmet>
       <div className="quad">
         <div className="tip">

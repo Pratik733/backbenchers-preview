@@ -18,7 +18,7 @@ export default class Home extends Component {
         <Helmet>
           <meta charSet="utf-8" />
           <title>Brainzeo</title>
-          <link rel="canonical" href="https://www.brainzeo.co/home" />
+          <link rel="canonical" href="https://www.brainzeo.tech/home" />
         </Helmet>
         <div className="particle-container">
           <Particles

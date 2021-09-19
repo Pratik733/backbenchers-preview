@@ -8,7 +8,7 @@ const Demo = () => {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Brainzeo | Beta</title>
-        <link rel="canonical" href="https://www.brainzeo.co/beta" />
+        <link rel="canonical" href="https://www.brainzeo.tech/beta" />
       </Helmet>
       <div className="demo ">
         <div class="demo-container mx-auto flex px-5 py-10 md:flex-row flex-col items-center">

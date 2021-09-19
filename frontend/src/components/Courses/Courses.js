@@ -31,7 +31,7 @@ function Courses() {
         <meta charSet="utf-8" />
         <title>Brainzeo | Courses </title>
         <meta name="description" content="Brainzeo | Courses" />
-        <link rel="canonical" href="https://www.brainzeo.co/courses" />
+        <link rel="canonical" href="https://www.brainzeo.tech/courses" />
       </Helmet>
       <Button button={buttons} filter={filter} />
        <Menu menuItem={menuItem}/>

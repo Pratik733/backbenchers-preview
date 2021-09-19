@@ -20,7 +20,7 @@ const Features = () => {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Brainzeo | Features</title>
-        <link rel="canonical" href="https://www.brainzeo.co/features" />
+        <link rel="canonical" href="https://www.brainzeo.tech/features" />
       </Helmet>
       <section class="text-gray-600 body-font">
         <div class="features-container px-5 py-24">

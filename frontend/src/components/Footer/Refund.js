@@ -7,7 +7,7 @@ const REfund = () => {
                   <Helmet>
         <meta charSet="utf-8" />
         <title>Brainzeo | Refund Policy</title>
-        <link rel="canonical" href="https://www.brainzeo.co/Refund" />
+        <link rel="canonical" href="https://www.brainzeo.tech/Refund" />
       </Helmet>
             <div className="footer-container py-4 mx-auto">
                 <div className="lg:w-1/2 w-full mb-6 lg:mb-0">

@@ -7,7 +7,7 @@ const Code = () => {
                   <Helmet>
         <meta charSet="utf-8" />
         <title>Brainzeo | Code of Conduct</title>
-        <link rel="canonical" href="https://www.brainzeo.co/code" />
+        <link rel="canonical" href="https://www.brainzeo.tech/code" />
       </Helmet>
             <div className="footer-container py-4 mx-auto">
                 <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
