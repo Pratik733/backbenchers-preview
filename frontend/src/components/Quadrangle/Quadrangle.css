@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
 .quad {
-    background: black;
+    background: #fff;
     height: 90vh;
     position: relative;
 }
@@ -42,7 +42,7 @@
     position: relative;
     height: 80px;
     width: 80px;
-    background: #18191f;
+    background: var(--black);
     color: cyan;
     display: flex;
     display: flex;
@@ -52,7 +52,7 @@
     cursor: pointer;
     margin: 0 4px;
     border-radius: 20px;
-    box-shadow: -1px -1px 4px rgba(255, 255, 255, 0.05), 4px 4px 6px rgba(0, 0, 0, 0.2), inset -1px -1px 4px rgba(255, 255, 255, 0.05), inset 1px 1px 1px rgba(0, 0, 0, 0.1);
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.2), inset -1px -1px 4px rgba(255, 255, 255, 0.05);
     animation: glow 1.5s linear infinite;
 }
 
@@ -75,6 +75,8 @@
         top: 35%;
         transform: translate(0px, 0px);
         flex-direction: column;
+        background: transparent;
+        box-shadow: none;
     }
     .quad div {
         font-size: 1rem;

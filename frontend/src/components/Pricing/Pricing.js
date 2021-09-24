@@ -4,15 +4,15 @@ import InfoIcon from '@material-ui/icons/Info';
 import { Helmet } from 'react-helmet';
 
 const Pricing = () => {
-  return (
+  return ( 
     <div>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Brainzeo | Pricing</title>
-        <link rel="canonical" href="https://www.brainzeo.tech/pricing" />
+        <title>GenieGradz | Pricing</title>
+        <link rel="canonical" href="https://geniegradz.com/pricing" />
       </Helmet>
       <div class="flex flex-wrap w-full mt-8 flex-col items-center text-center">
-        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 ">1:1 Niche Development</h1>
+        <h1 class="sm:text-3xl text-2xl font-medium title-font mt-24 mb-2 ">1:1 Niche Development</h1>
         <div class="h-1 w-72 bg-cyan rounded"></div>
       </div>
       <div className="pricing-container">

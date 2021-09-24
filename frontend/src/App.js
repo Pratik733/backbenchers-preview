@@ -17,10 +17,11 @@ import Quadrangle from "./components/Quadrangle/Quadrangle.js";
 import Popup from "./components/Popup/popup.js";
 import ReactGa from "react-ga";
 import { Helmet } from "react-helmet";
+import CourseDetail from "./components/Courses/CourseDetail.js";
 
 function App() {
   useEffect(() => {
-    ReactGa.initialize("G-WY0FQVLVCV");
+    ReactGa.initialize("G-STCLDV2R09");
 
     ReactGa.pageview(window.location.pathname);
   });
@@ -30,26 +31,25 @@ function App() {
       <Helmet
       >
         <title lang="en">
-          Brainzeo
+          GenieGradz
         </title>
         <meta charSet="utf-8" />
-        <meta name="title" content="Brainzeo" />
-        <meta name="description" content="Brainzeo, is a gamified learning platform, which focuses on helping students and exploring new career options, along with niche management" />
-        <meta property="og:title" content="Brainzeo" />
+        <meta name="title" content="GenieGradz" />
+        <meta name="description" content="GenieGradz, is a gamified learning platform, which focuses on helping students and exploring new career options, along with niche management" />
+        <meta property="og:title" content="GenieGradz" />
         <meta
           name="keywords"
-          content="Brainzeo, brainzeo, brainzeo edtech, Anwesh Biswas, Ashutosh Yadav, Mainak Saha, Akanksha Wagh, Gamified Learning,  Gamified Learning Platform, Digital University, rote learning, meme cheatsheet, meme based learning, collaborative learning, euphoria, quadrangle, brainzquad,"
+          content="GenieGradz, Geniegradz, GenieGradz edtech, geniegradz, Anwesh Biswas GenieGradz, Ashutosh Yadav, Mainak Saha, Akanksha Wagh, Gamified Learning,  Gamified Learning Platform, Digital University, rote learning, meme cheatsheet, meme based learning, collaborative learning, euphoria, quadrangle, brainzquad,"
         />
         <meta
           property="og:description"
-          content="Brainzeo, is a gamified learning platform, which focuses on helping students and exploring new career options, along with niche management"
+          content="GenieGradz, is a gamified learning platform, which focuses on helping students and exploring new career options, along with niche management"
         />
         <meta
           name="og:keywords"
-          content="Brainzeo, brainzeo, brainzeo edtech, Anwesh Biswas, Ashutosh Yadav, Mainak Saha, Akanksha Wagh, Gamified Learning,  Gamified Learning Platform, Digital University, rote learning, meme cheatsheet, meme based learning, collaborative learning, euphoria, quadrangle, brainzquad,"
+          content="GenieGradz, Geniegradz, GenieGradz Edtech, geniegradz, Brainzeo, brainzeo, Anwesh Biswas, Ashutosh Yadav, Mainak Saha, Akanksha Wagh, Gamified Learning, Anwesh Biswas GenieGradz,  Gamified Learning Platform, Digital University, rote learning, meme cheatsheet, meme based learning, collaborative learning, euphoria, quadrangle, brainzquad,"
         />
-        <link rel="canonical" href="https://www.brainzeo.tech/" />
-        <link rel="icon" href="./" />
+        <link rel="canonical" href="https://geniegradz.com/" />
       </Helmet>
       <Header />
       <Popup />
@@ -59,6 +59,7 @@ function App() {
         <Route path="/pricing" component={Pricing} />
         <Route path="/beta" component={Demo} />
         <Route path="/courses" component={Courses} />
+        <Route path='/coursedetails' component={CourseDetail} ></Route>
         <Route path="/privacy" component={Privacy} />
         <Route path="/services" component={Services} />
         <Route path="/code" component={Code} />

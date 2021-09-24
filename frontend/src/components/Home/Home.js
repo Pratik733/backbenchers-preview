@@ -7,9 +7,9 @@ import Uniqueness from "./Uniqueness";
 import ReactTypingEffect from "react-typing-effect";
 import aboutUs from "../assets/images/aboutUs.gif";
 import euphoria from "../assets/images/euphoria.png";
-import nobrain from "../assets/images/nobrain.png";
-import withBrain from "../assets/images/withBrain.png";
+import genie from "../assets/images/genie.png";
 import { Helmet } from "react-helmet";
+import Testimonial from "./Testimonial";
 
 export default class Home extends Component {
   render() {
@@ -17,8 +17,8 @@ export default class Home extends Component {
       <div className="home-container">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Brainzeo</title>
-          <link rel="canonical" href="https://www.brainzeo.tech/home" />
+          <title>GenieGradz</title>
+          <link rel="canonical" href="https://geniegradz.com/" />
         </Helmet>
         <div className="particle-container">
           <Particles
@@ -56,7 +56,7 @@ export default class Home extends Component {
                   random: false,
                   anim: {
                     enable: false,
-                    speed: 100,
+                    speed: 2000,
                     opacity_min: 0.1,
                     sync: false,
                   },
@@ -66,23 +66,23 @@ export default class Home extends Component {
                   random: true,
                   anim: {
                     enable: false,
-                    speed: 1500,
+                    speed: 2000,
                     size_min: 10,
                     sync: false,
                   },
                 },
                 line_linked: {
                   enable: true,
-                  distance: 100,
+                  distance: 75,
                   color: {
-                    value: "#fff",
+                    value: "#333",
                   },
                   opacity: 0.5,
                   width: 0.8,
                 },
                 move: {
                   enable: true,
-                  speed: 3,
+                  speed: 5,
                   direction: "none",
                   random: false,
                   straight: false,
@@ -118,7 +118,6 @@ export default class Home extends Component {
           />
           <div className="main">
             <div className="typing">
-              <img src={nobrain} alt="" />
               <ReactTypingEffect
                 className="typingEffect"
                 text={[
@@ -132,7 +131,11 @@ export default class Home extends Component {
                 eraseSpeed={40}
                 typingDelay={40}
                 eraseDelay={40}
+                cursor=" "
               />
+            </div>
+            <div className="genie">
+              <img src={genie} alt="" />
             </div>
           </div>
         </div>
@@ -145,7 +148,6 @@ export default class Home extends Component {
           </div>
           <Uniqueness />
         </div>
-
         <div className="features">
           <section class="text-gray-600 body-font">
             <div class="feature-container py-24 mx-auto">
@@ -203,6 +205,9 @@ export default class Home extends Component {
             <img src={euphoria} alt="" />
             <button className="btn">Coming Soon ...</button>
           </div>
+        </div>
+        <div className="testimonials-1">
+          <Testimonial />
         </div>
       </div>
     );

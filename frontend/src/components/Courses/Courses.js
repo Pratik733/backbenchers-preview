@@ -15,7 +15,7 @@ function Courses() {
 
   //Filter Function
   const filter = (button) =>{
-
+ 
     if(button === 'All'){
       setMenuItem(items);
       return;
@@ -28,13 +28,15 @@ function Courses() {
   return (
     <div className="Courses">
        <Helmet>
-        <meta charSet="utf-8" />
-        <title>Brainzeo | Courses </title>
-        <meta name="description" content="Brainzeo | Courses" />
-        <link rel="canonical" href="https://www.brainzeo.tech/courses" />
+        <meta charSet="utf-8" /> 
+        <title>GenieGradz | Courses </title>
+        <meta name="description" content="GenieGradz | Courses" />
+        <link rel="canonical" href="https://geniegradz.com/courses" />
       </Helmet>
+      <div className="container-course">
       <Button button={buttons} filter={filter} />
        <Menu menuItem={menuItem}/>
+      </div>
     </div>
   );
 }

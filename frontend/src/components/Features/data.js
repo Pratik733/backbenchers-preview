@@ -53,7 +53,7 @@ export default [{
         id: 11,
         src: 'https://ik.imagekit.io/lmsl6c7voys/mentorship_DYte5uF1k3_p.gif?updatedAt=1629030446235',
         title: '👩‍💼 | Euphoria Mentorships',
-        content: 'Brainzeo allows every single learner to be matched with a personal mentor. Mentors guide you along the way and help you overcome hurdles. With enough progress, a learner can become a mentor too, restarting the virtuous cycle.'
+        content: 'GenieGradz allows every single learner to be matched with a personal mentor. Mentors guide you along the way and help you overcome hurdles. With enough progress, a learner can become a mentor too, restarting the virtuous cycle.'
     }, {
         id: 12,
         src: 'https://firebasestorage.googleapis.com/v0/b/brainzeo-a7b71.appspot.com/o/eucoins.gif?alt=media&token=aceaf648-3342-4ed8-b705-508ae4439dfd',

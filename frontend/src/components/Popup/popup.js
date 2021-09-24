@@ -6,13 +6,13 @@ import betaphase from "../assets/images/betaphase2.gif";
 import eureka from "../assets/images/eureka.gif";
 
 export default () => (
-  <div className="container">
 
+  <div className="container">
     <Popup
       modal
       nested
       defaultOpen='true'
-      closeOnDocumentClick= 'false'
+      closeOnDocumentClick= 'true'
       closeOnEscape='false'
       lockScroll='true'      
     >

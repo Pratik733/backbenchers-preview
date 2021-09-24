@@ -1,8 +1,7 @@
 .modal {
     font-size: 12px;
-    background: var(--lightblack);
+    background: linear-gradient(var(--violet), var(--purple));
     color: var(--white);
-    border-color: var(--cyan);
     margin: 0px;
     padding: 1rem;
 }
@@ -31,6 +30,9 @@
     margin: auto 5rem;
     text-align: center;
     width: 50%;
+    border-color: transparent;
+    color: white;
+    background: radial-gradient(var(--purple), var(--blue));
 }
 
 .modal-1 ul {
@@ -42,11 +44,11 @@
 .modal .modal-1>.header,
 .modal .modal-2>.header {
     width: 100%;
-    border-bottom: 1px solid cyan;
+    border-bottom: 2px solid white;
     font-size: 1.5rem;
     text-align: center;
     padding: 5px;
-    color: var(--cyan);
+    color: var(--white);
     margin-bottom: .5rem;
 }
 
@@ -73,17 +75,18 @@
     right: -10px;
     top: -10px;
     font-size: 24px;
-    background: var(--lightblack);
+    background: var(--violet);
     border-radius: 2rem;
-    border: 1px solid var(--cyan);
+    border: 1px solid var(--white);
     box-shadow: 0px 3px 55px rgba(255, 255, 255, .5);
-    color: var(--cyan);
+    color: var(--white);
 }
 
 .popup-content {
-    background: var(--black);
+    background: var(--violet);
+    border: none;
     padding: 2px;
-    box-shadow: 0px 3px 75px rgba(0, 255, 255, .15);
+    box-shadow: 0px 3px 75px rgba(0, 0, 0, .15);
 }
 
 @media screen and (max-width: 1000px) {

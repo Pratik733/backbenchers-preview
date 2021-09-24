@@ -16,9 +16,9 @@
 }
 
 #particlejs {
-    background: var(--black);
+    background: white;
     width: 100%;
-    height: 90vh;
+    height: 100vh;
 }
 
 .container-hero {
@@ -47,13 +47,19 @@
 }
 
 .main .typing {
-    width: 90%;
-    margin: 1rem auto;
+    width: 40%;
+    margin: auto;
     position: absolute;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
+    left: 10%;
+    text-align: left;
+}
+
+.main .genie {
+    position: absolute;
+    top: 16%;
+    right: 5%;
+    width: 40%;
 }
 
 .typingEffect {
@@ -147,13 +153,17 @@
     text-align: left;
     font-family: 'Righteous', cursive;
     line-height: 1;
+    color: #333;
+}
+
+.typing h1 span {
+    color: var(--purple);
 }
 
 .typingEffect {
     font-size: 2rem;
     width: 100%;
     margin: auto;
-    color: var(--cyan);
 }
 
 .btn {
@@ -173,7 +183,8 @@
 }
 
 .bg-cyan {
-    background: var(--cyan);
+    background: linear-gradient(45deg, var(--yellow), var(--violet), var(--purple));
+    border-radius: 2rem;
 }
 
 .aboutUs {
@@ -212,11 +223,19 @@
 }
 
 .accord {
+    max-width: 1300px;
+    margin: auto;
     width: 100%;
     display: flex;
     align-items: baseline;
     justify-content: space-around;
     padding-bottom: 5rem;
+}
+
+.accord .container {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
 }
 
 .accordion {
@@ -260,11 +279,18 @@
 
 .features {
     padding: 0rem;
-    background: #222;
+    background: #fff;
 }
 
 .features h1 {
-    color: var(--white);
+    color: var(--black);
+}
+
+.feature-container,
+.about-container {
+    max-width: 1300px;
+    width: 100%;
+    margin: auto;
 }
 
 .cards-slider {
@@ -297,7 +323,7 @@
     width: 100%;
     display: flex;
     align-items: center;
-    box-shadow: 0px 3px 55px rgba(0, 0, 0, .15);
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, .1);
     transition: all .5s ease;
     border: none;
     background: var(--white);
@@ -305,7 +331,7 @@
 }
 
 .card-item:hover {
-    box-shadow: 0px 3px 55px rgba(0, 0, 0, .5);
+    box-shadow: 0px 3px 20px rgba(0, 0, 0, .15);
 }
 
 .card .title {
@@ -336,11 +362,11 @@
 }
 
 .swiper-pagination-bullet {
-    background: var(--white)!important;
+    background: var(--purple)!important;
 }
 
 .swiper-pagination-bullet.swiper-pagination-bullet-active {
-    background: var(--cyan)!important;
+    background: linear-gradient(45deg, var(--yellow), var(--violet), var(--purple))!important;
 }
 
 .slider-btn {
@@ -381,18 +407,22 @@
 }
 
 .bvc {
-    background: black;
-    border-top: 2px dotted var(--cyan);
+    background: white;
     padding: 1rem 0;
-    color: white;
+    color: black;
+}
+
+.bvc img {
+    margin: 2rem auto;
 }
 
 .bvc h3 {
     font-size: 24px;
+    font-weight: bold;
 }
 
 .bvc h3 span {
-    color: var(--cyan);
+    color: var(--purple);
 }
 
 .bvc div {
@@ -405,22 +435,20 @@
     flex-direction: column;
 }
 
-.text-cyan {
-    color: var(--cyan);
-}
-
 .bvc .btn {
     background: transparent;
-    color: var(--cyan);
-    border: 2px solid var(--cyan);
-    transition: all .2s linear;
+    color: var(--purple);
+    border: 2px solid var(--purple);
+    transition: .2s;
+    font-weight: bold;
+    box-shadow: 0px 3px 55px rgba(255, 0, 251, 0.15);
 }
 
 .bvc .btn:hover {
-    background: var(--cyan);
-    color: var(--black);
-    border: 2px solid var(--black);
-    transition: all .2s linear;
+    background: linear-gradient(45deg, var(--purple), var(--violet));
+    color: var(--white);
+    border: 2px solid transparent;
+    box-shadow: 0px 3px 55px rgba(255, 0, 187, 0.23);
 }
 
 .bg-custom {
@@ -429,6 +457,34 @@
 
 footer .img-header {
     width: 150px;
+}
+
+.testimonials-1 {
+    height: 60vh;
+}
+
+.testimonials-1 .swiper-container {
+    height: 25rem !important;
+}
+
+.testimonials-1 .swiper-pagination-bullet {
+    bottom: 10px;
+    background: var(--orange) !important;
+}
+
+.testimonials-1 .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background: var(--orange);
+}
+
+.test-item {
+    margin: 0rem auto;
+    padding: 1rem;
+    height: 360px;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
 }
 
 @media screen and (max-width: 1000px) {
@@ -442,6 +498,9 @@ footer .img-header {
         background: var(--white)!important;
         width: 100%;
     }
+    .main .genie {
+        width: auto;
+    }
     .main div {
         padding: 5px;
         width: 90%;
@@ -449,6 +508,11 @@ footer .img-header {
         top: 15%;
         margin: 1rem;
         transform: translate(0, 0);
+    }
+    .main .typing {
+        width: 80%;
+        margin: 2rem auto;
+        margin-top: 5rem;
     }
     .typing {
         display: flex;
@@ -463,11 +527,11 @@ footer .img-header {
     .typing .typingEffect {
         padding: 0px;
         margin: 0rem;
-        font-size: 1rem;
+        font-size: 18px;
         width: 100%;
         text-align: left;
         margin: auto;
-        color: var(--cyan)!important;
+        color: var(--black)!important;
     }
     .typingEffect div {
         margin: 0;
@@ -486,7 +550,7 @@ footer .img-header {
     .uniqueness h1 {
         margin-bottom: 1rem;
     }
-    .accord {
+    .accord .container {
         flex-direction: column;
         padding: 0;
         margin: 0;
@@ -554,6 +618,16 @@ footer .img-header {
         padding: 1rem;
         transform: translate(0, 0);
     }
+    .testimonials-1 {
+        height: 100vh;
+    }
+    .testimonials-1 .swiper-container {
+        height: 100vh !important;
+        width: 100%;
+    }
+    .test-item {
+        width: 100%;
+    }
     footer .container {
         padding: 3rem 0;
     }
@@ -565,9 +639,6 @@ footer .img-header {
     }
     .aboutUs {
         height: auto;
-    }
-    .about-container {
-        margin: 1rem 2.75rem;
     }
     .bvc {
         height: 90vh;

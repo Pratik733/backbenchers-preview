@@ -65,7 +65,8 @@ const Uniqueness = () => {
 
     return (
         <div className='accord'>
-            <div className="accordion">
+          <div class="container">
+          <div className="accordion">
                 {accordionData1.map(({title1, content1}) => (
                     <Accord title={title1} content ={content1} />
                 ))}
@@ -75,6 +76,7 @@ const Uniqueness = () => {
                     <Accord title={title2} content ={content2} />
                 ))}
             </div>
+          </div>
         </div>
     );
 }

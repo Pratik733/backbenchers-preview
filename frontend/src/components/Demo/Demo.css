@@ -1,5 +1,9 @@
 .demo {
-    background: linear-gradient(-70deg, cyan 30%, #202020 30%);
+    background: transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
 }
 
 @media only screen and (max-width: 760px) {
@@ -8,9 +12,51 @@
     }
 }
 
-.demo-container {
-    width: 75%!important;
+.fields {
+    width: 100%;
+}
+
+.demo h1 {
+    text-align: center;
+}
+
+.field-img {
+    width: 50%;
     margin: auto;
+}
+
+.field-list {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 75%;
+    justify-content: space-around;
+    padding: 1rem;
+    margin: auto;
+}
+
+.field {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.15);
+    border-radius: .3rem;
+}
+
+.demo-container {
+    max-width: 1300px;
+    margin: 2rem auto;
+    margin-bottom: 0;
+}
+
+.demo-container p {
+    text-align: center;
+    width: 100%;
 }
 
 .subscription-fee {
@@ -24,12 +70,36 @@
     text-align: left;
 }
 
+.course-feat {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.subs-price-1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 1rem 0;
+}
+
+.course-feat li {
+    padding: 1rem;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.15);
+    margin: 1rem;
+    width: 275px;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
 .price-list li:nth-child(2n+1) {
     background: transparent;
 }
 
 .price-list li {
-    color: #bbb7b7;
     border-bottom: 1px dotted rgba(134, 134, 134, 0.2);
     margin-bottom: 5px;
     display: flex;
@@ -40,10 +110,6 @@
 
 .fa-check-circle {
     font-size: 14px;
-}
-
-.cyan {
-    color: cyan;
 }
 
 .btn {
@@ -61,22 +127,42 @@
 .btn-link {
     padding: 4px 16px;
     font-weight: normal;
-    border-radius: .25rem .75rem !important;
-    background: lightcyan;
-    color: black;
+    border-radius: 1rem !important;
+    background: linear-gradient(45deg, var(--orange), var(--violet));
+    color: white;
+    transition: .5s;
+}
+
+.group-heading {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 1rem;
 }
 
 .btn-link:hover {
-    border-radius: .25rem .75rem;
     color: #fff;
-    background: darkcyan;
+    background: linear-gradient(-45deg, var(--orange), var(--violet));
 }
 
-.price-list-1 li {
-    padding: .5rem 0;
+.price-list-1 {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.price-list-1 .subs {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    text-align: center;
+    margin: 2rem auto;
+    width: 250px;
+    height: 250px;
+    box-shadow: 0px 3px 25px rgba(0, 0, 0, 0.15);
 }
 
 .bn3637 {
@@ -99,9 +185,13 @@
 }
 
 @media screen and (max-width: 1000px) {
+    .demo {
+        background: white;
+    }
     .demo-container {
         width: 100%!important;
         margin: .25rem!important;
+        margin-top: 3rem!important;
     }
     .demo-container p,
     .demo-container h1 {
@@ -121,5 +211,8 @@
     }
     .subs-price {
         margin: 1rem 0;
+    }
+    .field-list {
+        flex-direction: column;
     }
 }

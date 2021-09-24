@@ -4,20 +4,20 @@ import { Helmet } from 'react-helmet';
 
 const Guidelines = () => {
     return (
-        <div className="lg:px-20 lg:py-16 md:px-10 pb-8 px-8 bg-black">
+        <div className="container lg:px-20 lg:py-16 md:px-10 pb-8 px-8">
                   <Helmet>
         <meta charSet="utf-8" />
-        <title>Brainzeo | Terms & Conditions</title>
-        <link rel="canonical" href="https://www.brainzeo.tech/guidelines" />
+        <title>GenieGradz | Terms & Conditions</title>
+        <link rel="canonical" href="https://geniegradz.com/guidelines" />
       </Helmet>
-            <div className="footer-container py-4 mx-auto">
+            <div className="footer-container py-4 mx-auto mt-12">
                 <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
                     <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-cyan">Terms & Conditions</h1>
                     <div className="h-1 w-20 bg-cyan rounded"></div>
                 </div>
             </div>
-            <div className="leading-8 text-gray-100">
-                    <p>We at Brainzeo strive to ensure that our Users have a conducive learning and teaching environment,
+            <div className="leading-8 ">
+                    <p>We at GenieGradz strive to ensure that our Users have a conducive learning and teaching environment,
                         which includes interactions between the Users to allow the flow of knowledge and exchange of ideas.</p>
                     <p>Keeping the interactive nature of the Platform in mind it is essential to ensure that the Platform is not
                         misused in any way that would warrant any User having a less than amazing experience and following the
@@ -25,13 +25,13 @@ const Guidelines = () => {
                         feel is inappropriate, and we have provided means by which you can report or flag such content, but do keep in
                         mind that the reporting option should be used judiciously and if you have any doubts, i.e. if the content is
                         inappropriate please go through the guidelines to make an informed decision.</p>
-                    <p>Additionally, these guidelines are to be read along with all the other policies on the Brainzeo
+                    <p>Additionally, these guidelines are to be read along with all the other policies on the GenieGradz
                         platform including but not limited to our Terms and Conditions and Privacy Policy</p>
                     <ol className="list-decimal">
                         <li>
                             <h4 className="lg:text-2xl md:text-2xl text-xl font-medium py-4">Guidelines for acts and content that are prohibited</h4>
                             <p>
-                                <strong>Harmful or dangerous content</strong>: We at Brainzeo believe the Platform is a safe
+                                <strong>Harmful or dangerous content</strong>: We at GenieGradz believe the Platform is a safe
                                 space for learners and
                                 educators alike and would like your help in ensuring that it remains so. Keeping this in mind any content
                                 that
@@ -50,7 +50,7 @@ const Guidelines = () => {
                                 inciting hatred against specific individuals or groups with respect to but not limited to race or ethnic
                                 origin, country caste, religion, disability, gender, age, sexual orientation/gender identity, etc.
                             </p>
-                            <p> <strong>Harassment and bullying</strong>: Brainzeo Platform is used by many users on a daily
+                            <p> <strong>Harassment and bullying</strong>: GenieGradz Platform is used by many users on a daily
                                 basis and it is important to be respectful and kind to your fellow users, we do not tolerate any form of
                                 harassment or bullying on the Platform and strive to keep the Platform a safe space to foster learning.
                                 Harassment, in this case, would include but not be limited to abusive videos, comments, messages,
@@ -64,7 +64,7 @@ const Guidelines = () => {
                                 third-party
                                 sites are in direct violation of our Terms and Conditions. Posting links to external websites with malware
                                 and other prohibited sites is not allowed. The use or launch of any automated system in any manner that
-                                sends more request messages to Brainzeo’S servers in a given period of time that is more than a
+                                sends more request messages to GenieGradz’S servers in a given period of time that is more than a
                                 human can reasonably produce using a conventional online web browser is prohibited and you can take a look
                                 at our Terms and Conditions for more details on the same including exceptions to this prohibition to
                                 public
@@ -76,10 +76,10 @@ const Guidelines = () => {
                             <p><strong>Scams</strong>: Any content uploaded/posted in order to trick others for their own financial gain
                                 is
                                 not allowed and
-                                we at Brainzeo do not tolerate any practices of extortion or blackmail either.</p>
+                                we at GenieGradz do not tolerate any practices of extortion or blackmail either.</p>
                             <p><strong>Copyright</strong>: Please refer to our copyright
                                 policy provided in our Terms and Conditions to
-                                know more about proprietary information relating to User Content and Brainzeo Content.
+                                know more about proprietary information relating to User Content and GenieGradz Content.
                                 Privacy violation: Kindly refer to our Privacy Policy given here to know how to protect your privacy and
                                 respect the privacy of other users. If you believe that your privacy has been violated in any manner where
                                 a
@@ -90,20 +90,20 @@ const Guidelines = () => {
                                 to remove the content.
                             </p>
                             <p><strong>Impersonation</strong>: Impersonating another person is not permitted while using the
-                                BACKBENCHERS
-                                EDTECH Platform. In this case, impersonation would mean the intention to cause confusion regarding who the
+                                GenieGradz
+                                Edtech Platform. In this case, impersonation would mean the intention to cause confusion regarding who the
                                 real person is by pretending to be them. This can be done by means of using names, images, documents,
                                 certificates, etc. not belonging to you or not used to identify you. Pretending to be a company,
                                 institute,
                                 group, etc. by using their logo, brand name or any distinguishing mark would also amount to impersonation
                                 and could also be a potential trademark infringement.</p>
-                            <p> <strong>Interaction with Brainzeo</strong>: At Brainzeo offices we treat each
+                            <p> <strong>Interaction with GenieGradz</strong>: At GenieGradz offices we treat each
                                 other
                                 with respect and have a healthy and supportive work environment. We believe in hands-on interaction with
                                 our
                                 users to help them navigate and gain the maximum benefit from the platform. Should you find yourselves
-                                interacting with any person from Brainzeo please ensure that you maintain the same decorum you
-                                would while using this Platform. We do not encourage any communication with Brainzeo employees
+                                interacting with any person from GenieGradz please ensure that you maintain the same decorum you
+                                would while using this Platform. We do not encourage any communication with GenieGradz employees
                                 or
                                 staff that is hateful, abusive, or sexually suggestive in any manner.</p>
                         </li>
@@ -156,7 +156,7 @@ const Guidelines = () => {
                                 trademark of such person might have been infringed. If we receive any complaints or reports regarding the
                                 same, we may remove the content, if supported with relevant evidence.
                                 If you are a trademark or copyright owner and believe that your intellectual property right is being
-                                infringed, please note that you have the option of reporting the same. However, Brainzeo is not
+                                infringed, please note that you have the option of reporting the same. However, GenieGradz is not
                                 in a position where they can mediate such disputes and we disclaim any liability for the same. If we
                                 receive
                                 an infringement complaint that is genuine, we may remove the content in question and serve a warning to
@@ -174,7 +174,7 @@ const Guidelines = () => {
                                 date is clearly identifiable.</p>
                             <p>In the event, a fellow user harasses you or you believe that someone is being harassed on the platform
                                 you
-                                can report the user or content. You may even write to us at help@Brainzeo.com for any further
+                                can report the user or content. You may even write to us at help@GenieGradz.com for any further
                                 help or assistance.</p>
 
                         </li>
