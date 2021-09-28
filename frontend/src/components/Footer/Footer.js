@@ -3,6 +3,8 @@ import logoFinal from "../assets/images/logoFinal.jpg";
 import "./Footer.css";
 import ScrollToTop from "react-scroll-to-top";
 import { FaChevronUp } from "react-icons/fa";
+import { Widget, PopupButton } from '@typeform/embed-react';
+
 
 const Footer = () => {
   return (
@@ -40,14 +42,11 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a
-                    target="_blank"
-                    target="_blank"
-                    class="text-white"
-                    href="https://braizeo.typeform.com/work-with-us"
-                  >
+                <PopupButton id="vNP9UKDQ">
+              
                     Work with us
-                  </a>
+                  
+                    </PopupButton>
                 </li>
                 <li>
                   <a
@@ -60,14 +59,11 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a
-                    target="_blank"
-                    target="_blank"
-                    class="text-white"
-                    href="https://brainzeo.typeform.com/student-dvlp-pg"
-                  >
+                  <PopupButton id="HVMPhJwm" className="text-left">
+
                     Students Developer Program
-                  </a>
+                  
+                  </PopupButton>
                 </li>
               </nav>
             </div>
@@ -102,9 +98,11 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a target="_blank" class="text-white" href="https://braizeo.typeform.com/newsletters">
+                  <PopupButton id="CrjTHkbZ">
+                    
                     Newsletters
-                  </a>
+                  </PopupButton>
+                  
                 </li>
               </nav>
             </div>
