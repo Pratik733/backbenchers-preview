@@ -50,14 +50,6 @@ export default () => (
               </div>
               <button className="btn"> <a href="https://pages.razorpay.com/combocor">Join Now</a></button>
             </div>
-            <div className="modal-2">
-              <div className="header">Eureka (Coming Soon)</div>
-              <img src={eureka} alt="" />
-              <div className="content">
-                {" "}
-              </div>
-              <button className="btn"> <a href="/beta">Coming Soon</a></button>
-            </div>
           </div>
         </div>
       )}
