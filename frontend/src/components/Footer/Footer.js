@@ -4,7 +4,7 @@ import "./Footer.css";
 import ScrollToTop from "react-scroll-to-top";
 import { FaChevronUp } from "react-icons/fa";
 import { Widget, PopupButton } from '@typeform/embed-react';
-
+import {Link} from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -101,7 +101,9 @@ const Footer = () => {
                   <PopupButton id="CrjTHkbZ">  
                     Newsletters
                   </PopupButton>
-                  
+                </li>
+                <li>
+                  <Link to="/periodic">Periodic Table</Link>
                 </li>
               </nav>
             </div>

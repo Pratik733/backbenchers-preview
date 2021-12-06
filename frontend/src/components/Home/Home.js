@@ -10,6 +10,7 @@ import euphoria from "../assets/images/euphoria.png";
 import genie from "../assets/images/genie.png";
 import { Helmet } from "react-helmet";
 import Testimonial from "./Testimonial";
+import Slider from "./Slider";
 
 export default class Home extends Component {
   render() {
@@ -139,6 +140,7 @@ export default class Home extends Component {
             </div>
           </div>
         </div>
+        <Slider/>
         <div className="uniqueness py-24">
           <div class="flex flex-wrap w-full mb-16 flex-col items-center text-center">
             <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 ">

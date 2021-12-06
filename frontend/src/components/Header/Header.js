@@ -75,6 +75,17 @@ const Header = () => {
             <li className="nav-item">
               <Link
                 exact
+                to="/blogs"
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                Blogs
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                exact
                 to="/quadrangle"
                 activeClassName="active"
                 className="nav-links"

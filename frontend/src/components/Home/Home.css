@@ -409,7 +409,7 @@
 .bvc {
     background: white;
     padding: 1rem 0;
-    color: black;
+    color: black !important;
 }
 
 .bvc img {
@@ -419,6 +419,7 @@
 .bvc h3 {
     font-size: 24px;
     font-weight: bold;
+    color: #000;
 }
 
 .bvc h3 span {
@@ -485,6 +486,11 @@ footer .img-header {
     align-items: center;
     flex-direction: column;
     text-align: center;
+}
+
+.slider {
+    height: auto;
+    width: auto;
 }
 
 @media screen and (max-width: 1000px) {
