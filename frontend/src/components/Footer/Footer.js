@@ -103,7 +103,10 @@ const Footer = () => {
                   </PopupButton>
                 </li>
                 <li>
-                  <Link to="/periodic">Periodic Table</Link>
+                  {/* <Link target="_blank" to="/periodic">Periodic Table</Link> */}
+                  <a target="_blank" href="/periodic" className="text-black cursor-pointer">
+                    Periodic Table
+                  </a>
                 </li>
               </nav>
             </div>

@@ -43,7 +43,7 @@
     right: 0;
     top: 0;
     bottom: 0;
-    background-color: rgba(17, 24, 39, 1);
+    /* background-color: rgba(17, 24, 39, 1); */
     opacity: 0;
     pointer-events: none;
     transition: 500ms;
@@ -2390,7 +2390,119 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    opacity: 0.5;
+    /* opacity: 0.5; */
+}
+.placeholder .square {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* opacity: 0.5; */
+}
+.placeholder .square {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* opacity: 0.5; */
+}
+.placeholder .square {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* opacity: 0.5; */
+}
+.placeholder .square {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* opacity: 0.5; */
+}
+.placeholder .square {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* opacity: 0.5; */
+}
+.placeholder .square {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* opacity: 0.5; */
+}
+.placeholder .square {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* opacity: 0.5; */
+}
+.placeholder .square {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* opacity: 0.5; */
 }
 
 .gap {
@@ -2409,8 +2521,7 @@
     border-width: 0 0 2px 2px;
     border-style: solid;
     margin-left: -1px;
-    color: #fff;
-    opacity: 0.2;
+    color: #000000;
 }
 
 .alkali-metal {
