@@ -3,7 +3,7 @@ import './PeriodicTable.css'
 
 const PeriodicTable = () => {
   return (
-    <div class="periodic bg-gray-900">
+    <div class="periodic ">
       <div class="wrapper_1">
         <input
           class="category-toggle"

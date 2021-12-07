@@ -46,55 +46,55 @@ function CardData() {
   const rtn = [
     {
       title: "Pending Doubts",
-      src: "https://firebasestorage.googleapis.com/v0/b/geniegradz-b7d61.appspot.com/o/down.png?alt=media&token=45104ab6-09e3-40cb-b080-e53090eff931",
+      src: "https://firebasestorage.googleapis.com/v0/b/geniegradz-b7d61.appspot.com/o/gain%20(1).png?alt=media&token=bb1e68c1-3061-494c-9801-1f454b6ba1ef",
     },
     {
       title: "Practical Knowledge",
-      src: "https://firebasestorage.googleapis.com/v0/b/geniegradz-b7d61.appspot.com/o/down.png?alt=media&token=45104ab6-09e3-40cb-b080-e53090eff931",
+      src: "https://firebasestorage.googleapis.com/v0/b/geniegradz-b7d61.appspot.com/o/gain%20(1).png?alt=media&token=bb1e68c1-3061-494c-9801-1f454b6ba1ef",
     },
     {
       title: "Logical Thinking",
-      src: "https://firebasestorage.googleapis.com/v0/b/geniegradz-b7d61.appspot.com/o/gain.png?alt=media&token=d38dbc6c-97b8-4282-8ecb-edb56aabcee5",
+      src: "https://firebasestorage.googleapis.com/v0/b/geniegradz-b7d61.appspot.com/o/gain%20(1).png?alt=media&token=bb1e68c1-3061-494c-9801-1f454b6ba1ef",
     },
     {
       title: "Pricing",
-      src: "https://firebasestorage.googleapis.com/v0/b/geniegradz-b7d61.appspot.com/o/down.png?alt=media&token=45104ab6-09e3-40cb-b080-e53090eff931",
+      src: "https://firebasestorage.googleapis.com/v0/b/geniegradz-b7d61.appspot.com/o/gain%20(1).png?alt=media&token=bb1e68c1-3061-494c-9801-1f454b6ba1ef",
     },
 {
       title: "Critical Thinking",
-      src: "https://firebasestorage.googleapis.com/v0/b/geniegradz-b7d61.appspot.com/o/gain.png?alt=media&token=d38dbc6c-97b8-4282-8ecb-edb56aabcee5",
+      src: "https://firebasestorage.googleapis.com/v0/b/geniegradz-b7d61.appspot.com/o/gain%20(1).png?alt=media&token=bb1e68c1-3061-494c-9801-1f454b6ba1ef",
     },
     {
       title: "Theoretical Knowledge",
-      src: "https://firebasestorage.googleapis.com/v0/b/geniegradz-b7d61.appspot.com/o/down.png?alt=media&token=45104ab6-09e3-40cb-b080-e53090eff931",
+      src: "https://firebasestorage.googleapis.com/v0/b/geniegradz-b7d61.appspot.com/o/gain%20(1).png?alt=media&token=bb1e68c1-3061-494c-9801-1f454b6ba1ef",
     },
         {
       title: "Practical Knowledge",
-      src: "https://firebasestorage.googleapis.com/v0/b/geniegradz-b7d61.appspot.com/o/down.png?alt=media&token=45104ab6-09e3-40cb-b080-e53090eff931",
+      src: "https://firebasestorage.googleapis.com/v0/b/geniegradz-b7d61.appspot.com/o/gain%20(1).png?alt=media&token=bb1e68c1-3061-494c-9801-1f454b6ba1ef",
     },
 {
       title: "Output",
-      src: "https://firebasestorage.googleapis.com/v0/b/geniegradz-b7d61.appspot.com/o/gain.png?alt=media&token=d38dbc6c-97b8-4282-8ecb-edb56aabcee5",
+      src: "https://firebasestorage.googleapis.com/v0/b/geniegradz-b7d61.appspot.com/o/gain%20(1).png?alt=media&token=bb1e68c1-3061-494c-9801-1f454b6ba1ef",
     },
     {
       title: "Smart Work",
-      src: "https://firebasestorage.googleapis.com/v0/b/geniegradz-b7d61.appspot.com/o/down.png?alt=media&token=45104ab6-09e3-40cb-b080-e53090eff931",
+      src: "https://firebasestorage.googleapis.com/v0/b/geniegradz-b7d61.appspot.com/o/gain%20(1).png?alt=media&token=bb1e68c1-3061-494c-9801-1f454b6ba1ef",
     },
 {
       title: "Laziness",
-      src: "https://firebasestorage.googleapis.com/v0/b/geniegradz-b7d61.appspot.com/o/gain.png?alt=media&token=d38dbc6c-97b8-4282-8ecb-edb56aabcee5",
+      src: "https://firebasestorage.googleapis.com/v0/b/geniegradz-b7d61.appspot.com/o/gain%20(1).png?alt=media&token=bb1e68c1-3061-494c-9801-1f454b6ba1ef",
     },
     {
       title: "Energy",
-      src: "https://firebasestorage.googleapis.com/v0/b/geniegradz-b7d61.appspot.com/o/down.png?alt=media&token=45104ab6-09e3-40cb-b080-e53090eff931",
+      src: "https://firebasestorage.googleapis.com/v0/b/geniegradz-b7d61.appspot.com/o/gain%20(1).png?alt=media&token=bb1e68c1-3061-494c-9801-1f454b6ba1ef",
     },
 {
       title: "Gamified Learning",
-      src: "https://firebasestorage.googleapis.com/v0/b/geniegradz-b7d61.appspot.com/o/gain.png?alt=media&token=d38dbc6c-97b8-4282-8ecb-edb56aabcee5",
+      src: "https://firebasestorage.googleapis.com/v0/b/geniegradz-b7d61.appspot.com/o/gain%20(1).png?alt=media&token=bb1e68c1-3061-494c-9801-1f454b6ba1ef",
     },
     {
       title: "Meme Based Learning",
-      src: "https://firebasestorage.googleapis.com/v0/b/geniegradz-b7d61.appspot.com/o/down.png?alt=media&token=45104ab6-09e3-40cb-b080-e53090eff931",
+      src: "https://firebasestorage.googleapis.com/v0/b/geniegradz-b7d61.appspot.com/o/gain%20(1).png?alt=media&token=bb1e68c1-3061-494c-9801-1f454b6ba1ef",
     },
   ];
   return rtn;
