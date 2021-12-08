@@ -11008,7 +11008,7 @@ const PeriodicTable = () => {
               </ul>
             </div>
           </div>
-          <div class="placeholder lanthanoid c3 r6">
+          <div class="placeholder lanthanoid c3 r6" id>
             <div class="square">57-71</div>
           </div>
           <div class="placeholder actinoid c3 r7">

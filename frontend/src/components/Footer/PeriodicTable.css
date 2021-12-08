@@ -1,6 +1,7 @@
 .periodic {
-    text-shadow: 0 0 0.4vw currentColor;
+    text-shadow: 0 0 0.4vw transparent;
     margin-top: 3rem;
+    background: black;
 }
 
 .wrapper_1 {
@@ -2371,11 +2372,15 @@
 
 .placeholder {
     position: relative;
-    z-index: -1;
+    z-index: 1;
     font-size: 1vw;
     padding-bottom: 100%;
     color: #fff;
     transition: 500ms;
+}
+
+::placeholder {
+    color: white !important;
 }
 
 .placeholder .square {
@@ -2392,6 +2397,7 @@
     align-items: center;
     /* opacity: 0.5; */
 }
+
 .placeholder .square {
     position: absolute;
     left: 0;
@@ -2406,6 +2412,7 @@
     align-items: center;
     /* opacity: 0.5; */
 }
+
 .placeholder .square {
     position: absolute;
     left: 0;
@@ -2420,6 +2427,7 @@
     align-items: center;
     /* opacity: 0.5; */
 }
+
 .placeholder .square {
     position: absolute;
     left: 0;
@@ -2434,6 +2442,7 @@
     align-items: center;
     /* opacity: 0.5; */
 }
+
 .placeholder .square {
     position: absolute;
     left: 0;
@@ -2448,6 +2457,7 @@
     align-items: center;
     /* opacity: 0.5; */
 }
+
 .placeholder .square {
     position: absolute;
     left: 0;
@@ -2462,6 +2472,7 @@
     align-items: center;
     /* opacity: 0.5; */
 }
+
 .placeholder .square {
     position: absolute;
     left: 0;
@@ -2476,6 +2487,7 @@
     align-items: center;
     /* opacity: 0.5; */
 }
+
 .placeholder .square {
     position: absolute;
     left: 0;
@@ -2490,6 +2502,7 @@
     align-items: center;
     /* opacity: 0.5; */
 }
+
 .placeholder .square {
     position: absolute;
     left: 0;

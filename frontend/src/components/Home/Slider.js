@@ -46,7 +46,7 @@ function CardData() {
   const rtn = [
     {
       title: "Pending Doubts",
-      src: "https://firebasestorage.googleapis.com/v0/b/geniegradz-b7d61.appspot.com/o/gain%20(1).png?alt=media&token=bb1e68c1-3061-494c-9801-1f454b6ba1ef",
+      src: "https://firebasestorage.googleapis.com/v0/b/geniegradz-b7d61.appspot.com/o/lose.png?alt=media&token=faae9a3d-8a99-42a1-bfa8-03f64255d8ca",
     },
     {
       title: "Practical Knowledge",
@@ -58,7 +58,7 @@ function CardData() {
     },
     {
       title: "Pricing",
-      src: "https://firebasestorage.googleapis.com/v0/b/geniegradz-b7d61.appspot.com/o/gain%20(1).png?alt=media&token=bb1e68c1-3061-494c-9801-1f454b6ba1ef",
+      src: "https://firebasestorage.googleapis.com/v0/b/geniegradz-b7d61.appspot.com/o/lose.png?alt=media&token=faae9a3d-8a99-42a1-bfa8-03f64255d8ca",
     },
 {
       title: "Critical Thinking",
@@ -82,7 +82,7 @@ function CardData() {
     },
 {
       title: "Laziness",
-      src: "https://firebasestorage.googleapis.com/v0/b/geniegradz-b7d61.appspot.com/o/gain%20(1).png?alt=media&token=bb1e68c1-3061-494c-9801-1f454b6ba1ef",
+      src: "https://firebasestorage.googleapis.com/v0/b/geniegradz-b7d61.appspot.com/o/lose.png?alt=media&token=faae9a3d-8a99-42a1-bfa8-03f64255d8ca",
     },
     {
       title: "Energy",
