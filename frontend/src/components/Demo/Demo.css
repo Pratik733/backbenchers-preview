@@ -147,8 +147,8 @@
 .price-list-1 {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-wrap: nowrap;
 }
 
 .price-list-1 .subs {

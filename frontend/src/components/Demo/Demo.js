@@ -78,12 +78,12 @@ const Demo = () => {
                 <ul className="price-list-1">
                   <li className="subs pb-4">
                     <div>
-                      For Coding <br />
+                      Java: <br /> <b>Zero to Hero</b>
                     </div>
-                    <div className="subs-price-1">₹99/Student</div>
+                    <div className="subs-price-1">₹249/-</div>
                     <div className="subs-price text-red-400">
                       <a
-                        href="https://rzp.io/l/8n0ryzQJV"
+                        href="https://rzp.io/l/java249"
                         target="_blank"
                         class="btn-link"
                       >
@@ -93,12 +93,12 @@ const Demo = () => {
                   </li>
                   <li className="subs pb-4">
                     <div>
-                      For Mathematics Tips & Tricks <br />{" "}
+                      For Python: <br /> <b>Zero to Hero</b>
                     </div>
-                    <div className="subs-price-1">₹99/Student</div>
+                    <div className="subs-price-1">₹249/-</div>
                     <div className="subs-price text-red-400">
                       <a
-                        href="https://rzp.io/l/Yt8klZdv7p"
+                        href="https://rzp.io/l/python249"
                         target="_blank"
                         class="btn-link"
                       >
@@ -108,13 +108,12 @@ const Demo = () => {
                   </li>
                   <li className="subs pb-4">
                     <div>
-                      For Combo Course Registration
-                      <br />( Coding + Mathematics Tips & Tricks ){" "}
+                      For Mathematics: <br /> <b>Zero to Hero</b>
                     </div>
-                    <div className="subs-price-1">₹149/Student</div>
+                    <div className="subs-price-1">₹249/-</div>
                     <div className="subs-price text-red-400">
                       <a
-                        href="https://rzp.io/l/combocor"
+                        href="https://rzp.io/l/mathematics249"
                         target="_blank"
                         class="btn-link"
                       >
@@ -122,42 +121,14 @@ const Demo = () => {
                       </a>
                     </div>
                   </li>
-                  <h1 className="py-5 w-full font-medium text-lg cyan group-heading border-t-2">
-                    Special Discount For Group Registration <br />
-                    (Only valid for Combo Course Registration)
-                  </h1>
-                  <li className="subs">
-                    <div>Registration of 3 Students</div>
-                    <div className="subs-price-1">₹125/Student</div>
-                    <div className="subs-price text-red-400">
-                      <a
-                        href="https://rzp.io/l/1253"
-                        target="_blank"
-                        class="btn-link"
-                      >
-                        Register Now
-                      </a>
+                  <li className="subs pb-4">
+                    <div>
+                    A la Carte: <br /> <b>Choose any two</b>
                     </div>
-                  </li>
-                  <li className="subs">
-                    <div>Registration of 4 Students </div>
-                    <div className="subs-price-1">₹99/Student</div>
+                    <div className="subs-price-1">₹399/-</div>
                     <div className="subs-price text-red-400">
                       <a
-                        href="https://rzp.io/l/9904"
-                        target="_blank"
-                        class="btn-link"
-                      >
-                        Register Now
-                      </a>
-                    </div>
-                  </li>
-                  <li className="subs">
-                    <div>Registration of 5 Students </div>
-                    <div className="subs-price-1">₹85/Student</div>
-                    <div className="subs-price text-red-400">
-                      <a
-                        href="https://rzp.io/l/5onwards"
+                        href="https://rzp.io/l/alacarte399"
                         target="_blank"
                         class="btn-link"
                       >

@@ -59,7 +59,7 @@ const Header = () => {
                 className="nav-links"
                 onClick={handleClick}
               >
-                Beta
+                2022
               </Link>
             </li>
             <li className="nav-item">
