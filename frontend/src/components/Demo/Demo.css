@@ -84,6 +84,10 @@
     margin: 1rem 0;
 }
 
+.subs-price-1 small {
+    text-decoration: line-through;
+}
+
 .course-feat li {
     padding: 1rem;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.15);
@@ -125,12 +129,12 @@
 }
 
 .btn-link {
-    padding: 4px 16px;
+    padding: 9px 25px;
     font-weight: normal;
-    border-radius: 1rem !important;
+    border-radius: 2rem !important;
     background: linear-gradient(45deg, var(--orange), var(--violet));
     color: white;
-    transition: .5s;
+    transition: all 3s ease;
 }
 
 .group-heading {
@@ -189,17 +193,14 @@
         background: white;
     }
     .demo-container {
-        width: 100%!important;
         margin: .25rem!important;
         margin-top: 3rem!important;
     }
     .demo-container p,
     .demo-container h1 {
-        width: 100%!important;
     }
     .demo-contents p,
     .demo-contents h1 {
-        width: 100%!important;
         margin: .5rem 0;
     }
     .price-list-1 li {
@@ -212,7 +213,19 @@
     .subs-price {
         margin: 1rem 0;
     }
-    .field-list {
+    .price-list-1 {
         flex-direction: column;
     }
+    .field-list {
+        flex-direction: column !important;
+    } 
+}
+
+@media and (max-width: 768px) {
+    .demo {
+        padding: 2rem;
+    }
+    .field-list {
+        flex-direction: column !important;
+    } 
 }

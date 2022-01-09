@@ -39,7 +39,7 @@ const Header = () => {
                 Feature
               </Link>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <Link
                 exact
                 to="/pricing"
@@ -49,17 +49,17 @@ const Header = () => {
               >
                 Pricing
               </Link>
-            </li>
+            </li> */}
             <li className="nav-item">
             <div className="dots"></div>
               <Link
                 exact
-                to="/beta"
+                to="/launch2022"
                 activeClassName="active"
                 className="nav-links"
                 onClick={handleClick}
               >
-                2022
+                Launch 2022
               </Link>
             </li>
             <li className="nav-item">
